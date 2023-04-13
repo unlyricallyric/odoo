@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models, _
+from odoo import api,fields, models
 from odoo.exceptions import UserError, ValidationError
 from odoo.tools import float_is_zero, float_compare
 
@@ -153,13 +153,6 @@ class StockPickingType(models.Model):
             if picking_type == picking_type.warehouse_id.pos_type_id:
                 picking_type.hide_reservation_method = True
 
-    @api.constrains('active')
-    def _check_active(self):
-        for picking_type in self:
-            pos_config = self.env['pos.config'].search([('picking_type_id', '=', picking_type.id)], limit=1)
-            if pos_config:
-                raise ValidationError(_("You cannot archive '%s' as it is used by a POS configuration '%s'.", picking_type.name, pos_config.name))
-
 class ProcurementGroup(models.Model):
     _inherit = 'procurement.group'
 
@@ -268,8 +261,7 @@ class StockMove(models.Model):
                                 )
                             ml_vals.update({
                                 'lot_id': existing_lot.id,
-                                'location_id': quant.location_id.id or move.location_id.id,
-                                'owner_id': quant.owner_id.id or False,
+                                'location_id': quant.location_id.id or move.location_id.id
                             })
                         else:
                             ml_vals.update({'lot_name': lot.lot_name})

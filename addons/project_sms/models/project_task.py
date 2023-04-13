@@ -13,6 +13,7 @@ class ProjectTask(models.Model):
                 task._message_sms_with_template(
                     template=task.stage_id.sms_template_id,
                     partner_ids=task.partner_id.ids,
+                    sms_numbers=task.partner_id.mapped('mobile'),
                 )
 
     @api.model_create_multi

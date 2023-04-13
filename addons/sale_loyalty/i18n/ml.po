@@ -12,7 +12,7 @@ msgstr ""
 "POT-Creation-Date: 2023-02-02 10:34+0000\n"
 "PO-Revision-Date: 2022-09-22 05:54+0000\n"
 "Last-Translator: Niyas Raphy, 2023\n"
-"Language-Team: Malayalam (https://app.transifex.com/odoo/teams/41243/ml/)\n"
+"Language-Team: Malayalam (https://www.transifex.com/odoo/teams/41243/ml/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -78,7 +78,7 @@ msgstr ""
 #. module: sale_loyalty
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.used_gift_card
 msgid "Code:"
-msgstr "കോഡ്:"
+msgstr ""
 
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order_coupon_points__coupon_id
@@ -90,12 +90,12 @@ msgstr "കൂപ്പൺ"
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_loyalty_coupon_wizard__coupon_code
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_order_view_form_inherit_sale_loyalty
 msgid "Coupon Code"
-msgstr "കൂപ്പൺ കോഡ്"
+msgstr ""
 
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order__coupon_point_ids
 msgid "Coupon Point"
-msgstr "കൂപ്പൺ പോയിന്റ്"
+msgstr ""
 
 #. module: sale_loyalty
 #. odoo-python
@@ -107,7 +107,7 @@ msgstr ""
 #. module: sale_loyalty
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_loyalty_reward_wizard_view_form
 msgid "Coupons & Loyalty"
-msgstr "കൂപ്പണുകളും ലോയൽറ്റിയും"
+msgstr ""
 
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_loyalty_coupon_wizard__create_uid
@@ -121,7 +121,7 @@ msgstr "ഉണ്ടാക്കിയത്"
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_loyalty_reward_wizard__create_date
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order_coupon_points__create_date
 msgid "Created on"
-msgstr "സൃഷ്ടിച്ചത്"
+msgstr ""
 
 #. module: sale_loyalty
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_loyalty_coupon_wizard_view_form
@@ -132,7 +132,7 @@ msgstr "നിരസിക്കുക"
 #. module: sale_loyalty
 #: model:ir.ui.menu,name:sale_loyalty.menu_discount_loyalty_type_config
 msgid "Discount & Loyalty"
-msgstr "ഡിസ്കൗണ്ടും ലോയൽറ്റിയും"
+msgstr ""
 
 #. module: sale_loyalty
 #. odoo-python
@@ -156,7 +156,7 @@ msgstr ""
 #. module: sale_loyalty
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.used_gift_card
 msgid "Expired Date:"
-msgstr "കാലഹരണപ്പെട്ട തീയതി:"
+msgstr ""
 
 #. module: sale_loyalty
 #. odoo-python
@@ -168,17 +168,17 @@ msgstr ""
 #. module: sale_loyalty
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_purchased_gift_card
 msgid "Gift #"
-msgstr "സമ്മാനം #"
+msgstr ""
 
 #. module: sale_loyalty
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_purchased_gift_card
 msgid "Gift Card Code"
-msgstr "സമ്മാന കാർഡ് കോഡ്"
+msgstr ""
 
 #. module: sale_loyalty
 #: model:ir.ui.menu,name:sale_loyalty.menu_gift_ewallet_type_config
 msgid "Gift cards & eWallet"
-msgstr "സമ്മാന കാർഡുകളും ഇ വാലറ്റും"
+msgstr ""
 
 #. module: sale_loyalty
 #: model:ir.model.fields,help:sale_loyalty.field_sale_order_line__points_cost
@@ -190,7 +190,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_loyalty_reward_wizard__id
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order_coupon_points__id
 msgid "ID"
-msgstr "ഐഡി"
+msgstr ""
 
 #. module: sale_loyalty
 #. odoo-python
@@ -223,7 +223,7 @@ msgstr "അവസാനം അപ്ഡേറ്റ് ചെയ്തത്"
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_loyalty_reward_wizard__write_uid
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order_coupon_points__write_uid
 msgid "Last Updated by"
-msgstr "അവസാനം അപ്ഡേറ്റ് ചെയ്തത്"
+msgstr ""
 
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_loyalty_coupon_wizard__write_date
@@ -235,17 +235,17 @@ msgstr "അവസാനം അപ്ഡേറ്റ് ചെയ്തത്"
 #. module: sale_loyalty
 #: model:ir.model,name:sale_loyalty.model_loyalty_card
 msgid "Loyalty Coupon"
-msgstr "ലോയൽറ്റി കൂപ്പൺ"
+msgstr ""
 
 #. module: sale_loyalty
 #: model:ir.model,name:sale_loyalty.model_loyalty_program
 msgid "Loyalty Program"
-msgstr "ലോയൽറ്റി പ്രോഗ്രാം"
+msgstr ""
 
 #. module: sale_loyalty
 #: model:ir.model,name:sale_loyalty.model_loyalty_reward
 msgid "Loyalty Reward"
-msgstr "ലോയൽറ്റി റിവാർഡ്"
+msgstr ""
 
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order__applied_coupon_ids
@@ -305,12 +305,12 @@ msgstr ""
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_loyalty_card__order_id
 msgid "Order Reference"
-msgstr "ഓർഡർ റഫറൻസ്"
+msgstr ""
 
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order_coupon_points__points
 msgid "Points"
-msgstr "പോയിന്റ്"
+msgstr ""
 
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order_line__points_cost
@@ -331,7 +331,7 @@ msgstr ""
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order__reward_amount
 msgid "Reward Amount"
-msgstr "റിവാർഡ് തുക"
+msgstr ""
 
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order_line__reward_identifier_code
@@ -341,7 +341,7 @@ msgstr ""
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_loyalty_reward_wizard__reward_product_ids
 msgid "Reward Products"
-msgstr "റിവാർഡ് പ്രോഡക്റ്റ്"
+msgstr ""
 
 #. module: sale_loyalty
 #: model:ir.model,name:sale_loyalty.model_sale_loyalty_coupon_wizard
@@ -372,7 +372,7 @@ msgstr "സെയിൽസ് ഓർഡർ"
 #. module: sale_loyalty
 #: model:ir.model,name:sale_loyalty.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "സെയിൽസ് ഓർഡർ ലൈൻ"
+msgstr ""
 
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_loyalty_reward_wizard__selected_product_id

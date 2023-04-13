@@ -198,9 +198,7 @@ export class EditMenuDialog extends Component {
         const parent = this.map.get(parentId);
         parent.children = parent.children.filter(menu => menu.fields['id'] !== id);
         this.map.delete(id);
-        if (parseInt(id)) {
-            this.toDelete.push(id);
-        }
+        this.toDelete.push(id);
     }
 
     async onClickSave() {

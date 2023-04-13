@@ -46,7 +46,7 @@ msgstr "Est un dropshipping"
 #. module: stock_dropshipping
 #: model:ir.model,name:stock_dropshipping.model_stock_picking_type
 msgid "Picking Type"
-msgstr "Type de transfert"
+msgstr "Type de picking"
 
 #. module: stock_dropshipping
 #: model:ir.model,name:stock_dropshipping.model_procurement_group

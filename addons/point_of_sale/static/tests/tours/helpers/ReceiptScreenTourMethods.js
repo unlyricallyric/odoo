@@ -82,14 +82,6 @@ odoo.define('point_of_sale.tour.ReceiptScreenTourMethods', function (require) {
                 }
             ]
         }
-        discountAmountIs(value) {
-            return [
-                {
-                    trigger: `.pos-receipt>div:contains("Discounts")>span:contains("${value}")`,
-                    run: () => {},
-                },
-            ];
-        }
     }
 
     class Execute {

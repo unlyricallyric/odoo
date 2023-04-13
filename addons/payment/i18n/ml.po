@@ -12,7 +12,7 @@ msgstr ""
 "POT-Creation-Date: 2022-12-15 12:51+0000\n"
 "PO-Revision-Date: 2022-09-22 05:53+0000\n"
 "Last-Translator: Niyas Raphy, 2023\n"
-"Language-Team: Malayalam (https://app.transifex.com/odoo/teams/41243/ml/)\n"
+"Language-Team: Malayalam (https://www.transifex.com/odoo/teams/41243/ml/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -170,7 +170,7 @@ msgstr ""
 #: code:addons/payment/wizards/payment_onboarding_wizard.py:0
 #, python-format
 msgid "Account"
-msgstr "അക്കൗണ്ട്"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider_onboarding_wizard__acc_number
@@ -196,7 +196,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__partner_address
 #: model_terms:ir.ui.view,arch_db:payment.payment_transaction_form
 msgid "Address"
-msgstr "വിലാസം"
+msgstr ""
 
 #. module: payment
 #: model:payment.provider,name:payment.payment_provider_adyen
@@ -303,12 +303,12 @@ msgstr "ലഭ്യത"
 #: code:addons/payment/wizards/payment_onboarding_wizard.py:0
 #, python-format
 msgid "Bank"
-msgstr "ബാങ്ക്"
+msgstr ""
 
 #. module: payment
 #: model_terms:payment.provider,pending_msg:payment.payment_provider_transfer
 msgid "Bank Account"
-msgstr "ബാങ്ക് അക്കൗണ്ട്"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider_onboarding_wizard__journal_name
@@ -402,7 +402,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__partner_city
 #: model_terms:ir.ui.view,arch_db:payment.payment_transaction_form
 msgid "City"
-msgstr "സിറ്റി"
+msgstr ""
 
 #. module: payment
 #. odoo-javascript
@@ -421,7 +421,7 @@ msgstr "അടയ്ക്കുക"
 #: model:ir.model.fields,field_description:payment.field_payment_token__provider_code
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__provider_code
 msgid "Code"
-msgstr "കോഡ്"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider__color
@@ -436,7 +436,7 @@ msgstr "കമ്മ്യൂണിക്കേഷൻ"
 #. module: payment
 #: model:ir.model,name:payment.model_res_company
 msgid "Companies"
-msgstr "കമ്പനികൾ"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_link_wizard__company_id
@@ -469,7 +469,7 @@ msgstr ""
 #. module: payment
 #: model:ir.model,name:payment.model_res_partner
 msgid "Contact"
-msgstr "കോൺടാക്ട് "
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider__module_id
@@ -479,7 +479,7 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider__available_country_ids
 msgid "Countries"
-msgstr "രാജ്യങ്ങൾ"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__partner_country_id
@@ -525,7 +525,7 @@ msgstr "ഉണ്ടാക്കിയത്"
 #: model:ir.model.fields,field_description:payment.field_payment_token__create_date
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__create_date
 msgid "Created on"
-msgstr "സൃഷ്ടിച്ചത്"
+msgstr ""
 
 #. module: payment
 #. odoo-python
@@ -655,7 +655,7 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_transaction__state__draft
 msgid "Draft"
-msgstr "ഡ്രാഫ്റ്റ്"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_link_wizard__partner_email
@@ -673,7 +673,7 @@ msgstr ""
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_kanban
 msgid "Enterprise"
-msgstr "എന്റർപ്രൈസ്"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_transaction__state__error
@@ -791,7 +791,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:payment.field_payment_token__id
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__id
 msgid "ID"
-msgstr "ഐഡി"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_link_wizard__payment_provider_selection
@@ -824,7 +824,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:payment.field_payment_icon__image
 #: model:ir.model.fields,field_description:payment.field_payment_provider__image_128
 msgid "Image"
-msgstr "ചിത്രം"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_icon__image_payment_form
@@ -847,7 +847,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_form
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_kanban
 msgid "Install"
-msgstr "ഇൻസ്റ്റാൾ"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider__module_state
@@ -891,7 +891,7 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__partner_lang
 msgid "Language"
-msgstr "ഭാഷ"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_icon____last_update
@@ -916,7 +916,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:payment.field_payment_token__write_uid
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__write_uid
 msgid "Last Updated by"
-msgstr "അവസാനം അപ്ഡേറ്റ് ചെയ്തത്"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_icon__write_date
@@ -971,7 +971,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__state_message
 #: model_terms:ir.ui.view,arch_db:payment.payment_transaction_form
 msgid "Message"
-msgstr "സന്ദേശം"
+msgstr ""
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_form
@@ -1191,13 +1191,13 @@ msgstr ""
 #. module: payment
 #: model:ir.model,name:payment.model_payment_provider
 msgid "Payment Provider"
-msgstr "പേയ്മെന്റ് ദാതാവ്"
+msgstr ""
 
 #. module: payment
 #: model:ir.actions.act_window,name:payment.action_payment_provider
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_list
 msgid "Payment Providers"
-msgstr "പേയ്മെന്റ് ദാതാക്കൾ"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_link_wizard__available_provider_ids
@@ -1229,7 +1229,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment.payment_token_list
 #: model_terms:ir.ui.view,arch_db:payment.payment_token_search
 msgid "Payment Tokens"
-msgstr "പേയ്മെന്റ് ടോക്കണുകൾ"
+msgstr ""
 
 #. module: payment
 #: model:ir.model,name:payment.model_payment_transaction
@@ -1242,7 +1242,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment.payment_transaction_form
 #: model_terms:ir.ui.view,arch_db:payment.payment_transaction_list
 msgid "Payment Transactions"
-msgstr "പേയ്മെന്റ് ഇടപാടുകൾ"
+msgstr ""
 
 #. module: payment
 #: model:ir.actions.act_window,name:payment.action_payment_transaction_linked_to_token
@@ -1269,7 +1269,7 @@ msgstr ""
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_token_form
 msgid "Payments"
-msgstr "പേയ്മെന്റ്സ്"
+msgstr ""
 
 #. module: payment
 #. odoo-javascript
@@ -1355,7 +1355,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment.payment_token_search
 #: model_terms:ir.ui.view,arch_db:payment.payment_transaction_search
 msgid "Provider"
-msgstr "ദാതാവ്"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_token__provider_ref
@@ -1389,7 +1389,7 @@ msgstr ""
 #: code:addons/payment/static/src/xml/payment_post_processing.xml:0
 #, python-format
 msgid "Reason:"
-msgstr "കാരണം:"
+msgstr ""
 
 #. module: payment
 #. odoo-python
@@ -1407,7 +1407,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__reference
 #: model_terms:ir.ui.view,arch_db:payment.confirm
 msgid "Reference"
-msgstr "റഫറൻസ്"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.constraint,message:payment.constraint_payment_transaction_reference_uniq
@@ -1551,7 +1551,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_search
 #: model_terms:ir.ui.view,arch_db:payment.payment_transaction_form
 msgid "State"
-msgstr "സ്റ്റേറ്റ്"
+msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_res_company__payment_provider_onboarding_state
@@ -1875,7 +1875,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment.manage
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_kanban
 msgid "Unpublished"
-msgstr "പ്രസിദ്ധീകരിക്കാത്തത്"
+msgstr ""
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_provider_form

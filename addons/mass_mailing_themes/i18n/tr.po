@@ -5,14 +5,13 @@
 # Translators:
 # Saban Yildiz <sabany@projetgrup.com>, 2022
 # Thermo Dynamic <emirhanayar2004@gmail.com>, 2022
-# Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2022
 # Murat Kaplan <muratk@projetgrup.com>, 2022
+# Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2022
 # Ediz Duman <neps1192@gmail.com>, 2022
 # Umur Akın <umura@projetgrup.com>, 2022
 # Martin Trigaux, 2022
 # Gökhan Erdoğdu <gokhan.erdogdu@mechsoft.com.tr>, 2022
 # İlknur Gözütok, 2023
-# Tugay Hatıl <tugayh@projetgrup.com>, 2023
 # 
 msgid ""
 msgstr ""
@@ -20,8 +19,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-20 09:02+0000\n"
 "PO-Revision-Date: 2022-09-22 05:53+0000\n"
-"Last-Translator: Tugay Hatıl <tugayh@projetgrup.com>, 2023\n"
-"Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
+"Last-Translator: İlknur Gözütok, 2023\n"
+"Language-Team: Turkish (https://www.transifex.com/odoo/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -31,57 +30,57 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
 msgid "$100 OFF"
-msgstr "$100 OFF"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
 msgid "&amp;nbsp; &amp;nbsp;"
-msgstr "&amp;nbsp; &amp;nbsp;"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
 msgid "&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"
-msgstr "&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
 msgid "*But hurry! Offer ends on"
-msgstr "*Acele et! Teklif sona eriyor"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "*For orders over $39."
-msgstr "*39 $ üzerindeki siparişler için."
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "24/7 <br/>Customer Service"
-msgstr "24/7 <br/>Müşteri Hizmetleri"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
 msgid "5 Ways Drones Can Better Your Live Events"
-msgstr "Dronların Canlı Etkinliklerinizi İyileştirmesinin 5 Yolu"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "<font style=\"background-color: rgb(231, 148, 57);\">TRAVEL</font>"
-msgstr "<font style=\"background-color: rgb(231, 148, 57);\">TRAVEL</font>"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "<font style=\"background-color: rgb(231, 99, 99);\">LIFESTYLE</font>"
-msgstr "<font style=\"background-color: rgb(231, 99, 99);\">LIFESTYLE</font>"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "<font style=\"background-color: rgb(57, 123, 33);\">FOOD</font>"
-msgstr "<font style=\"background-color: rgb(57, 123, 33);\">FOOD</font>"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
 msgid "<font style=\"color: rgb(173, 173, 173);\">Unsubscribe</font>"
-msgstr "<font style=\"color: rgb(173, 173, 173);\">Abonelikten Çık</font>"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
@@ -89,8 +88,6 @@ msgid ""
 "<font style=\"color: rgb(255, 255, 255);\">And it won't cost you a "
 "thing!</font>"
 msgstr ""
-"<font style=\"color: rgb(255, 255, 255);\">Ve sana hiçbir maliyeti "
-"olmayacak!</font>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
@@ -98,8 +95,6 @@ msgid ""
 "<font style=\"color: rgb(255, 255, 255);\">EXCLUSIVE</font>\n"
 "                        <br/><span style=\"font-weight: bolder\"><font style=\"color: rgb(255, 255, 255);\">DEALS</font></span>"
 msgstr ""
-"<font style=\"color: rgb(255, 255, 255);\">ÖZEL</font>\n"
-"                        <br/><span style=\"font-weight: bolder\"><font style=\"color: rgb(255, 255, 255);\">FIRSATLAR</font></span>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
@@ -107,13 +102,11 @@ msgid ""
 "<font style=\"color: rgb(255, 255, 255);\">FREE</font>\n"
 "                        <br/><span style=\"font-weight: bolder\"><font style=\"color: rgb(255, 255, 255);\">SHIPPING</font></span>"
 msgstr ""
-"<font style=\"color: rgb(255, 255, 255);\">ÜCRETSİZ</font>\n"
-"                        <br/><span style=\"font-weight: bolder\"><font style=\"color: rgb(255, 255, 255);\">TESLİMAT</font></span>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "<font style=\"color: rgb(255, 255, 255);\">Hi there!</font>"
-msgstr "<font style=\"color: rgb(255, 255, 255);\">Merhaba!</font>"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
@@ -121,8 +114,6 @@ msgid ""
 "<font style=\"color: rgb(255, 255, 255);\">The next edition of <span style=\"font-weight: bolder;\">Odoo Experience Online</span> is coming soon!\n"
 "                    <br/>To stir up your curiosity, have a look at all the great talks scheduled and highlighted in our agenda!</font>"
 msgstr ""
-"<font style=\"color: rgb(255, 255, 255);\"><span style=\"font-weight: bolder;\">Odoo Experience Online</span>'ın bir sonraki sürümü çok yakında!\n"
-"<br/>Merakınızı uyandırmak için, gündemimizde planlanan ve vurgulanan tüm harika konuşmalara bir göz atın!</font>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
@@ -130,8 +121,6 @@ msgid ""
 "<font style=\"color: rgb(255, 255, 255);\">Zero, zilch, nada! Odoo "
 "Experience is free for everyone!</font>"
 msgstr ""
-"<font style=\"color: rgb(255, 255, 255);\">Sıfır, sıfır, sıfır! Odoo "
-"Deneyimi herkes için ücretsizdir!</font>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
@@ -140,9 +129,6 @@ msgid ""
 "                    <br/>\n"
 "                        <font style=\"font-size: 62px; background-color: rgb(255, 255, 255);\">&amp;nbsp;SALES&amp;nbsp;</font>"
 msgstr ""
-"<font style=\"font-size: 62px; background-color: rgb(255, 255, 255);\">&amp;nbsp;10% OFF&amp;nbsp;</font>\n"
-"                    <br/>\n"
-"                        <font style=\"font-size: 62px; background-color: rgb(255, 255, 255);\">&amp;nbsp;SALES&amp;nbsp;</font>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
@@ -150,8 +136,6 @@ msgid ""
 "<i class=\"fa fa-2x fa-ticket\" style=\"color: rgb(36, 37, 48) "
 "!important;\"/>​"
 msgstr ""
-"<i class=\"fa fa-2x fa-ticket\" style=\"color: rgb(36, 37, 48) "
-"!important;\"/>​"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
@@ -159,8 +143,6 @@ msgid ""
 "<span class=\"fa fa-facebook\" style=\"color: rgb(54, 166, 210) !important; "
 "font-size: 18px;\"/>​"
 msgstr ""
-"<span class=\"fa fa-facebook\" style=\"color: rgb(54, 166, 210) !important; "
-"font-size: 18px;\"/>​"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
@@ -168,13 +150,11 @@ msgid ""
 "<span class=\"fa fa-linkedin\" style=\"color: rgb(54, 166, 210) !important; "
 "font-size: 18px;\"/>​"
 msgstr ""
-"<span class=\"fa fa-linkedin\" style=\"color: rgb(54, 166, 210) !important; "
-"font-size: 18px;\"/>​"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
 msgid "<span class=\"fa fa-play\"/>&amp;nbsp;&amp;nbsp;WATCH VIDEO"
-msgstr "<span class=\"fa fa-play\"/>&amp;nbsp;&amp;nbsp;VİDEO İZLE"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
@@ -182,8 +162,6 @@ msgid ""
 "<span class=\"fa fa-twitter\" style=\"color: rgb(54, 166, 210) !important; "
 "font-size: 18px;\"/>​"
 msgstr ""
-"<span class=\"fa fa-twitter\" style=\"color: rgb(54, 166, 210) !important; "
-"font-size: 18px;\"/>​"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
@@ -192,9 +170,6 @@ msgid ""
 "rgb(255, 255, 255); background-color: rgb(255, 187, "
 "0);\">SOLAR</font></span>"
 msgstr ""
-"<span style=\"font-size: 32px;\"><font style=\"font-weight: bolder; color: "
-"rgb(255, 255, 255); background-color: rgb(255, 187, "
-"0);\">GÜNEŞ</font></span>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
@@ -203,14 +178,11 @@ msgid ""
 "                                <font style=\"background-color: rgb(255, 255, 255); color: rgb(255, 187, 0);\">SOLAR</font>\n"
 "                            </span>"
 msgstr ""
-"<span style=\"font-weight: bolder;\">\n"
-"                                <font style=\"background-color: rgb(255, 255, 255); color: rgb(255, 187, 0);\">GÜNEŞ</font>\n"
-"                            </span>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
 msgid "<span style=\"font-weight: bolder;\">VIP10</span>"
-msgstr "<span style=\"font-weight: bolder;\">VIP10</span>"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
@@ -218,8 +190,6 @@ msgid ""
 "<span style=\"font-weight: bolder;\">View online</span>&amp;nbsp;<span "
 "class=\"fa fa-external-link\"/>"
 msgstr ""
-"<span style=\"font-weight: bolder;\">Online görüntüle</span>&amp;nbsp;<span "
-"class=\"fa fa-external-link\"/>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bignews_template
@@ -237,8 +207,6 @@ msgid ""
 "An interactive, fun\n"
 "                                    <br/>and comprehensive experience"
 msgstr ""
-"İnteraktif, eğlenceli\n"
-"                                    <br/>ve kapsamlı deneyim"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
@@ -246,18 +214,16 @@ msgid ""
 "Anyone with an ounce of business acumen knows that any business that wants "
 "to succeed needs a website."
 msgstr ""
-"Bir parça iş zekası olan herkes, başarılı olmak isteyen herhangi bir "
-"işletmenin bir web sitesine ihtiyacı olduğunu bilir."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bignews_template
 msgid "BEGINNING"
-msgstr "BAŞLANGIÇ"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.email_designer_snippets
 msgid "Big News"
-msgstr "Büyük Haberler"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
@@ -265,13 +231,11 @@ msgid ""
 "Bitten by the travel bug but looking to travel consciously? Eco-travel is "
 "the way forward."
 msgstr ""
-"Bitten by the travel bug but looking to travel consciously? Eco-travel is "
-"the way forward."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.email_designer_snippets
 msgid "Blogging"
-msgstr "Blog yazmak"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
@@ -279,8 +243,6 @@ msgid ""
 "Breaking IT news\n"
 "                            <br/>and Analysis"
 msgstr ""
-"Son dakika BT haberleri\n"
-"                            <br/>ve Analiz"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.email_designer_snippets
@@ -303,8 +265,6 @@ msgid ""
 "Create your very own chat room or join an existing one that sparks your "
 "interest."
 msgstr ""
-"Kendi sohbet odanızı oluşturun veya ilginizi çeken mevcut bir sohbet odasına"
-" katılın."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
@@ -314,7 +274,7 @@ msgstr "Müşteri Servisi"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "Delicious recipes from around the world"
-msgstr "Dünyanın dört bir yanından lezzetli tarifler"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
@@ -322,13 +282,11 @@ msgid ""
 "Delicious recipes from around the world&amp;nbsp;\n"
 "                                <span class=\"fa fa-angle-right\"/>"
 msgstr ""
-"Dünyanın dört bir yanından lezzetli tarifler &amp;nbsp;\n"
-"                                <span class=\"fa fa-angle-right\"/>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "Destinations for an eco-holiday"
-msgstr "Eko-tatil için destinasyonlar"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
@@ -336,23 +294,21 @@ msgid ""
 "Destinations for an eco-holiday&amp;nbsp;\n"
 "                                <span class=\"fa fa-angle-right\"/>"
 msgstr ""
-"Eko-tatil&amp;nbsp;\n"
-"                                <span class=\"fa fa-angle-right\"/>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "ENDOFSUMMER20"
-msgstr "YAZSONU20"
+msgstr "YAZ SONU20"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "Easy Returns"
-msgstr "Easy Returns"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.email_designer_snippets
 msgid "Event Promo"
-msgstr "Etkinlik Tanıtımı"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
@@ -360,8 +316,6 @@ msgid ""
 "Experience everything from a virtual exhibitor's hall to multiple "
 "interactive presentations and demos."
 msgstr ""
-"Sanal bir katılımcı salonundan çoklu etkileşimli sunumlara ve demolara kadar"
-" her şeyi deneyimleyin."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
@@ -371,27 +325,27 @@ msgstr "Facebook"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "Find out more"
-msgstr "Daha fazlasını bul"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "Find out more&amp;nbsp;<span class=\"fa fa-angle-right\"/>"
-msgstr "Daha fazla bilgi edinin&amp;nbsp;<span class=\"fa fa-angle-right\"/>"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "Free Delivery"
-msgstr "Ücretsiz Teslimat"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "Free delivery*"
-msgstr "Ücretsiz teslimat*"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "GET 10%&amp;nbsp;OFF"
-msgstr "GET 10%&amp;nbsp;OFF"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
@@ -399,28 +353,26 @@ msgid ""
 "Get 6-months' worth of knowledge\n"
 "                                    <br/>in just 2 days"
 msgstr ""
-"Sadece 2 günde \n"
-"<br/>6 aylık bilgi edinin"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "Go to the chatrooms"
-msgstr "Sohbet odalarına git"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
 msgid "Here's your coupon code* :"
-msgstr "İşte kupon kodunuz* :"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
 msgid "How to Code a Website Without Experience"
-msgstr "Deneyimsiz Bir Web Sitesi Nasıl Kodlanır?"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "IN THIS ISSUE"
-msgstr "BU KONUDA"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
@@ -428,8 +380,6 @@ msgid ""
 "Imagine waking up with more energy, more flexibility, with less stress and "
 "fewer instances of anxiously rushing out the door."
 msgstr ""
-"Daha fazla enerjiyle, daha fazla esneklikle, daha az stresle ve daha az "
-"endişeyle kapıdan dışarı fırlamayla uyandığınızı hayal edin."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
@@ -442,8 +392,6 @@ msgid ""
 "Interview with Janet James&amp;nbsp;\n"
 "                                <span class=\"fa fa-angle-right\"/>"
 msgstr ""
-"Interview with Janet James&amp;nbsp;\n"
-"                                <span class=\"fa fa-angle-right\"/>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
@@ -451,21 +399,17 @@ msgid ""
 "Issue\n"
 "                            <br/><span style=\"font-weight: bolder;\">#42</span>"
 msgstr ""
-"Issue\n"
-"                            <br/><span style=\"font-weight: bolder;\">#42</span>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
 msgid ""
 "Join the community to see our latest news, events, discounts and much more!"
 msgstr ""
-"En son haberlerimizi, etkinliklerimizi, indirimlerimizi ve çok daha "
-"fazlasını görmek için topluluğa katılın!"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
 msgid "Join us"
-msgstr "Bize katılın"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
@@ -473,8 +417,6 @@ msgid ""
 "Learn through workshops, product demos, and inspiring talks from Odoo "
 "Experts and Partners."
 msgstr ""
-"Odoo Uzmanları ve Ortaklarından atölyeler, ürün demoları ve ilham verici "
-"konuşmalar aracılığıyla öğrenin."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
@@ -484,7 +426,7 @@ msgstr "LinkedIn"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "Man on a rock looking at mountains in the distance"
-msgstr "Uzaktaki dağlara bakan bir kayanın üzerindeki adam"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
@@ -492,8 +434,6 @@ msgid ""
 "Meet (other) awesome members\n"
 "                                    <br/>of the community"
 msgstr ""
-"Topluluğun \n"
-"<br/>(diğer) harika üyeleriyle tanışın"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bignews_template
@@ -510,8 +450,6 @@ msgid ""
 "Modern smartphones have all the built-in tech equal to a majority of the "
 "current professional cameras."
 msgstr ""
-"Modern akıllı telefonlar, mevcut profesyonel kameraların çoğuna eşit tüm "
-"yerleşik teknolojiye sahiptir."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.email_designer_snippets
@@ -524,8 +462,6 @@ msgid ""
 "One clever use of drones is for delivering gifts — but another that's "
 "becoming popular for event safety purposes."
 msgstr ""
-"Dronların akıllı kullanımlarından biri hediye dağıtmak içindir, ancak bir "
-"başkası etkinlik güvenliği amacıyla popüler hale gelmektedir."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
@@ -533,8 +469,6 @@ msgid ""
 "Our roundup of the most popular and latest tech related videos from last "
 "week.<br/>"
 msgstr ""
-"Geçen haftanın teknolojiyle ilgili en popüler ve en son videolarından oluşan"
-" derlememiz.<br/>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.email_designer_snippets
@@ -545,7 +479,7 @@ msgstr "Promosyon Programı"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bignews_template
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
 msgid "READ MORE"
-msgstr "DEVAMINI OKU"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
@@ -553,33 +487,31 @@ msgid ""
 "Rainy day ideas&amp;nbsp;\n"
 "                                <span class=\"fa fa-angle-right\"/>"
 msgstr ""
-"Yağmurlu gün fikirleri &amp;nbsp;\n"
-"<span class=\"fa fa-angle-right\"/>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "Read More&amp;nbsp;<span class=\"fa fa-angle-right\"/>"
-msgstr "Devamını Oku&amp;nbsp;<span class=\"fa fa-angle-right\"/>"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
 msgid "Redeem it now"
-msgstr "Şimdi kullan"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "Register now!"
-msgstr "Şimdi üye ol!"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "See what we've got planned"
-msgstr "Neler planladığımızı görün"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bignews_template
 msgid "See you there,"
-msgstr "Orada görüşürüz,"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bignews_template
@@ -589,22 +521,22 @@ msgstr "İmza"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "THE DAILY"
-msgstr "GÜNLÜK"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
 msgid "Thank you for being one of our most loyal customers."
-msgstr "En sadık müşterilerimizden biri olduğunuz için teşekkür ederiz."
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
 msgid "The future of smartphone video production"
-msgstr "Akıllı telefon video prodüksiyonunun geleceği"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "Top 5 energy-boosting morning routines"
-msgstr "En iyi 5 enerji artırıcı sabah rutini"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
@@ -612,8 +544,6 @@ msgid ""
 "Top 5 energy-boosting morning routines&amp;nbsp;\n"
 "                                <span class=\"fa fa-angle-right\"/>"
 msgstr ""
-"En iyi 5 enerji artırıcı sabah rutini&amp;nbsp;\n"
-"                                <span class=\"fa fa-angle-right\"/>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
@@ -621,8 +551,6 @@ msgid ""
 "Travel without leaving your kitchen with these international recipes. From "
 "Canada to Australia, Mexico to Sweden, and everywhere in between."
 msgstr ""
-"Bu uluslararası tariflerle mutfağınızdan ayrılmadan seyahat edin. Kanada'dan"
-" Avustralya'ya, Meksika'dan İsveç'e ve aradaki her yerde."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
@@ -641,27 +569,27 @@ msgstr "Üyelikten Çık"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
 msgid "VIP members only"
-msgstr "sadece VIP üyeler"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
 msgid "VISIT OUR WEBSITE"
-msgstr "İNTERNET SİTEMİZİ ZİYARET EDİN"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "Valid on all sales prices in our webshop."
-msgstr "Web mağazamızdaki tüm satış fiyatlarında geçerlidir."
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "Visit the website"
-msgstr "Web sitesini ziyaret et"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bignews_template
 msgid "WE'RE MOVING"
-msgstr "TAŞINIYORUZ"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bignews_template
@@ -670,14 +598,11 @@ msgid ""
 "                   <br/>We will continue to offer the same friendly service at our new address on <span style=\"font-weight: bolder\">1600 Main Street</span>,\n"
 "                   <br/>which will allow us to offer an even larger selection of products and services."
 msgstr ""
-"Springfield bölgesindeki olağanüstü büyümemiz nedeniyle 1 Temmuz'da yeni bir yere taşındığımızı duyurmaktan gurur duyuyoruz.\n"
-"<br/><span style=\"font-weight: bolder\">1600 Main Street'teki</span> yeni adresimizde aynı güler yüzlü hizmeti sunmaya devam edeceğiz,\n"
-"<br/>bu da daha geniş bir ürün ve hizmet yelpazesi sunmamızı sağlayacak."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "Woman having breakfast in bed"
-msgstr "Yatakta kahvaltı yapan kadın"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template

@@ -827,43 +827,41 @@ msgstr "Wyślij powitalny Email"
 msgid ""
 "Sent automatically to admin if new user haven't responded to the invitation"
 msgstr ""
-"Wysyłanie automatycznie do administratora jeżeli nowy użytkownik nie "
-"odpowiedział na zaproszenie."
 
 #. module: auth_signup
 #: model:mail.template,description:auth_signup.set_password_email
 msgid "Sent to new user after you invited them"
-msgstr "Wysyłane do nowego użytkownika po zaproszeniu go."
+msgstr ""
 
 #. module: auth_signup
 #: model:mail.template,description:auth_signup.mail_template_user_signup_account_created
 msgid "Sent to portal user who registered themselves"
-msgstr "Wysyłane do użytkownika portalu, który się zarejestrował"
+msgstr ""
 
 #. module: auth_signup
 #: model:mail.template,description:auth_signup.reset_password_email
 msgid "Sent to user who requested a password reset"
-msgstr "Wysłane do użytkownika, który zażądał zresetowania hasła"
+msgstr ""
 
 #. module: auth_signup
 #: model:mail.template,name:auth_signup.set_password_email
 msgid "Settings: New Portal Signup"
-msgstr "Ustawienia: nowa rejestracja w portalu"
+msgstr ""
 
 #. module: auth_signup
 #: model:mail.template,name:auth_signup.mail_template_user_signup_account_created
 msgid "Settings: New User Invite"
-msgstr "Ustawienia: zaproszenie nowego użytkownika"
+msgstr ""
 
 #. module: auth_signup
 #: model:mail.template,name:auth_signup.mail_template_data_unregistered_users
 msgid "Settings: Unregistered User Reminder"
-msgstr "Ustawienia: przypomnienie o niezarejestrowanym użytkowniku"
+msgstr ""
 
 #. module: auth_signup
 #: model:mail.template,name:auth_signup.reset_password_email
 msgid "Settings: User Reset Password"
-msgstr "Ustawienia: reset hasła użytkownika"
+msgstr ""
 
 #. module: auth_signup
 #: model_terms:ir.ui.view,arch_db:auth_signup.signup

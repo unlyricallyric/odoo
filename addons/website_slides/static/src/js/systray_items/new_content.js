@@ -10,6 +10,20 @@ patch(NewContentModal.prototype, 'website_slides_new_content', {
         const newSlidesChannelElement = this.state.newContentElements.find(element => element.moduleXmlId === 'base.module_website_slides');
         newSlidesChannelElement.createNewContent = () => this.onAddContent('website_slides.slide_channel_action_add');
         newSlidesChannelElement.status = MODULE_STATUS.INSTALLED;
-        newSlidesChannelElement.model = 'slide.channel';
+    },
+    /**
+     * @override
+     */
+    async onWillStart() {
+        await this._super(...arguments);
+        this.isSlideManager = await this.user.hasGroup('website_slides.group_website_slides_officer');
+        if (this.isSlideManager) {
+            this.state.newContentElements = this.state.newContentElements.map(element => {
+                if (element.moduleXmlId === 'base.module_website_slides') {
+                    element.isDisplayed = true;
+                }
+                return element;
+            });
+        }
     },
 });

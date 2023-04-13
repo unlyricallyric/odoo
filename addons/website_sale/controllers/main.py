@@ -1399,10 +1399,7 @@ class WebsiteSale(http.Controller):
         # check that cart is valid
         order = request.website.sale_get_order()
         redirection = self.checkout_redirection(order)
-        open_editor = request.params.get('open_editor') == 'true'
-        # Do not redirect if it is to edit
-        # (the information is transmitted via the "open_editor" parameter in the url)
-        if not open_editor and redirection:
+        if redirection:
             return redirection
 
         values = {

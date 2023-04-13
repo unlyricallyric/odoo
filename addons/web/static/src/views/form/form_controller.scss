@@ -311,6 +311,8 @@
         > .o_field_widget {
             align-self: flex-start;
             margin-bottom: 0px;
+            flex-shrink: 0;
+            max-width: 50%;
         }
 
         > .o_statusbar_buttons {
@@ -724,11 +726,9 @@
         }
     }
 
-    .o_field_float_time, .o_field_percentage {
-        &.oe_inline {
-            &, input {
-                max-width: 7ch;
-            }
+    .o_field_float_time.oe_inline {
+        &, input {
+            max-width: 7ch;
         }
     }
 

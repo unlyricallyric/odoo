@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- <record id="commerce_hub_view_picking_form" model="ir.ui.view">
+        <field name="name">delivery.carrier.form.commerceHub</field>
+        <field name="model">stock.picking</field>
+        <field name="inherit_id" ref="delivery.view_picking_withcarrier_out_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='weight']" position="before">
+                <button name="my button" />
+            </xpath>
+        </field>
+    </record> -->
+
+    <record id="commerce_hub_view_picking_form" model="ir.ui.view">
+        <field name="name">commerceHub.stock.picking.form.view</field>
+        <field name="model">stock.picking</field>
+        <field name="inherit_id" ref="stock.view_picking_form"/>
+        <field name="arch" type="xml">
+            <!-- <xpath expr="//field[@name='carrier_tracking_ref']" position='after'>
+                <button string="Submit Tracking Info" type="object" name="upload_tracking_info" class="btn-primary" />
+            </xpath> -->
+            <field name="carrier_tracking_ref" position="after">
+                <button string="Submit Tracking Info" type="object" name="upload_tracking_info" class="btn-primary" />
+            </field>
+        </field>
+    </record>
+
+    <!-- <record model="ir.actions.act_window" id="upload_tracking_info">
+        <field name="name">commerceHub.stock.picking.form.view.action</field>
+        <field name="inherit_id" ref="stock.action_picking_tree_all"/>
+    </record> -->
+</odoo>

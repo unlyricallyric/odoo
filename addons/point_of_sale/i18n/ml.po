@@ -12,7 +12,7 @@ msgstr ""
 "POT-Creation-Date: 2023-02-02 10:33+0000\n"
 "PO-Revision-Date: 2022-09-22 05:53+0000\n"
 "Last-Translator: Niyas Raphy, 2023\n"
-"Language-Team: Malayalam (https://app.transifex.com/odoo/teams/41243/ml/)\n"
+"Language-Team: Malayalam (https://www.transifex.com/odoo/teams/41243/ml/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -175,8 +175,6 @@ msgid ""
 "<span class=\"o_form_label\">Barcodes</span>\n"
 "                                    <i class=\"fa fa-info-circle me-1\" title=\"This setting is common to all PoS.\" pos-data-toggle=\"tooltip\"/>"
 msgstr ""
-"<span class=\"o_form_label\">ബാർകോഡുകൾ</span>\n"
-"                                    <i class=\"fa fa-info-circle me-1\" title=\"This setting is common to all PoS.\" pos-data-toggle=\"tooltip\"/>"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -197,7 +195,7 @@ msgstr ""
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "<span class=\"o_form_label\">Payment Methods</span>"
-msgstr "<span class=\"o_form_label\">പേയ്മെന്റ് രീതികൾ</span>"
+msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -304,7 +302,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/xml/Popups/CashMoveReceipt.xml:0
 #, python-format
 msgid "AMOUNT"
-msgstr "തുക"
+msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -339,7 +337,7 @@ msgstr ""
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_payment_method_view_search
 msgid "Account"
-msgstr "അക്കൗണ്ട്"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_account_cash_rounding
@@ -349,7 +347,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_account_chart_template
 msgid "Account Chart Template"
-msgstr "അക്കൗണ്ട് ചാർട്ട് ടെംപ്ലേറ്റ്"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment__account_move_id
@@ -365,7 +363,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_pos_form
 msgid "Accounting"
-msgstr "അക്കൌണ്ടിംഗ്"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__invoice_journal_id
@@ -499,7 +497,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/xml/Screens/PartnerListScreen/PartnerListScreen.xml:0
 #, python-format
 msgid "Address"
-msgstr "വിലാസം"
+msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -702,7 +700,7 @@ msgstr ""
 #: model:ir.ui.menu,name:point_of_sale.pos_menu_products_attribute_action
 #, python-format
 msgid "Attributes"
-msgstr "ആട്രിബ്യൂട്ടുകൾ"
+msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -795,7 +793,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:point_of_sale.selection__pos_payment_method__type__bank
 #, python-format
 msgid "Bank"
-msgstr "ബാങ്ക്"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__bank_payment_ids
@@ -812,7 +810,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/xml/Screens/PartnerListScreen/PartnerDetailsEdit.xml:0
 #, python-format
 msgid "Barcode"
-msgstr "ബാർകോഡ്"
+msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -856,7 +854,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_bill_form
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_bill_tree
 msgid "Bills"
-msgstr "ബില്ലുകൾ"
+msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -988,7 +986,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:point_of_sale.selection__pos_payment_method__type__cash
 #, python-format
 msgid "Cash"
-msgstr "ക്യാഷ് "
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -1209,7 +1207,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/xml/Screens/PartnerListScreen/PartnerDetailsEdit.xml:0
 #, python-format
 msgid "City"
-msgstr "സിറ്റി"
+msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
@@ -1315,7 +1313,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_res_company
 msgid "Companies"
-msgstr "കമ്പനികൾ"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__company_id
@@ -1337,7 +1335,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_res_config_settings
 msgid "Config Settings"
-msgstr "കോൺഫിഗറേഷൻ സെറ്റിങ്‌സ്"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.ui.menu,name:point_of_sale.menu_point_config_product
@@ -1466,7 +1464,7 @@ msgstr ""
 #: model:ir.model,name:point_of_sale.model_res_partner
 #, python-format
 msgid "Contact"
-msgstr "കോൺടാക്ട് "
+msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_session_form
@@ -1570,7 +1568,7 @@ msgstr "ഉണ്ടാക്കിയത്"
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__create_date
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session_check_product_wizard__create_date
 msgid "Created on"
-msgstr "സൃഷ്ടിച്ചത്"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__currency_id
@@ -1656,7 +1654,7 @@ msgstr ""
 #: code:addons/point_of_sale/models/pos_order.py:0
 #, python-format
 msgid "Customer Invoice"
-msgstr "കസ്റ്റമർ ഇൻവോയ്സ്"
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -1735,7 +1733,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.ui.menu,name:point_of_sale.menu_pos_dashboard
 msgid "Dashboard"
-msgstr "ഡാഷ്ബോർഡ്"
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -1765,7 +1763,7 @@ msgstr ""
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Default"
-msgstr "ഡീഫോൾട്"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__account_default_pos_receivable_account_id
@@ -1924,7 +1922,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_digest_digest
 msgid "Digest"
-msgstr "ഡൈജസ്റ്റ്"
+msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_pos_form
@@ -1956,17 +1954,17 @@ msgstr ""
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.product_product_consumable_product_template
 msgid "Discount"
-msgstr "ഡിസ്‌കൗണ്ട്"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line__discount
 msgid "Discount (%)"
-msgstr "ഡിസ്‌കൗണ്ട് (%)"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line__notice
 msgid "Discount Notice"
-msgstr "ഡിസ്‌കൗണ്ട് നോട്ടീസ്"
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -1986,7 +1984,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/xml/Screens/ReceiptScreen/OrderReceipt.xml:0
 #, python-format
 msgid "Discounts"
-msgstr "ഡിസ്‌കൗണ്ട്സ്"
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -2054,7 +2052,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/xml/Popups/CashMoveReceipt.xml:0
 #, python-format
 msgid "Done by"
-msgstr "ചെയ്തത്"
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -2088,7 +2086,7 @@ msgstr ""
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_config_kanban
 msgid "Edit"
-msgstr "എഡിറ്റ്"
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -2272,14 +2270,14 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__fiscal_position_id
 msgid "Fiscal Position"
-msgstr "ഫിസ്കൽ പൊസിഷൻ"
+msgstr "ഫിസിക്കൽ പൊസിഷൻ"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__fiscal_position_ids
 #: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_fiscal_position_ids
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Fiscal Positions"
-msgstr "ഫിസ്കൽ പൊസിഷൻസ്"
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -2317,7 +2315,7 @@ msgstr ""
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Footer"
-msgstr "ഫൂട്ടർ"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__iface_big_scrollbars
@@ -2469,7 +2467,7 @@ msgstr ""
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Header"
-msgstr "തലക്കെട്ട്"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment_method__hide_use_payment_terminal
@@ -2482,7 +2480,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/xml/Screens/ProductScreen/ProductsWidgetControlPanel.xml:0
 #, python-format
 msgid "Home"
-msgstr "ഹോം"
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -2507,7 +2505,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session_check_product_wizard__id
 #: model:ir.model.fields,field_description:point_of_sale.field_report_pos_order__id
 msgid "ID"
-msgstr "ഐഡി"
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -2520,7 +2518,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__proxy_ip
 #: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_proxy_ip
 msgid "IP Address"
-msgstr "IP അഡ്രസ് "
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__activity_exception_icon
@@ -2572,7 +2570,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_category__image_128
 msgid "Image"
-msgstr "ചിത്രം"
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -2625,7 +2623,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/xml/Screens/ProductScreen/ControlButtons/ProductInfoButton.xml:0
 #, python-format
 msgid "Info"
-msgstr "ഇൻഫോ"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_close_session_wizard__message
@@ -2697,14 +2695,14 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/js/Popups/CashMovePopup.js:0
 #, python-format
 msgid "Invalid amount"
-msgstr "അസാധുവായ തുക"
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/js/Screens/ReceiptScreen/ReceiptScreen.js:0
 #, python-format
 msgid "Invalid email."
-msgstr "അസാധുവായ ഇമെയിൽ."
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -2720,12 +2718,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 #, python-format
 msgid "Inventory"
-msgstr "ഇൻവെന്ററി"
+msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Inventory Management"
-msgstr "ഇൻവെന്ററി മാനേജ്മെന്റ്"
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -2736,13 +2734,13 @@ msgstr "ഇൻവെന്ററി മാനേജ്മെന്റ്"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_pos_form
 #, python-format
 msgid "Invoice"
-msgstr "ഇൻവോയ്സ്"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__invoice_journal_id
 #: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_invoice_journal_id
 msgid "Invoice Journal"
-msgstr "ഇൻവോയ്സ് ജേണൽ"
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-python
@@ -2758,12 +2756,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_order_filter
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_report_pos_order_search
 msgid "Invoiced"
-msgstr "ഇൻവോയ്സ് ചെയ്തു"
+msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Invoices"
-msgstr "ഇൻവോയ്സുകൾ"
+msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.ticket_validation_screen
@@ -2774,7 +2772,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "IoT Box"
-msgstr "ഐഒടി ബോക്സ്"
+msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
@@ -2817,12 +2815,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__module_pos_restaurant
 #: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_module_pos_restaurant
 msgid "Is a Bar/Restaurant"
-msgstr "ഒരു ബാർ/റെസ്റ്റോറന്റാണ്"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__is_installed_account_accountant
 msgid "Is the Full Accounting Installed"
-msgstr "പൂർണ്ണ അക്കൗണ്ടിംഗ് ഫീച്ചർ ഇൻസ്റ്റാൾ ചെയ്തിട്ടുണ്ടോ"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__is_tipped
@@ -2855,7 +2853,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment_method__journal_id
 #: model:ir.model.fields,field_description:point_of_sale.field_report_pos_order__journal_id
 msgid "Journal"
-msgstr "ജേണൽ"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_account_move
@@ -2874,7 +2872,7 @@ msgstr "ജേർണൽ ഐറ്റം"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_session_form
 #, python-format
 msgid "Journal Items"
-msgstr "ജേണൽ ഐറ്റംസ്"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_digest_digest__kpi_pos_total_value
@@ -2889,14 +2887,14 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment__name
 msgid "Label"
-msgstr "ലേബൽ"
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/xml/Screens/PartnerListScreen/PartnerDetailsEdit.xml:0
 #, python-format
 msgid "Language"
-msgstr "ഭാഷ"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__iface_big_scrollbars
@@ -2947,7 +2945,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__write_uid
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session_check_product_wizard__write_uid
 msgid "Last Updated by"
-msgstr "അവസാനം അപ്ഡേറ്റ് ചെയ്തത്"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_bill__write_date
@@ -3044,12 +3042,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__manual_discount
 #: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_manual_discount
 msgid "Line Discounts"
-msgstr "ലൈൻ ഡിസ്കൗണ്ടുകൾ"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line__name
 msgid "Line No"
-msgstr "ലൈൻ നമ്പർ"
+msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -3115,12 +3113,12 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__message_main_attachment_id
 msgid "Main Attachment"
-msgstr "പ്രധാന അറ്റാച്ച്മെന്റ്"
+msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_payment
 msgid "Make Payment"
-msgstr "പേയ്മെന്റ് നടത്തുക"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__available_pricelist_ids
@@ -3218,7 +3216,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/xml/Screens/PartnerListScreen/PartnerDetailsEdit.xml:0
 #, python-format
 msgid "Mobile"
-msgstr "മൊബൈൽ"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__module_pos_hr
@@ -3363,7 +3361,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/js/Screens/ProductScreen/ProductScreen.js:0
 #, python-format
 msgid "No"
-msgstr "ഇല്ല"
+msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -3398,7 +3396,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:point_of_sale.action_report_pos_order_all
 #: model_terms:ir.actions.act_window,help:point_of_sale.action_report_pos_order_all_filtered
 msgid "No data yet!"
-msgstr "ഇതുവരെ ഡാറ്റയൊന്നുമില്ല!"
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-python
@@ -3450,7 +3448,7 @@ msgstr ""
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_pos_form
 msgid "Notes"
-msgstr "നോട്ട്സ്"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__message_needaction_counter
@@ -3460,17 +3458,17 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__number_of_opened_session
 msgid "Number of Opened Session"
-msgstr "തുറന്ന സെഷന്റെ എണ്ണം"
+msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Number of Partners Loaded"
-msgstr "ലോഡുചെയ്ത പാർട്നെഴ്സിന്റെ എണ്ണം"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__nb_print
 msgid "Number of Print"
-msgstr "പ്രിന്റ് എണ്ണം"
+msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -3480,41 +3478,41 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__refund_orders_count
 msgid "Number of Refund Orders"
-msgstr "റീഫണ്ട് ഓർഡറുകളുടെ എണ്ണം"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__message_has_error_counter
 msgid "Number of errors"
-msgstr "പിശകുകളുടെ എണ്ണം"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_order_line__refunded_qty
 msgid "Number of items refunded in this orderline."
-msgstr "ഈ ഓർഡർലൈനിൽ റീഫണ്ട് ചെയ്ത ഇനങ്ങളുടെ എണ്ണം."
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_session__message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr "ഒരു പ്രവർത്തനം ആവശ്യമായ സന്ദേശങ്ങളുടെ എണ്ണം"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_session__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "ഡെലിവറി പിശകുള്ള സന്ദേശങ്ങളുടെ എണ്ണം"
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/js/Popups/ClosePosPopup.js:0
 #, python-format
 msgid "OK"
-msgstr "ശരി"
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/xml/Popups/CashOpeningPopup.xml:0
 #, python-format
 msgid "OPENING CASH CONTROL"
-msgstr "ക്യാഷ് കൺട്രോൾ തുറക്കുന്നു"
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -3579,8 +3577,6 @@ msgid ""
 "Only a negative quantity is allowed for this refund line. Click on +/- to "
 "modify the quantity to be refunded."
 msgstr ""
-"ഈ റീഫണ്ട് ലൈനിന് നെഗറ്റീവ് അളവ് മാത്രമേ അനുവദിക്കൂ. റീഫണ്ട് ചെയ്യേണ്ട അളവ് "
-"പരിഷ്കരിക്കുന്നതിന് +/- ക്ലിക്ക് ചെയ്യുക."
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__only_round_cash_method
@@ -3591,12 +3587,12 @@ msgstr ""
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Only load a limited number of customers at the opening of the PoS."
-msgstr "PoS തുറക്കുമ്പോൾ പരിമിതമായ എണ്ണം ഉപഭോക്താക്കളെ മാത്രം ലോഡ് ചെയ്യുക."
+msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Only load most common products at the opening of the PoS."
-msgstr "PoS തുറക്കുമ്പോൾ ഏറ്റവും സാധാരണമായ ഉൽപ്പന്നങ്ങൾ മാത്രം ലോഡ് ചെയ്യുക."
+msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -3755,7 +3751,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_order_filter
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_report_pos_order_search
 msgid "Order Date"
-msgstr "ഓർഡർ തീയതി"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__sequence_id
@@ -3771,7 +3767,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__lines
 msgid "Order Lines"
-msgstr "ഓർഡർ ലൈനുകൾ"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__name
@@ -3844,7 +3840,7 @@ msgstr ""
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_pos_form
 msgid "Other Information"
-msgstr "മറ്റ് വിവരങ്ങൾ"
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -4083,7 +4079,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_session_form
 #, python-format
 msgid "Payments"
-msgstr "പേയ്മെന്റ്സ്"
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -4153,7 +4149,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_stock_picking_type
 msgid "Picking Type"
-msgstr "പീക്കിങ് ടൈപ്പ് "
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-python
@@ -4176,7 +4172,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:product.attribute.value,name:point_of_sale.fabric_attribute_plastic
 msgid "Plastic"
-msgstr "പ്ലാസ്റ്റിക്"
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -4393,7 +4389,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_config_tree
 msgid "Point of Sale Configuration"
-msgstr "പോയിന്റ് ഓഫ് സെയിൽ കോൺഫിഗറേഷൻ"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment_method__config_ids
@@ -4485,7 +4481,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_bill__pos_config_ids
 msgid "Point of Sales"
-msgstr "പോയിന്റ് ഓഫ് സെയിൽസ്"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__access_url
@@ -4758,7 +4754,7 @@ msgstr "പ്രോഡക്റ്റ്"
 #: model:ir.model.fields,field_description:point_of_sale.field_report_pos_order__product_categ_id
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_report_pos_order_search
 msgid "Product Category"
-msgstr "പ്രോഡക്റ്റ് കാറ്റഗറി"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__product_load_background
@@ -4779,17 +4775,17 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_report_pos_order__product_qty
 msgid "Product Quantity"
-msgstr "പ്രോഡക്റ്റ് അളവ്"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_report_pos_order__product_tmpl_id
 msgid "Product Template"
-msgstr "പ്രോഡക്റ്റ് ടെംപ്ലേറ്റ്"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_uom_uom
 msgid "Product Unit of Measure"
-msgstr "പ്രോഡക്റ്റ് യൂണിറ്റ് ഓഫ് മെഷർ"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line__product_uom_id
@@ -4804,13 +4800,13 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_product_product
 msgid "Product Variant"
-msgstr "പ്രോഡക്റ്റ് വേരിയന്റ്"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.product_product_action
 #: model:ir.ui.menu,name:point_of_sale.pos_config_menu_action_product_product
 msgid "Product Variants"
-msgstr "പ്രോഡക്റ്റ് വാരിയന്റ്സ്"
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -5120,12 +5116,12 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__user_id
 msgid "Responsible"
-msgstr "ഉത്തരവാദിയായ"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__activity_user_id
 msgid "Responsible User"
-msgstr "ഉത്തരവാദിത്തമുള്ള യൂസർ"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__limit_categories
@@ -5271,7 +5267,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 #, python-format
 msgid "Save"
-msgstr "സേവ്"
+msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
@@ -5356,7 +5352,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__access_token
 msgid "Security Token"
-msgstr "സെക്യൂരിറ്റി ടോക്കൺ"
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -5656,7 +5652,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:product.attribute,name:point_of_sale.size_attribute
 msgid "Size"
-msgstr "വലിപ്പം"
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -5735,7 +5731,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_details_wizard__start_date
 msgid "Start Date"
-msgstr "ആരംഭിക്കുന്ന തീയതി"
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-python
@@ -5759,7 +5755,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/xml/Screens/PartnerListScreen/PartnerDetailsEdit.xml:0
 #, python-format
 msgid "State"
-msgstr "സ്റ്റേറ്റ്"
+msgstr ""
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -5818,7 +5814,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/xml/Screens/PartnerListScreen/PartnerDetailsEdit.xml:0
 #, python-format
 msgid "Street"
-msgstr "സ്ട്രീറ്റ്"
+msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -5836,7 +5832,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line__price_subtotal_incl
 #, python-format
 msgid "Subtotal"
-msgstr "സബ് ടോട്ടൽ"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line__price_subtotal
@@ -5921,7 +5917,7 @@ msgstr ""
 #: model:ir.model,name:point_of_sale.model_account_tax
 #, python-format
 msgid "Tax"
-msgstr "നികുതി"
+msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.report_saledetails
@@ -5966,7 +5962,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_pos_form
 msgid "Taxes"
-msgstr "നികുതികൾ"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line__tax_ids_after_fiscal_position
@@ -6617,7 +6613,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:point_of_sale.report_saledetails
 #, python-format
 msgid "Total"
-msgstr "ആകെ"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__cash_register_total_entry_encoding
@@ -6739,15 +6735,6 @@ msgstr ""
 
 #. module: point_of_sale
 #. odoo-python
-#. openerp-web
-#: code:addons/point_of_sale/static/src/js/Screens/ReceiptScreen/ReceiptScreen.js:0
-#, python-format
-msgid ""
-"This order is not yet synced to server. Make sure it is synced then try "
-"again."
-msgstr ""
-
-#. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_session.py:0
 #, python-format
 msgid ""
@@ -6904,10 +6891,9 @@ msgstr ""
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/xml/Popups/CashMoveReceipt.xml:0
-#: code:addons/point_of_sale/static/src/js/Screens/ReceiptScreen/ReceiptScreen.js:0
-#, python-format, python-format
-msgid "Unsynced order"
-msgstr ""
+#, python-format
+msgid "VAT:"
+msgstr "വാറ്റ്:"
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -6923,7 +6909,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/xml/Screens/PaymentScreen/PaymentScreen.xml:0
 #, python-format
 msgid "Validate"
-msgstr "വാലിഡേറ്റ്"
+msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -6974,7 +6960,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__website_message_ids
 msgid "Website Messages"
-msgstr "വെബ്സൈറ്റ് സന്ദേശങ്ങൾ"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_session__website_message_ids
@@ -7427,13 +7413,3 @@ msgstr ""
 #, python-format
 msgid "were duplicates of existing orders"
 msgstr ""
-
-#. module: point_of_sale
-#: code:addons/point_of_sale/models/pos_session.py:0
-#, python-format
-msgid ""
-"You don't have the access rights to get the point of sale closing control "
-"data."
-msgstr ""
-"പോയിന്റ് ഓഫ് സെയിൽ ക്ലോസിംഗ് കൺട്രോൾ ഡാറ്റ ലഭിക്കുന്നതിന് നിങ്ങൾക്ക് ആക്സസ് "
-"അവകാശങ്ങളില്ല."

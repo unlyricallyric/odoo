@@ -12,7 +12,6 @@
 # Kari Lindgren <kari.lindgren@emsystems.fi>, 2022
 # Martin Trigaux, 2022
 # Miku Laitinen <miku.laitinen@gmail.com>, 2022
-# Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023
 # 
 msgid ""
 msgstr ""
@@ -20,7 +19,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-20 09:02+0000\n"
 "PO-Revision-Date: 2022-09-22 05:56+0000\n"
-"Last-Translator: Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023\n"
+"Last-Translator: Miku Laitinen <miku.laitinen@gmail.com>, 2022\n"
 "Language-Team: Finnish (https://www.transifex.com/odoo/teams/41243/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -67,7 +66,7 @@ msgstr "Arkistoitu"
 #. module: website_customer
 #: model:ir.model.fields,help:website_customer.field_res_partner_tag__classname
 msgid "Bootstrap class to customize the color"
-msgstr "Bootstrap-luokka värin mukauttamiseksi"
+msgstr ""
 
 #. module: website_customer
 #: model:ir.model.fields,field_description:website_customer.field_res_partner_tag__can_publish
@@ -97,7 +96,7 @@ msgstr "Kontakti"
 #. module: website_customer
 #: model_terms:ir.ui.view,arch_db:website_customer.snippet_options
 msgid "Countries Filter"
-msgstr "Maiden suodatin"
+msgstr ""
 
 #. module: website_customer
 #: model_terms:ir.actions.act_window,help:website_customer.action_partner_tag_form
@@ -132,7 +131,7 @@ msgstr "Toteuttanut"
 #. module: website_customer
 #: model_terms:ir.ui.view,arch_db:website_customer.snippet_options
 msgid "Industry Filter"
-msgstr "Toimialojen suodatin"
+msgstr ""
 
 #. module: website_customer
 #: model:ir.model.fields,field_description:website_customer.field_res_partner_tag__is_published
@@ -203,7 +202,7 @@ msgstr "Viitteet"
 #. module: website_customer
 #: model_terms:ir.ui.view,arch_db:website_customer.snippet_options
 msgid "References Page"
-msgstr "Asiakasreferenssien sivu"
+msgstr ""
 
 #. module: website_customer
 #: model_terms:ir.ui.view,arch_db:website_customer.opt_country_list
@@ -233,12 +232,12 @@ msgstr "Hae kumppanin tunniste"
 #. module: website_customer
 #: model_terms:ir.ui.view,arch_db:website_customer.snippet_options
 msgid "Show Map"
-msgstr "Näytä kartta"
+msgstr ""
 
 #. module: website_customer
 #: model_terms:ir.ui.view,arch_db:website_customer.snippet_options
 msgid "Tags Filter"
-msgstr "Tunnisteiden suodatin"
+msgstr ""
 
 #. module: website_customer
 #: model:ir.model.fields,help:website_customer.field_res_partner_tag__website_url

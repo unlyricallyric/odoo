@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2015-Present Webkul Software Pvt. Ltd. (<https://webkul.com/>) -->
+<!-- See LICENSE file for full copyright and licensing details. -->
+<!--"License URL :<https://store.webkul.com/license.html/>" -->
+<odoo>
+	<data>
+		<record id="commerceHub_instance_view_form" model="ir.ui.view">
+			<field name="name">multi.channel.sale.from</field>
+			<field name="model">multi.channel.sale</field>
+			<field name="inherit_id" ref="odoo_multi_channel_sale.multi_channel_view_form"/>
+			<field name="type">form</field>
+			<field name="arch" type="xml">
+				<!-- <xpath expr="//group[@name='core_credentials']" position="attributes">
+					<attribute name="invisible">False</attribute>
+				</xpath> -->
+				<xpath expr="//group[@name='core_credentials']" position="inside">
+					<group colspan='2'>
+					<label  string="API Key" for="email" attrs="{'invisible':['|',('login_with_apikey','=',False),('channel','!=','commerceHub')]}"/>
+					<div attrs="{'invisible':[('login_with_apikey','=',False)]}">
+						<b><field name="email" groups="base.group_no_one"  placeholder="eg: sh545yghj0d0a1b83d5e527y9by99" attrs="{'readonly':[('state','=','validate')],'invisible':[('channel','!=','commerceHub')]}"/></b>
+					</div>
+
+					<label string="Access Token/Password" for="api_key" attrs="{'invisible':[('channel','!=','commerceHub')]}"/>
+					<div>
+						<b><field name="api_key" groups="base.group_no_one"  placeholder="Access Token/Password of Channel API" password="True" attrs="{'readonly':[('state','=','validate')],'invisible':[('channel','!=','commerceHub')]}"/></b>
+					</div>
+					</group>
+				</xpath>
+				<xpath expr="//group[@name='core_credentials']" position="after">
+					<h3 attrs="{'invisible':[('channel','!=','commerceHub')]}">
+						<p class="text-danger" attrs="{'invisible':[('login_with_apikey','=',True)]}">Please make sure ShopifyAPI version is 11.0.0.</p>
+					</h3>
+				</xpath> 
+				<xpath expr="//group[@name='core_credentials']" position="after">
+					<div class="col-xs-12 col-md-6 o_setting_box"  attrs="{'invisible':[('channel','!=','commerceHub')]}">
+						<div class="o_setting_left_pane">
+							<div>
+								<b><field name="login_with_apikey" attrs="{'readonly':[('state','=','validate')]}"/></b>
+							</div>
+						</div>
+						<div class="o_setting_right_pane">
+							<label string="Login With API Key" for="login_with_apikey"/>
+						</div>
+					</div>
+				</xpath>
+				<xpath expr="//group[@name='state_configuration']" position="attributes">
+					<attribute name="attrs">{'invisible':[('channel','=','commerceHub')]}</attribute>
+				</xpath>
+			</field>
+		</record>
+
+		<record id="commerceHub_instance_view_kanban" model="ir.ui.view">
+			<field name="name">multi.channel.sale.kanban</field>
+			<field name="model">multi.channel.sale</field>
+			<field name="inherit_id" ref="odoo_multi_channel_sale.multi_channel_view_kanban"/>
+			<field name="arch" type="xml">
+				<xpath expr="//div[hasclass('o_kanban_card_content')]" position="inside">
+					<div class="o_kanban_primary_left" >
+						<div class="o_primary">
+							<center>
+								<span>
+									<t t-field="record.name.value"/>
+								</span>
+							</center>
+						</div>
+						<div t-if="record.channel.value == 'CommerceHub'" style="color:rgb(162, 70, 137)">
+							<center>
+								<img
+									src="/commerce_hub_odoo_bridge/static/src/img/dashboard.svg"
+									alt="commerceHub_logo"
+									style="margin-left: 180px;"
+								/>
+								<h3>
+									<t t-esc="record.name.value"/>
+								</h3>
+							</center>
+						</div>
+					</div>
+				</xpath>
+			</field>
+		</record>
+	</data>
+</odoo>

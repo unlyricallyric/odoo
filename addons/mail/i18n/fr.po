@@ -21,7 +21,7 @@ msgstr ""
 "POT-Creation-Date: 2023-02-02 10:33+0000\n"
 "PO-Revision-Date: 2022-09-22 05:53+0000\n"
 "Last-Translator: Jolien De Paepe, 2023\n"
-"Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
+"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -3235,7 +3235,7 @@ msgstr "Terminé & lancer la suite"
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_view_form_popup
 #, python-format
 msgid "Done & Schedule Next"
-msgstr "Terminé & Programmer suivant"
+msgstr "Terminer & planifier le suivant"
 
 #. module: mail
 #. odoo-javascript
@@ -3953,7 +3953,7 @@ msgstr "Abonnés à"
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_alias__alias_contact__followers
 msgid "Followers only"
-msgstr "Abonnés uniquement"
+msgstr "Abonnés seulement"
 
 #. module: mail
 #. odoo-javascript

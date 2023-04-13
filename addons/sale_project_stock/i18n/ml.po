@@ -2,17 +2,13 @@
 # This file contains the translation of the following modules:
 # 	* sale_project_stock
 # 
-# Translators:
-# Niyas Raphy, 2023
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~15.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-09 14:06+0000\n"
 "PO-Revision-Date: 2022-09-22 05:55+0000\n"
-"Last-Translator: Niyas Raphy, 2023\n"
-"Language-Team: Malayalam (https://app.transifex.com/odoo/teams/41243/ml/)\n"
+"Language-Team: Malayalam (https://www.transifex.com/odoo/teams/41243/ml/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -27,7 +23,7 @@ msgstr ""
 #. module: sale_project_stock
 #: model:ir.model,name:sale_project_stock.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "സെയിൽസ് ഓർഡർ ലൈൻ"
+msgstr ""
 
 #. module: sale_project_stock
 #: model_terms:ir.actions.act_window,help:sale_project_stock.stock_move_per_sale_order_line_action
@@ -40,4 +36,4 @@ msgstr ""
 #. module: sale_project_stock
 #: model:ir.actions.act_window,name:sale_project_stock.stock_move_per_sale_order_line_action
 msgid "Transfers"
-msgstr "ട്രാൻസ്ഫർ"
+msgstr ""

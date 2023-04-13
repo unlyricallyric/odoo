@@ -12,7 +12,7 @@ msgstr ""
 "POT-Creation-Date: 2023-02-02 10:34+0000\n"
 "PO-Revision-Date: 2022-09-22 05:55+0000\n"
 "Last-Translator: Niyas Raphy, 2023\n"
-"Language-Team: Malayalam (https://app.transifex.com/odoo/teams/41243/ml/)\n"
+"Language-Team: Malayalam (https://www.transifex.com/odoo/teams/41243/ml/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -291,7 +291,7 @@ msgstr "കമ്പനി"
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_res_config_settings
 msgid "Config Settings"
-msgstr "കോൺഫിഗറേഷൻ സെറ്റിങ്‌സ്"
+msgstr ""
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.res_config_settings_view_form
@@ -312,7 +312,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:sale_timesheet.project_project_action_multi_create_invoice
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_create_invoice_view_form
 msgid "Create Invoice"
-msgstr "ഇൻവോയ്സ് സൃഷ്ടിക്കുക"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_project_create_invoice
@@ -364,7 +364,7 @@ msgstr "ഉണ്ടാക്കിയത്"
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_create_sale_order_line__create_date
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_sale_line_employee_map__create_date
 msgid "Created on"
-msgstr "സൃഷ്ടിച്ചത്"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_create_invoice__currency_id
@@ -437,7 +437,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_create_sale_order_line__employee_id
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_sale_line_employee_map__employee_id
 msgid "Employee"
-msgstr "എംപ്ലോയീ "
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__project_project__pricing_type__employee_rate
@@ -497,7 +497,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_create_sale_order_line__id
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_sale_line_employee_map__id
 msgid "ID"
-msgstr "ഐഡി"
+msgstr ""
 
 #. module: sale_timesheet
 #: model_terms:sale.order,website_description:sale_timesheet.sale_order_1
@@ -526,7 +526,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.timesheet_view_search
 #, python-format
 msgid "Invoice"
-msgstr "ഇൻവോയ്സ്"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_res_config_settings__invoice_policy
@@ -585,7 +585,7 @@ msgstr ""
 #: code:addons/sale_timesheet/controllers/portal.py:0
 #, python-format
 msgid "Invoices"
-msgstr "ഇൻവോയ്സുകൾ"
+msgstr ""
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_project_view_form
@@ -646,7 +646,7 @@ msgstr "അവസാനം അപ്ഡേറ്റ് ചെയ്തത്"
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_create_sale_order_line__write_uid
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_sale_line_employee_map__write_uid
 msgid "Last Updated by"
-msgstr "അവസാനം അപ്ഡേറ്റ് ചെയ്തത്"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_create_invoice__write_date
@@ -681,7 +681,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__timesheets_analysis_report__timesheet_invoice_type__other_costs
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__timesheets_analysis_report__timesheet_invoice_type__other_revenues
 msgid "Materials"
-msgstr "മെറ്റീരിയലുകൾ"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_sale_order_line__qty_delivered_method
@@ -721,7 +721,7 @@ msgstr ""
 #. module: sale_timesheet
 #: model_terms:ir.actions.act_window,help:sale_timesheet.timesheet_action_billing_report
 msgid "No data yet!"
-msgstr "ഇതുവരെ ഡാറ്റയൊന്നുമില്ല!"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__account_analytic_line__timesheet_invoice_type__non_billable
@@ -744,8 +744,6 @@ msgstr ""
 #: model:ir.model.fields,help:sale_timesheet.field_timesheets_analysis_report__timesheet_revenues
 msgid "Number of hours spent multiplied by the unit price per hour/day."
 msgstr ""
-"ചെലവഴിച്ച മണിക്കൂറുകളുടെ എണ്ണം ഒരു മണിക്കൂർ/ദിവസം യൂണിറ്റ് വില കൊണ്ട് "
-"ഗുണിക്കുന്നു."
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_timesheets_analysis_report__billable_time
@@ -774,10 +772,6 @@ msgid ""
 "yet invoiced (and validated, if applicable) will be invoiced without "
 "distinction."
 msgstr ""
-"ഈ കാലയളവിൽ നിന്ന് ഇതുവരെ ഇൻവോയ്‌സ് ചെയ്യാത്ത ടൈംഷീറ്റുകൾ മാത്രമേ ഇൻവോയ്‌സ് "
-"ചെയ്യപ്പെടുകയുള്ളൂ (ബാധകമെങ്കിൽ സാധൂകരിച്ചത്). കാലയളവ് "
-"സൂചിപ്പിച്ചിട്ടില്ലെങ്കിൽ, ഇതുവരെ ഇൻവോയ്‌സ് ചെയ്യാത്ത എല്ലാ ടൈംഷീറ്റുകളും "
-"വ്യത്യാസമില്ലാതെ ഇൻവോയ്‌സ് ചെയ്യും (സാധുതയുള്ളത്, ബാധകമെങ്കിൽ)."
 
 #. module: sale_timesheet
 #. odoo-python
@@ -789,7 +783,7 @@ msgstr ""
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_account_analytic_line__order_id
 msgid "Order Reference"
-msgstr "ഓർഡർ റഫറൻസ്"
+msgstr ""
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.portal_my_timesheets_inherit
@@ -846,7 +840,7 @@ msgstr "പ്രോഡക്റ്റ്"
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_product_product
 msgid "Product Variant"
-msgstr "പ്രോഡക്റ്റ് വേരിയന്റ്"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_project_create_sale_order_line__product_id
@@ -885,7 +879,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_timesheet.field_product_product__project_template_id
 #: model:ir.model.fields,field_description:sale_timesheet.field_product_template__project_template_id
 msgid "Project Template"
-msgstr "പ്രോജക്റ്റ് ടെംപ്ലേറ്റ്"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_project_update
@@ -1008,12 +1002,12 @@ msgstr ""
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "സെയിൽസ് ഓർഡർ ലൈൻ"
+msgstr ""
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_project_view_kanban_inherit_sale_timesheet_so_button
 msgid "Sales Orders"
-msgstr "സെയിൽസ് ഓർഡറുകൾ"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_project_project__sale_line_employee_ids
@@ -1076,7 +1070,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_timesheet.field_project_create_sale_order_line__product_id
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_update_default_description
 msgid "Service"
-msgstr "സേവനം"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model.fields.selection,name:sale_timesheet.selection__account_analytic_line__timesheet_invoice_type__service_revenues
@@ -1108,7 +1102,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:sale_timesheet.product_template_action_default_services
 #: model:project.project,label_tasks:sale_timesheet.project_support
 msgid "Services"
-msgstr "സേവനങ്ങള്"
+msgstr ""
 
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_update_default_description
@@ -1118,7 +1112,7 @@ msgstr ""
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_sale_advance_payment_inv__date_start_invoice_timesheet
 msgid "Start Date"
-msgstr "ആരംഭിക്കുന്ന തീയതി"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_project_task
@@ -1309,7 +1303,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.view_hr_timesheet_line_pivot_billing_rate
 #, python-format
 msgid "Timesheets"
-msgstr "ടൈംഷീറ്റുകൾ"
+msgstr ""
 
 #. module: sale_timesheet
 #. odoo-python
@@ -1408,7 +1402,7 @@ msgstr ""
 #. module: sale_timesheet
 #: model_terms:ir.ui.view,arch_db:sale_timesheet.project_update_default_description
 msgid "Total"
-msgstr "ആകെ"
+msgstr ""
 
 #. module: sale_timesheet
 #: model:ir.model.fields,help:sale_timesheet.field_project_create_invoice__amount_to_invoice

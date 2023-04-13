@@ -518,8 +518,7 @@ class PurchaseOrder(models.Model):
         for line in self.order_line:
             # Do not add a contact as a supplier
             partner = self.partner_id if not self.partner_id.parent_id else self.partner_id.parent_id
-            already_seller = (partner | self.partner_id) & line.product_id.seller_ids.mapped('partner_id')
-            if line.product_id and not already_seller and len(line.product_id.seller_ids) <= 10:
+            if line.product_id and partner not in line.product_id.seller_ids.partner_id and len(line.product_id.seller_ids) <= 10:
                 # Convert the price in the right currency.
                 currency = partner.property_purchase_currency_id or self.env.company.currency_id
                 price = self.currency_id._convert(line.price_unit, currency, line.company_id, line.date_order or fields.Date.today(), round=False)
@@ -543,7 +542,7 @@ class PurchaseOrder(models.Model):
                     'seller_ids': [(0, 0, supplierinfo)],
                 }
                 # supplier info should be added regardless of the user access rights
-                line.product_id.product_tmpl_id.sudo().write(vals)
+                line.product_id.sudo().write(vals)
 
     def action_create_invoice(self):
         """Create the invoice associated to the PO.
@@ -1382,7 +1381,7 @@ class PurchaseOrderLine(models.Model):
     @api.model
     def _prepare_purchase_order_line(self, product_id, product_qty, product_uom, company_id, supplier, po):
         partner = supplier.partner_id
-        uom_po_qty = product_uom._compute_quantity(product_qty, product_id.uom_po_id, rounding_method='HALF-UP')
+        uom_po_qty = product_uom._compute_quantity(product_qty, product_id.uom_po_id)
         # _select_seller is used if the supplier have different price depending
         # the quantities ordered.
         seller = product_id.with_company(company_id)._select_seller(

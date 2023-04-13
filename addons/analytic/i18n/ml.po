@@ -12,7 +12,7 @@ msgstr ""
 "POT-Creation-Date: 2023-02-02 10:33+0000\n"
 "PO-Revision-Date: 2022-09-22 05:45+0000\n"
 "Last-Translator: Niyas Raphy, 2023\n"
-"Language-Team: Malayalam (https://app.transifex.com/odoo/teams/41243/ml/)\n"
+"Language-Team: Malayalam (https://www.transifex.com/odoo/teams/41243/ml/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -186,7 +186,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__analytic_precision
 #: model:ir.model.fields,field_description:analytic.field_analytic_mixin__analytic_precision
 msgid "Analytic Precision"
-msgstr "അനലിറ്റിക് പ്രിസിഷൻ"
+msgstr ""
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_distribution_model_form_view
@@ -312,7 +312,7 @@ msgstr ""
 #. module: analytic
 #: model:ir.model,name:analytic.model_res_config_settings
 msgid "Config Settings"
-msgstr "കോൺഫിഗറേഷൻ സെറ്റിങ്‌സ്"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_line__product_uom_category_id
@@ -345,13 +345,13 @@ msgstr "ഉണ്ടാക്കിയത്"
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__create_date
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__create_date
 msgid "Created on"
-msgstr "സൃഷ്ടിച്ചത്"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__credit
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_list
 msgid "Credit"
-msgstr "ക്രെഡിറ്റ്"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__currency_id
@@ -461,7 +461,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__id
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__id
 msgid "ID"
-msgstr "ഐഡി"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_account__message_needaction
@@ -510,7 +510,7 @@ msgstr "അവസാനം അപ്ഡേറ്റ് ചെയ്തത്"
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__write_uid
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__write_uid
 msgid "Last Updated by"
-msgstr "അവസാനം അപ്ഡേറ്റ് ചെയ്തത്"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__write_date
@@ -541,7 +541,7 @@ msgstr ""
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_main_attachment_id
 msgid "Main Attachment"
-msgstr "പ്രധാന അറ്റാച്ച്മെന്റ്"
+msgstr ""
 
 #. module: analytic
 #. odoo-javascript
@@ -615,24 +615,24 @@ msgstr ""
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_has_error_counter
 msgid "Number of errors"
-msgstr "പിശകുകളുടെ എണ്ണം"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_account__message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr "ഒരു പ്രവർത്തനം ആവശ്യമായ സന്ദേശങ്ങളുടെ എണ്ണം"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_account__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "ഡെലിവറി പിശകുള്ള സന്ദേശങ്ങളുടെ എണ്ണം"
+msgstr ""
 
 #. module: analytic
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 #, python-format
 msgid "OK"
-msgstr "ശരി"
+msgstr ""
 
 #. module: analytic
 #. odoo-python
@@ -690,7 +690,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__plan_id
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__plan_id
 msgid "Plan"
-msgstr "പ്ലാൻ"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__unit_amount
@@ -701,7 +701,7 @@ msgstr "അളവ്"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__code
 msgid "Reference"
-msgstr "റഫറൻസ്"
+msgstr ""
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_rd_department
@@ -789,7 +789,7 @@ msgstr ""
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_line_tree
 msgid "Total"
-msgstr "ആകെ"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields.selection,name:analytic.selection__account_analytic_applicability__applicability__unavailable
@@ -815,7 +815,7 @@ msgstr "യൂസർ"
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_distribution_model_tree_view
 msgid "View"
-msgstr "വ്യൂ"
+msgstr ""
 
 #. module: analytic
 #. odoo-python

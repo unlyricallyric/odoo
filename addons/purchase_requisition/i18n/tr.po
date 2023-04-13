@@ -13,6 +13,7 @@
 # Güven YILMAZ <guvenyilmaz@outlook.com.tr>, 2022
 # Nadir Gazioglu <nadirgazioglu@gmail.com>, 2022
 # Halil, 2022
+# Tugay Hatıl <tugayh@projetgrup.com>, 2022
 # Ozlem Cikrikci <ozlemc@eskayazilim.com.tr>, 2022
 # Murat Durmuş <muratd@projetgrup.com>, 2022
 # Umur Akın <umura@projetgrup.com>, 2022
@@ -20,7 +21,6 @@
 # Murat Kaplan <muratk@projetgrup.com>, 2022
 # Ediz Duman <neps1192@gmail.com>, 2023
 # Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2023
-# Tugay Hatıl <tugayh@projetgrup.com>, 2023
 # 
 msgid ""
 msgstr ""
@@ -28,7 +28,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-15 12:51+0000\n"
 "PO-Revision-Date: 2022-09-22 05:54+0000\n"
-"Last-Translator: Tugay Hatıl <tugayh@projetgrup.com>, 2023\n"
+"Last-Translator: Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2023\n"
 "Language-Team: Turkish (https://www.transifex.com/odoo/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,12 +39,12 @@ msgstr ""
 #. module: purchase_requisition
 #: model:ir.actions.report,print_report_name:purchase_requisition.action_report_purchase_requisitions
 msgid "'Purchase Agreement - %s' % (object.name)"
-msgstr "'Satın Alma Sözleşmesi - %s' % (object.name)"
+msgstr ""
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
 msgid "<strong>Agreement Deadline:</strong><br/>"
-msgstr "<strong>Sözleşme Son Tarihi:</strong><br/>"
+msgstr ""
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
@@ -147,17 +147,17 @@ msgstr "Sözleşme Türü"
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_order__alternative_po_ids
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_alternative_warning__alternative_po_ids
 msgid "Alternative POs"
-msgstr "Alternatif PO'lar"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_alternative_warning__alternative_po_count
 msgid "Alternative Po Count"
-msgstr "Alternatif Po Sayısı"
+msgstr ""
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_form_inherit
 msgid "Alternative Purchase Order"
-msgstr "Alternatif Satın Alma Siparişi"
+msgstr ""
 
 #. module: purchase_requisition
 #. odoo-python
@@ -165,17 +165,17 @@ msgstr "Alternatif Satın Alma Siparişi"
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_requisition_alternative_warning_form
 #, python-format
 msgid "Alternative Warning"
-msgstr "Alternatif Uyarı"
+msgstr ""
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_form_inherit
 msgid "Alternatives"
-msgstr "alternatifler"
+msgstr ""
 
 #. module: purchase_requisition
 #: model_terms:ir.actions.act_window,help:purchase_requisition.action_purchase_requisition
 msgid "An example of a purchase agreement is a blanket order."
-msgstr "Bir satın alma sözleşmesi örneği, bir çerçeve siparişidir."
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_line__analytic_distribution
@@ -213,7 +213,7 @@ msgstr "Kapsamlı Sipariş"
 #: model:ir.actions.act_window,name:purchase_requisition.action_purchase_requisition
 #: model:ir.ui.menu,name:purchase_requisition.menu_purchase_requisition_pro_mgt
 msgid "Blanket Orders"
-msgstr "Battaniye Siparişleri"
+msgstr ""
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_requisition_alternative_warning_form
@@ -225,7 +225,7 @@ msgstr "İptal"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_requisition_alternative_warning_form
 msgid "Cancel Alternatives"
-msgstr "Alternatifleri İptal Et"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model.fields.selection,name:purchase_requisition.selection__purchase_requisition__state__cancel
@@ -253,7 +253,7 @@ msgstr "Seç"
 #. module: purchase_requisition
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_requisition_create_alternative__partner_id
 msgid "Choose a vendor for alternative PO"
-msgstr "Alternatif PO için bir tedarikçi seçin"
+msgstr ""
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_line_compare_tree
@@ -263,7 +263,7 @@ msgstr "Temizle"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_line_compare_tree
 msgid "Clear Selected"
-msgstr "Seçileni Temizle"
+msgstr ""
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
@@ -287,12 +287,12 @@ msgstr "Şirket"
 #: code:addons/purchase_requisition/models/purchase.py:0
 #, python-format
 msgid "Compare Order Lines"
-msgstr "Sipariş Satırlarını Karşılaştırın"
+msgstr ""
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_form_inherit
 msgid "Compare Product Lines"
-msgstr "Ürün Gruplarını Karşılaştırın"
+msgstr ""
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
@@ -318,13 +318,13 @@ msgstr ""
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_create_alternative__copy_products
 msgid "Copy Products"
-msgstr "Ürünleri Kopyala"
+msgstr ""
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_form_inherit
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_requisition_create_alternative_form
 msgid "Create Alternative"
-msgstr "Alternatif Oluştur"
+msgstr ""
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_form_inherit
@@ -333,16 +333,13 @@ msgid ""
 "                            Make your choice by selecting the best combination of lead time, OTD and/or total amount.\n"
 "                            By comparing product lines you can also decide to order some products from one vendor and others from another vendor."
 msgstr ""
-"Farklı tedarikçilere alternatif teklif talebi ekleyerek bir ihale çağrısı oluşturun.\n"
-"Teslim süresi, OTD ve/veya toplam tutarın en iyi kombinasyonunu seçerek seçiminizi yapın.\n"
-"Ürün satırlarını karşılaştırarak, bazı ürünleri bir satıcıdan ve diğerlerini başka bir satıcıdan sipariş etmeye de karar verebilirsiniz."
 
 #. module: purchase_requisition
 #. odoo-python
 #: code:addons/purchase_requisition/models/purchase.py:0
 #, python-format
 msgid "Create alternative"
-msgstr "Alternatif oluştur"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_order_group__create_uid
@@ -367,7 +364,7 @@ msgstr "Oluşturulma"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_create_alternative__creation_blocked
 msgid "Creation Blocked"
-msgstr "Oluşturma Engellendi"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__currency_id
@@ -443,9 +440,6 @@ msgid ""
 "            (e.g. a year) and you order products within this agreement to benefit\n"
 "            from the negotiated prices."
 msgstr ""
-"Bir çerçeve sipariş için, belirli bir süre (örneğin bir yıl) için \n"
-"bir sözleşme kaydedebilir ve bu sözleşme kapsamındaki ürünleri \n"
-"pazarlıklı fiyatlardan yararlanmak için sipariş edebilirsiniz."
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
@@ -462,7 +456,7 @@ msgstr "Grupla"
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_kpis_tree_inherit_purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_tree_inherit_purchase_requisition
 msgid "Has Alternatives"
-msgstr "Alternatifleri Var"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__has_message
@@ -508,16 +502,12 @@ msgid ""
 " normally these fields are cleared w/warning message within form view, but "
 "we cannot recreate that in this case."
 msgstr ""
-"Seçilen tedarikçinin veya orijinal PO'daki ürünlerden herhangi birinin "
-"engelleme uyarısı varsa, alternatif PO oluşturulmasını engelleriz. Bunun "
-"nedeni, normalde bu alanların form görünümünde uyarı mesajıyla silinmesidir,"
-" ancak bu durumda bunu yeniden oluşturamayız."
 
 #. module: purchase_requisition
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_requisition_create_alternative__copy_products
 msgid ""
 "If this is checked, the product quantities of the original PO will be copied"
-msgstr "Bu işaretlenirse, orijinal PO'daki ürün miktarları kopyalanacaktır."
+msgstr ""
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
@@ -532,7 +522,7 @@ msgstr "Takipçi"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_requisition_alternative_warning_form
 msgid "Keep Alternatives"
-msgstr "Alternatifleri Tut"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_order_group____last_update
@@ -577,7 +567,7 @@ msgstr "Satırlar"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_form_inherit
 msgid "Link to Existing RfQ"
-msgstr "Mevcut RFQ'ya Bağlantı"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__message_main_attachment_id
@@ -644,7 +634,7 @@ msgstr "Sonraki Aktivite Türü"
 #: code:addons/purchase_requisition/models/purchase.py:0
 #, python-format
 msgid "Nothing to clear"
-msgstr "Temizlenecek bir şey yok"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__message_needaction_counter
@@ -696,17 +686,17 @@ msgstr "Sipariş Tarihi"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_create_alternative__origin_po_id
 msgid "Origin Po"
-msgstr "Kaynak PO"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_order__alternative_po_ids
 msgid "Other potential purchase orders for purchasing products"
-msgstr "Ürün satın almak için diğer potansiyel satın alma siparişleri"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_alternative_warning__po_ids
 msgid "POs to Confirm"
-msgstr "Onaylanacak PO'lar"
+msgstr ""
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisitions
@@ -762,7 +752,7 @@ msgstr "Satınalma Sözleşmeleri"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_order__purchase_group_id
 msgid "Purchase Group"
-msgstr "Satın Alma Grubu"
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_purchase_order
@@ -937,7 +927,7 @@ msgstr "Bir sonraki eylem tarihi bugünden önce olan tüm kayıtları göster"
 #: code:addons/purchase_requisition/models/purchase.py:0
 #, python-format
 msgid "Some not cleared"
-msgstr "Bazıları temizlenmemiş"
+msgstr ""
 
 #. module: purchase_requisition
 #. odoo-python
@@ -945,7 +935,7 @@ msgstr "Bazıları temizlenmemiş"
 #, python-format
 msgid ""
 "Some quantities were not cleared because their status is not a RFQ status."
-msgstr "Durumları bir RFQ durumu olmadığı için bazı miktarlar temizlenmedi."
+msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__origin
@@ -995,7 +985,6 @@ msgstr "Tedarikçi Fiyat Listesi"
 #: model:ir.model,name:purchase_requisition.model_purchase_order_group
 msgid "Technical model to group PO for call to tenders"
 msgstr ""
-"İhale çağrıları için satınalma siparişini gruplandırmak için teknik model"
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
@@ -1011,7 +1000,7 @@ msgstr "Tüm ürünlerin alındığı beklenen ve planlanan teslimat tarihi ."
 #. module: purchase_requisition
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_requisition_create_alternative__origin_po_id
 msgid "The original PO that this alternative PO is being created for."
-msgstr "Bu alternatif PO'nun oluşturulduğu orijinal PO."
+msgstr ""
 
 #. module: purchase_requisition
 #. odoo-python
@@ -1022,16 +1011,13 @@ msgid ""
 " from the original order has a blocking warning on it and cannot be selected"
 " to create an alternative."
 msgstr ""
-"Seçtiğiniz bayi veya orijinal siparişten kopyaladığınız ürünlerden en az "
-"birinin üzerinde engelleme uyarısı vardır ve alternatif oluşturmak için "
-"seçilemez."
 
 #. module: purchase_requisition
 #. odoo-python
 #: code:addons/purchase_requisition/models/purchase.py:0
 #, python-format
 msgid "There are no quantities to clear."
-msgstr "Temizlenecek miktar yok."
+msgstr ""
 
 #. module: purchase_requisition
 #. odoo-python
@@ -1050,7 +1036,7 @@ msgstr ""
 #: code:addons/purchase_requisition/wizard/purchase_requisition_create_alternative.py:0
 #, python-format
 msgid "This is a blocking warning!\n"
-msgstr "Bu bir engelleme uyarısıdır!\n"
+msgstr ""
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
@@ -1102,7 +1088,7 @@ msgstr "Tedarikçi"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_create_alternative__purchase_warn_msg
 msgid "Warning Messages"
-msgstr "Uyarı Mesajları"
+msgstr ""
 
 #. module: purchase_requisition
 #. odoo-python
@@ -1112,8 +1098,6 @@ msgid ""
 "Warning for %(partner)s:\n"
 "%(warning_message)s\n"
 msgstr ""
-"%(partner)s için uyarı:\n"
-"%(warning_message)s\n"
 
 #. module: purchase_requisition
 #. odoo-python
@@ -1123,8 +1107,6 @@ msgid ""
 "Warning for %(product)s:\n"
 "%(warning_message)s\n"
 msgstr ""
-"%(product)siçin uyarı:\n"
-"%(warning_message)s\n"
 
 #. module: purchase_requisition
 #. odoo-python
@@ -1149,14 +1131,11 @@ msgid ""
 "Whether or not this purchase order is linked to another purchase order as an"
 " alternative."
 msgstr ""
-"Bu satınalma siparişinin alternatif olarak başka bir satınalma siparişine "
-"bağlı olup olmadığı."
 
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_purchase_requisition_alternative_warning
 msgid "Wizard in case PO still has open alternative requests for quotation"
 msgstr ""
-"PO'nun hala teklif için açık alternatif talepleri olması durumunda sihirbaz"
 
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_purchase_requisition_create_alternative
@@ -1168,7 +1147,7 @@ msgstr "Alternatif PO için değerleri önceden ayarlamak için sihirbaz"
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 #, python-format
 msgid "You can only delete draft or cancelled requisitions."
-msgstr "Yalnızca taslak veya iptal edilmiş talepleri silebilirsiniz."
+msgstr ""
 
 #. module: purchase_requisition
 #. odoo-python
@@ -1210,7 +1189,6 @@ msgid ""
 "alternative request for quotations are still open, do you want to cancel "
 "them?"
 msgstr ""
-"alternatif teklif talepleri hala açık, onları iptal etmek istiyor musunuz?"
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form

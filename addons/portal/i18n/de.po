@@ -4,7 +4,6 @@
 # 
 # Translators:
 # Martin Trigaux, 2022
-# Larissa Manderfeld, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +11,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-15 12:45+0000\n"
 "PO-Revision-Date: 2022-09-22 05:53+0000\n"
-"Last-Translator: Larissa Manderfeld, 2023\n"
-"Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
+"Last-Translator: Martin Trigaux, 2022\n"
+"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -23,7 +22,7 @@ msgstr ""
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "\" to validate your action."
-msgstr "“ eingeben, um Ihre Aktion zu validieren."
+msgstr ""
 
 #. module: portal
 #. odoo-javascript
@@ -36,7 +35,6 @@ msgstr "%1d Tage überfällig"
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "1. Enter your password to confirm you own this account"
 msgstr ""
-"1. Geben Sie Ihr Passwort ein, um zu bestätigen, dass dies Ihr Konto ist"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
@@ -44,13 +42,11 @@ msgid ""
 "2. Confirm you want to delete your account by\n"
 "                                        copying down your login ("
 msgstr ""
-"2. Bestätigen Sie, dass Sie Ihr Konto löschen möchten, indem\n"
-"                                        Sie Ihr Login kopieren ("
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_back_in_edit_mode
 msgid "<i class=\"fa fa-arrow-right me-1\"/>Back to edit mode"
-msgstr "<i class=\"fa fa-arrow-right me-1\"/>Zurück zum Bearbeitungsmodus"
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.record_pager
@@ -69,17 +65,17 @@ msgstr "<i class=\"fa fa-chevron-right\" role=\"img\" aria-label=\"Next\" title=
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.my_account_link
 msgid "<i class=\"fa fa-fw fa-id-card-o me-1 small text-muted\"/> My Account"
-msgstr "<i class=\"fa fa-fw fa-id-card-o me-1 small text-muted\"/> Mein Konto"
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.user_dropdown
 msgid "<i class=\"fa fa-fw fa-sign-out me-1 small text-muted\"/> Logout"
-msgstr "<i class=\"fa fa-fw fa-sign-out me-1 small text-muted\"/> Abmelden"
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.user_dropdown
 msgid "<i class=\"fa fa-fw fa-th me-1 small text-muted\"/> Apps"
-msgstr "<i class=\"fa fa-fw fa-th me-1 small text-muted\"/> Apps"
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_layout
@@ -111,17 +107,17 @@ msgstr ""
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_searchbar
 msgid "<span class=\"small me-1 navbar-text\">Filter By:</span>"
-msgstr "<span class=\"small me-1 navbar-text\">Filtern nach:</span>"
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_searchbar
 msgid "<span class=\"small me-1 navbar-text\">Group By:</span>"
-msgstr "<span class=\"small me-1 navbar-text\">Gruppieren nach:</span>"
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_searchbar
 msgid "<span class=\"small me-1 navbar-text\">Sort By:</span>"
-msgstr "<span class=\"small me-1 navbar-text\">Sortieren nach:</span>"
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_share_template
@@ -207,93 +203,18 @@ msgid ""
 "</table>\n"
 "            "
 msgstr ""
-"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
-"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
-"<tbody>\n"
-"    <!-- HEADER -->\n"
-"    <tr>\n"
-"        <td align=\"center\" style=\"min-width: 590px;\">\n"
-"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
-"                <tr><td valign=\"middle\">\n"
-"                    <span style=\"font-size: 10px;\">Ihr Konto</span><br/>\n"
-"                    <span style=\"font-size: 20px; font-weight: bold;\" t-out=\"object.user_id.name or ''\">Marc Demo</span>\n"
-"                </td><td valign=\"middle\" align=\"right\">\n"
-"                    <img t-attf-src=\"/logo.png?company={{ object.user_id.company_id.id }}\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" t-att-alt=\"object.user_id.company_id.name\"/>\n"
-"                </td></tr>\n"
-"                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
-"                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\"/>\n"
-"                </td></tr>\n"
-"            </table>\n"
-"        </td>\n"
-"    </tr>\n"
-"    <!-- CONTENT -->\n"
-"    <tr>\n"
-"        <td align=\"center\" style=\"min-width: 590px;\">\n"
-"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
-"                <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
-"                    <div>\n"
-"                        Hallo <t t-out=\"object.user_id.name or ''\">Marc Demo</t>,<br/> <br/>\n"
-"                        Willkommen im Portal von <t t-out=\"object.user_id.company_id.name\">YourCompany</t>!<br/><br/>\n"
-"                        Für Sie wurde ein Konto mit dem folgenden Login erstellt: <t t-out=\"object.user_id.login\">Demo</t><br/><br/>\n"
-"                        Mit Klick auf den untenstehenden Link können Sie ein Passwort erstellen und Ihr Konto aktivieren.\n"
-"                        <div style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
-"                            <a t-att-href=\"object.user_id.signup_url\" style=\"display: inline-block; padding: 10px; text-decoration: none; font-size: 12px; background-color: #875A7B; color: #fff; border-radius: 5px;\">\n"
-"                                <strong>Konto aktivieren</strong>\n"
-"                            </a>\n"
-"                        </div>\n"
-"                        <t t-out=\"object.wizard_id.welcome_message or ''\">Herzlich willkommen in unserem Unternehmensportal.</t>\n"
-"                    </div>\n"
-"                </td></tr>\n"
-"                <tr><td style=\"text-align:center;\">\n"
-"                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
-"                </td></tr>\n"
-"            </table>\n"
-"        </td>\n"
-"    </tr>\n"
-"    <!-- FOOTER -->\n"
-"    <tr>\n"
-"        <td align=\"center\" style=\"min-width: 590px;\">\n"
-"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; font-size: 11px; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
-"                <tr><td valign=\"middle\" align=\"left\">\n"
-"                    <t t-out=\"object.user_id.company_id.name or ''\">YourCompany</t>\n"
-"                </td></tr>\n"
-"                <tr><td valign=\"middle\" align=\"left\" style=\"opacity: 0.7;\">\n"
-"                    <t t-out=\"object.user_id.company_id.phone or ''\">+1 650-123-4567</t>\n"
-"                    <t t-if=\"object.user_id.company_id.email\">\n"
-"                        | <a t-attf-href=\"'mailto:%s' % {{ object.user_id.company_id.email }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"object.user_id.company_id.email or ''\">info@yourcompany.com</a>\n"
-"                    </t>\n"
-"                    <t t-if=\"object.user_id.company_id.website\">\n"
-"                        | <a t-attf-href=\"'%s' % {{ object.user_id.company_id.website }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"object.user_id.company_id.website or ''\">http://www.example.com</a>\n"
-"                    </t>\n"
-"                </td></tr>\n"
-"            </table>\n"
-"        </td>\n"
-"    </tr>\n"
-"</tbody>\n"
-"</table>\n"
-"</td></tr>\n"
-"<!-- POWERED BY -->\n"
-"<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
-"    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
-"      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=portalinvite\" style=\"color: #875A7B;\">Odoo</a>\n"
-"      </td></tr>\n"
-"    </table>\n"
-"</td></tr>\n"
-"</table>\n"
-"            "
 
 #. module: portal
 #: model:ir.model,name:portal.model_res_users_apikeys_description
 msgid "API Key Description"
-msgstr "API-Schlüssel-Beschreibung"
+msgstr ""
 
 #. module: portal
 #. odoo-javascript
 #: code:addons/portal/static/src/js/portal.js:0
 #, python-format
 msgid "API Key Ready"
-msgstr "API-Schlüssel bereit"
+msgstr ""
 
 #. module: portal
 #. odoo-javascript
@@ -318,7 +239,7 @@ msgstr "Account Sicherheit"
 #: code:addons/portal/controllers/portal.py:0
 #, python-format
 msgid "Account deleted!"
-msgstr "Konto gelöscht!"
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_share_wizard
@@ -351,7 +272,7 @@ msgstr "Hinzugefügt am"
 #. module: portal
 #: model:ir.model.fields.selection,name:portal.selection__portal_wizard_user__email_state__exist
 msgid "Already Registered"
-msgstr "Bereits registriert"
+msgstr ""
 
 #. module: portal
 #. odoo-python
@@ -363,7 +284,7 @@ msgstr "Für jede Anlage muss ein Zugangstoken angegeben werden."
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "Are you sure you want to do this?"
-msgstr "Sind Sie sicher, dass Sie das tun möchten?"
+msgstr ""
 
 #. module: portal
 #. odoo-javascript
@@ -540,7 +461,7 @@ msgstr ""
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_res_config_settings__portal_allow_api_keys
 msgid "Customer API Keys"
-msgstr "Kunden-API-Schlüssel"
+msgstr ""
 
 #. module: portal
 #: model:ir.model.fields,help:portal.field_portal_mixin__access_url
@@ -562,7 +483,7 @@ msgstr "Löschen"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "Delete Account"
-msgstr "Konto löschen"
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
@@ -589,11 +510,6 @@ msgid ""
 "                                            This action cannot be undone.\n"
 "                                        </b>"
 msgstr ""
-"Deaktivieren Sie Ihr Konto, damit weitere Anmeldungen vermieden werden.<br/>\n"
-"                                        <b>\n"
-"                                            <i class=\"fa fa-exclamation-triangle text-danger\"/>\n"
-"                                            Diese Aktion kann nicht rückgängig gemacht werden.\n"
-"                                        </b>"
 
 #. module: portal
 #. odoo-javascript
@@ -637,7 +553,7 @@ msgstr "E-Mail"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
 msgid "Email Address already taken by another user"
-msgstr "E-Mail-Adresse wird bereits von einem anderen Benutzer verwendet"
+msgstr ""
 
 #. module: portal
 #: model:ir.model,name:portal.model_mail_thread
@@ -694,8 +610,6 @@ msgid ""
 "Here is your new API key, use it instead of a password for RPC access.\n"
 "                Your login is still necessary for interactive usage."
 msgstr ""
-"Hier ist Ihr neuer API-Schlüssel, verwenden Sie ihn anstelle eines Passworts für den RPC-Zugang.\n"
-"                Ihr Login ist für die interaktive Nutzung weiterhin erforderlich."
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_breadcrumbs
@@ -743,7 +657,7 @@ msgstr "Ungültig"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
 msgid "Invalid Email Address"
-msgstr "Ungültige E-Mail-Adresse"
+msgstr ""
 
 #. module: portal
 #. odoo-python
@@ -768,7 +682,7 @@ msgstr "Einladungsnachricht"
 #. module: portal
 #: model:mail.template,description:portal.mail_template_data_portal_welcome
 msgid "Invitation email to contacts to create a user account"
-msgstr "Einladungs-E-Mail an Kontakte, um ein Benutzerkonto zu erstellen"
+msgstr ""
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_wizard_user__is_internal
@@ -855,7 +769,7 @@ msgstr ""
 #: code:addons/portal/controllers/portal.py:0
 #, python-format
 msgid "Multi company reports are not supported."
-msgstr "Mehrunternehmenberichte werden nicht unterstützt."
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details_fields
@@ -894,7 +808,7 @@ msgstr "Weiter"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_home
 msgid "No Documents to display"
-msgstr "Keine anzuzeigenden Dokumente"
+msgstr ""
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_share__note
@@ -1019,8 +933,6 @@ msgid ""
 "Put my email and phone in a block list to make sure I'm never contacted "
 "again"
 msgstr ""
-"Meine E-Mail und meine Telefonnummer auf eine Sperrliste setzen, um "
-"sicherzustellen, dass ich nie wieder kontaktiert werde"
 
 #. module: portal
 #: model:ir.model,name:portal.model_ir_qweb
@@ -1205,8 +1117,6 @@ msgstr "Der Kontakt \"%s\" hat keine gültige E-Mail-Adresse."
 #, python-format
 msgid "The contact \"%s\" has the same email as an existing user"
 msgstr ""
-"Der Kontakt „%s“ hat dieselbe E-Mail-Adresse wie ein bereits bestehender "
-"Benutzer"
 
 #. module: portal
 #. odoo-python
@@ -1254,7 +1164,7 @@ msgstr "Der Partner \"%s\" hat bereits Zugang zum Portal."
 #: code:addons/portal/wizard/portal_wizard.py:0
 #, python-format
 msgid "The partner \"%s\" has no portal access or is internal."
-msgstr "Der Partner „%s“ hat keinen Zugang zum Portal oder ist intern."
+msgstr ""
 
 #. module: portal
 #. odoo-python
@@ -1338,7 +1248,7 @@ msgstr "Gültig"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
 msgid "Valid Email Address"
-msgstr "Gültige E-Mail-Adresse"
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
@@ -1418,7 +1328,7 @@ msgstr "Notieren Sie Ihre Schlüssel"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "Wrong password."
-msgstr "Falsches Passwort."
+msgstr ""
 
 #. module: portal
 #. odoo-python
@@ -1450,7 +1360,7 @@ msgstr "Sie müssen sein"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "You should enter \""
-msgstr "Sie sollten „"
+msgstr ""
 
 #. module: portal
 #. odoo-python
@@ -1510,8 +1420,6 @@ msgid ""
 "it will be the only way to\n"
 "                identify the key once created"
 msgstr ""
-"dies ist die einzige Möglichkeit,\n"
-"                den erzeugten Schlüssel zu identifizieren"
 
 #. module: portal
 #. odoo-javascript

@@ -143,7 +143,7 @@ msgstr "Liitteiden määrä"
 #. module: sms
 #: model:ir.model.fields.selection,name:sms.selection__sms_sms__failure_type__sms_blacklist
 msgid "Blacklisted"
-msgstr "Markkinointikiellossa"
+msgstr ""
 
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_res_partner__mobile_blacklisted
@@ -171,17 +171,17 @@ msgstr "Osta krediittejä"
 #: code:addons/sms/models/sms_api.py:0
 #, python-format
 msgid "Buy credits."
-msgstr "Osta krediittejä."
+msgstr ""
 
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_resend__can_cancel
 msgid "Can Cancel"
-msgstr "Voi perua"
+msgstr ""
 
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_resend__can_resend
 msgid "Can Resend"
-msgstr "Voi lähettää uudelleen"
+msgstr ""
 
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.sms_sms_view_tree
@@ -317,7 +317,7 @@ msgstr ""
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_composer__res_model
 msgid "Document Model Name"
-msgstr "Asiakirjamallin nimi"
+msgstr ""
 
 #. module: sms
 #: model:ir.model.fields.selection,name:sms.selection__sms_sms__failure_type__sms_duplicate
@@ -368,8 +368,6 @@ msgstr ""
 msgid ""
 "File from where the template originates. Used to reset broken template."
 msgstr ""
-"Tiedosto, josta malli on peräisin. Käytetään rikkinäisen mallin "
-"nollaamiseen."
 
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_res_partner__message_follower_ids
@@ -455,7 +453,7 @@ msgstr ""
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.mail_resend_message_view_form
 msgid "Ignore all"
-msgstr "Ohita kaikki"
+msgstr ""
 
 #. module: sms
 #: model:ir.model.fields.selection,name:sms.selection__sms_sms__state__outgoing
@@ -557,7 +555,7 @@ msgstr "Viimeksi päivitetty"
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_sms__mail_message_id
 msgid "Mail Message"
-msgstr "KPI Sähköpostiviestien kokonaisarvo"
+msgstr ""
 
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_ir_model__is_mail_thread_sms
@@ -621,7 +619,7 @@ msgstr "Nimi"
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_template_preview__no_record
 msgid "No Record"
-msgstr "Ei tietuetta"
+msgstr ""
 
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_resend_recipient__notification_id
@@ -673,7 +671,7 @@ msgstr ""
 #. module: sms
 #: model:ir.model.fields.selection,name:sms.selection__sms_sms__failure_type__sms_optout
 msgid "Opted Out"
-msgstr "Valittu pois"
+msgstr ""
 
 #. module: sms
 #: model:ir.model.fields,help:sms.field_sms_template__lang
@@ -728,17 +726,17 @@ msgstr "Puhelin / matkapuhelin"
 #. module: sms
 #: model:ir.model.fields.selection,name:sms.selection__ir_actions_server__sms_method__comment
 msgid "Post as Message"
-msgstr "Lähetä viestinä"
+msgstr ""
 
 #. module: sms
 #: model:ir.model.fields.selection,name:sms.selection__ir_actions_server__sms_method__note
 msgid "Post as Note"
-msgstr "Lähetä muistiinpanona"
+msgstr ""
 
 #. module: sms
 #: model:ir.model.fields.selection,name:sms.selection__sms_composer__composition_mode__comment
 msgid "Post on a document"
-msgstr "Lähetä asiakirjaan"
+msgstr ""
 
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_view_form
@@ -753,7 +751,7 @@ msgstr "Esikatselu:"
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_reset_view_form
 msgid "Proceed"
-msgstr "Käsittele"
+msgstr ""
 
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.sms_composer_view_form
@@ -774,7 +772,7 @@ msgstr "Vastaanottaja"
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_resend_recipient__partner_name
 msgid "Recipient Name"
-msgstr "Vastaanottajan nimi"
+msgstr ""
 
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_composer__recipient_single_number_itf
@@ -834,7 +832,7 @@ msgstr ""
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_view_form
 msgid "Reset Template"
-msgstr "Nollaa malli"
+msgstr ""
 
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.sms_sms_view_tree
@@ -947,7 +945,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_view_form
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_view_tree
 msgid "SMS Templates"
-msgstr "SMS Malli"
+msgstr ""
 
 #. module: sms
 #: code:addons/sms/wizard/sms_template_reset.py:0
@@ -1054,7 +1052,7 @@ msgstr ""
 #. module: sms
 #: model:ir.actions.act_window,name:sms.sms_resend_action
 msgid "Sending Failures"
-msgstr "Lähetysvirheet"
+msgstr ""
 
 #. module: sms
 #: code:addons/sms/models/ir_actions_server.py:0
@@ -1094,8 +1092,6 @@ msgid ""
 "Sidebar action to make this template available on records of the related "
 "document model"
 msgstr ""
-"Sivupalkin toiminto, jolla tämä malli saadaan käyttöön liittyvän "
-"asiakirjamallin tietueissa"
 
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_composer__comment_single_recipient
@@ -1131,7 +1127,7 @@ msgstr "Malli"
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_template__template_fs
 msgid "Template Filename"
-msgstr "Mallin tiedostonimi"
+msgstr ""
 
 #. module: sms
 #: model:ir.actions.act_window,name:sms.sms_template_preview_action
@@ -1141,7 +1137,7 @@ msgstr "Mallin esikatselu"
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_template_preview__lang
 msgid "Template Preview Language"
-msgstr "Mallin kielen esikatselu"
+msgstr ""
 
 #. module: sms
 #: model:ir.actions.act_window,name:sms.sms_template_action
@@ -1183,7 +1179,7 @@ msgstr ""
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_resend_recipient__resend
 msgid "Try Again"
-msgstr "Yritä uudelleen"
+msgstr ""
 
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_mail_mail__message_type
@@ -1309,7 +1305,7 @@ msgstr ""
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_view_form
 msgid "e.g. Contact"
-msgstr "esim. Yhteystiedot"
+msgstr ""
 
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_view_form

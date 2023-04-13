@@ -12,7 +12,7 @@ msgstr ""
 "POT-Creation-Date: 2022-10-10 10:22+0000\n"
 "PO-Revision-Date: 2022-09-22 05:57+0000\n"
 "Last-Translator: Niyas Raphy, 2023\n"
-"Language-Team: Malayalam (https://app.transifex.com/odoo/teams/41243/ml/)\n"
+"Language-Team: Malayalam (https://www.transifex.com/odoo/teams/41243/ml/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1189,7 +1189,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_slides.field_slide_answer__text_value
 #: model:ir.model.fields,field_description:website_slides.field_slide_question__answer_ids
 msgid "Answer"
-msgstr "ഉത്തരം"
+msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
@@ -1206,7 +1206,7 @@ msgstr ""
 #: code:addons/website_slides/static/src/js/slides_slide_archive.js:0
 #, python-format
 msgid "Archive"
-msgstr "ആർക്കൈവ്"
+msgstr ""
 
 #. module: website_slides
 #. openerp-web
@@ -1346,7 +1346,7 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slides_home_user_achievements_small
 msgid "Badges"
-msgstr "ബാഡ്ജുകൾ"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.channel.tag,name:website_slides.slide_channel_tag_level_basic
@@ -1467,13 +1467,13 @@ msgstr "കാറ്റഗറി"
 #. module: website_slides
 #: model:slide.channel.tag,name:website_slides.slide_channel_tag_other_1
 msgid "Certification"
-msgstr "സർട്ടിഫിക്കേഷൻ"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_res_config_settings__module_website_slides_survey
 #: model_terms:ir.ui.view,arch_db:website_slides.courses_all
 msgid "Certifications"
-msgstr "സർട്ടിഫിക്കേഷനുകൾ"
+msgstr ""
 
 #. module: website_slides
 #: model:gamification.badge,name:website_slides.badge_data_certification
@@ -1749,7 +1749,7 @@ msgstr "നിങ്ങളുടെ പ്രൊഫൈൽ പൂർത്തി�
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_partner_view_search
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_slide_partner_view_search
 msgid "Completed"
-msgstr "പൂർത്തിയാക്കി"
+msgstr ""
 
 #. module: website_slides
 #: code:addons/website_slides/models/slide_channel.py:0
@@ -1787,7 +1787,7 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_res_config_settings
 msgid "Config Settings"
-msgstr "കോൺഫിഗറേഷൻ സെറ്റിങ്‌സ്"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.ui.menu,name:website_slides.website_slides_menu_configuration
@@ -1835,7 +1835,7 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_res_partner
 msgid "Contact"
-msgstr "കോൺടാക്ട് "
+msgstr ""
 
 #. module: website_slides
 #: code:addons/website_slides/models/slide_channel.py:0
@@ -2164,12 +2164,12 @@ msgstr "ഉണ്ടാക്കിയത്"
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_resource__create_date
 #: model:ir.model.fields,field_description:website_slides.field_slide_tag__create_date
 msgid "Created on"
-msgstr "സൃഷ്ടിച്ചത്"
+msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.rating_rating_view_search_slide_channel
 msgid "Creation Date"
-msgstr "സൃഷ്ടിച്ച തീയതി"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_slide__html_content
@@ -2471,7 +2471,7 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_kanban
 msgid "Edit"
-msgstr "എഡിറ്റ്"
+msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_slides_list_slide
@@ -2746,7 +2746,7 @@ msgstr ""
 #: model:slide.slide,name:website_slides.slide_slide_demo_4_0
 #: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_4_0
 msgid "Foreword"
-msgstr "മുഖവുര"
+msgstr ""
 
 #. module: website_slides
 #: model_terms:slide.slide,description:website_slides.slide_slide_demo_4_0
@@ -2791,7 +2791,7 @@ msgstr ""
 #. module: website_slides
 #: model_terms:slide.slide,description:website_slides.slide_slide_demo_4_12
 msgid "GLork"
-msgstr "ഗ്ലോർക്ക്"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_gamification_challenge
@@ -2801,7 +2801,7 @@ msgstr ""
 #. module: website_slides
 #: model:slide.channel.tag,name:website_slides.slide_channel_tag_role_gardener
 msgid "Gardener"
-msgstr "തോട്ടക്കാരൻ"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_slide_demo_0_0
@@ -2930,7 +2930,7 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_nav
 msgid "Home"
-msgstr "ഹോം"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_slide_demo_0_1
@@ -3023,7 +3023,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_resource__id
 #: model:ir.model.fields,field_description:website_slides.field_slide_tag__id
 msgid "ID"
-msgstr "ഐഡി"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__activity_exception_icon
@@ -3056,7 +3056,6 @@ msgid ""
 "If you are looking for technical specifications, have a look at this "
 "documentation."
 msgstr ""
-"നിങ്ങൾ സാങ്കേതിക സവിശേഷതകൾക്കായി തിരയുകയാണെങ്കിൽ, ഈ ഡോക്യുമെന്റേഷൻ നോക്കുക."
 
 #. module: website_slides
 #. openerp-web
@@ -3085,7 +3084,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_slide__slide_type__image
 #, python-format
 msgid "Image"
-msgstr "ചിത്രം"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__image_1024
@@ -3183,7 +3182,7 @@ msgstr ""
 #: code:addons/website_slides/static/src/js/slides_upload.js:0
 #, python-format
 msgid "Install"
-msgstr "ഇൻസ്റ്റാൾ"
+msgstr ""
 
 #. module: website_slides
 #. openerp-web
@@ -3202,12 +3201,12 @@ msgstr ""
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_category_demo_1_0
 msgid "Interesting Facts"
-msgstr "രസകരമായ വസ്തുതകൾ"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_slide_demo_1_1
 msgid "Interesting Tree Facts"
-msgstr "രസകരമായ വൃക്ഷ വസ്തുതകൾ"
+msgstr ""
 
 #. module: website_slides
 #: model_terms:slide.slide,description:website_slides.slide_slide_demo_0_1
@@ -3391,7 +3390,7 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_invite__lang
 msgid "Language"
-msgstr "ഭാഷ"
+msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_partner_view_tree
@@ -3434,7 +3433,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_resource__write_uid
 #: model:ir.model.fields,field_description:website_slides.field_slide_tag__write_uid
 msgid "Last Updated by"
-msgstr "അവസാനം അപ്ഡേറ്റ് ചെയ്തത്"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_answer__write_date
@@ -3480,7 +3479,7 @@ msgstr ""
 #: model_terms:slide.channel,description:website_slides.slide_channel_demo_0_gard_0
 #: model_terms:slide.channel,description_short:website_slides.slide_channel_demo_0_gard_0
 msgid "Learn the basics of gardening !"
-msgstr "പൂന്തോട്ടപരിപാലനത്തിന്റെ അടിസ്ഥാനകാര്യങ്ങൾ പഠിക്കുക!"
+msgstr ""
 
 #. module: website_slides
 #: model_terms:slide.slide,description:website_slides.slide_slide_demo_5_1
@@ -3526,7 +3525,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.lesson_card
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_content_detailed
 msgid "Like"
-msgstr "ലൈക്"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__likes
@@ -3534,14 +3533,14 @@ msgstr "ലൈക്"
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_content_detailed
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 msgid "Likes"
-msgstr "ലൈക്സ്"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_resource__link
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_slide_resource__resource_type__url
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 msgid "Link"
-msgstr "ലിങ്ക്"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_slide__document_google_url
@@ -3570,7 +3569,7 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_invite__template_id
 msgid "Mail Template"
-msgstr "മെയിൽ ടെംപ്ലേറ്റ്"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_res_config_settings__module_mass_mailing_slides
@@ -3581,17 +3580,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__message_main_attachment_id
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__message_main_attachment_id
 msgid "Main Attachment"
-msgstr "പ്രധാന അറ്റാച്ച്മെന്റ്"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_slide_demo_2_0
 msgid "Main Trees Categories"
-msgstr "പ്രധാന വൃക്ഷങ്ങളുടെ വിഭാഗങ്ങൾ"
+msgstr ""
 
 #. module: website_slides
 #: model:res.groups,name:website_slides.group_website_slides_manager
 msgid "Manager"
-msgstr "മാനേജർ"
+msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_content_detailed
@@ -3687,7 +3686,7 @@ msgstr ""
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_slide_demo_0_2
 msgid "Mighty Carrots"
-msgstr "ശക്തമായ കാരറ്റ്"
+msgstr ""
 
 #. module: website_slides
 #: model_terms:slide.slide,description:website_slides.slide_slide_demo_2_1
@@ -3856,7 +3855,7 @@ msgstr ""
 #: model:slide.answer,text_value:website_slides.slide_slide_demo_5_3_question_0_1
 #, python-format
 msgid "No"
-msgstr "ഇല്ല"
+msgstr ""
 
 #. module: website_slides
 #: code:addons/website_slides/models/slide_channel.py:0
@@ -3914,7 +3913,7 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.actions.act_window,help:website_slides.slide_slide_action_report
 msgid "No data yet!"
-msgstr "ഇതുവരെ ഡാറ്റയൊന്നുമില്ല!"
+msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.user_profile_content
@@ -3963,7 +3962,7 @@ msgstr ""
 #: code:addons/website_slides/static/src/js/slides_course_unsubscribe.js:0
 #, python-format
 msgid "Notifications"
-msgstr "നോട്ടിഫിക്കേഷൻസ്"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__message_needaction_counter
@@ -4011,19 +4010,19 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__message_has_error_counter
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__message_has_error_counter
 msgid "Number of errors"
-msgstr "പിശകുകളുടെ എണ്ണം"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel__message_needaction_counter
 #: model:ir.model.fields,help:website_slides.field_slide_slide__message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr "ഒരു പ്രവർത്തനം ആവശ്യമായ സന്ദേശങ്ങളുടെ എണ്ണം"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel__message_has_error_counter
 #: model:ir.model.fields,help:website_slides.field_slide_slide__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "ഡെലിവറി പിശകുള്ള സന്ദേശങ്ങളുടെ എണ്ണം"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__questions_count
@@ -4033,7 +4032,7 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.mail_notification_channel_invite
 msgid "Odoo"
-msgstr "ഒഡൂ"
+msgstr ""
 
 #. module: website_slides
 #: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_1_4
@@ -4243,7 +4242,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.lesson_card
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_channel_form
 msgid "Preview"
-msgstr "പ്രിവ്യൂ"
+msgstr ""
 
 #. module: website_slides
 #. openerp-web
@@ -4251,7 +4250,7 @@ msgstr "പ്രിവ്യൂ"
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid "Private"
-msgstr "പ്രൈവറ്റ്"
+msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_join
@@ -4271,7 +4270,7 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_channel__enroll__public
 msgid "Public"
-msgstr "പബ്ലിക് "
+msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_content_detailed
@@ -4342,7 +4341,7 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__question_ids
 msgid "Questions"
-msgstr "ചോദ്യങ്ങൾ"
+msgstr ""
 
 #. module: website_slides
 #. openerp-web
@@ -4354,7 +4353,7 @@ msgstr "ചോദ്യങ്ങൾ"
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 #, python-format
 msgid "Quiz"
-msgstr "ക്വിസ്"
+msgstr ""
 
 #. module: website_slides
 #. openerp-web
@@ -4380,7 +4379,7 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__rating_ids
 msgid "Rating"
-msgstr "റേറ്റിംഗ്"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__rating_avg_stars
@@ -4543,12 +4542,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.course_sidebar
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 msgid "Responsible"
-msgstr "ഉത്തരവാദിയായ"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__activity_user_id
 msgid "Responsible User"
-msgstr "ഉത്തരവാദിത്തമുള്ള യൂസർ"
+msgstr ""
 
 #. module: website_slides
 #. openerp-web
@@ -4670,7 +4669,7 @@ msgstr "സാമ്പിൾ"
 #: code:addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 #, python-format
 msgid "Save"
-msgstr "സേവ്"
+msgstr ""
 
 #. module: website_slides
 #. openerp-web
@@ -4744,7 +4743,7 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__access_token
 msgid "Security Token"
-msgstr "സെക്യൂരിറ്റി ടോക്കൺ"
+msgstr ""
 
 #. module: website_slides
 #: code:addons/website_slides/models/res_users.py:0
@@ -4791,7 +4790,7 @@ msgstr "അയക്കുക"
 #: code:addons/website_slides/static/src/xml/website_slides_share.xml:0
 #, python-format
 msgid "Send Email"
-msgstr "ഇമെയിൽ അയയ്ക്കുക"
+msgstr ""
 
 #. module: website_slides
 #: model:mail.template,description:website_slides.mail_template_channel_completed
@@ -4838,7 +4837,7 @@ msgstr "സെറ്റിങ്ങ്സ് "
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_fullscreen
 msgid "Share"
-msgstr "ഷെയർ"
+msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_sidebar
@@ -5034,7 +5033,7 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_slide_slide
 msgid "Slides"
-msgstr "സ്ലൈഡുകൾ"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_slide__slide_type__slides
@@ -5055,7 +5054,7 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_slides_cards
 msgid "Sort by"
-msgstr "സോർട് ബൈ"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__source_type
@@ -5096,7 +5095,7 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_invite__subject
 msgid "Subject"
-msgstr "വിഷയം"
+msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_invite_view_form
@@ -5108,7 +5107,7 @@ msgstr ""
 #: code:addons/website_slides/static/src/js/slides_course_unsubscribe.js:0
 #, python-format
 msgid "Subscribe"
-msgstr "സബ്സ്ക്രൈബ്"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__user_membership_id
@@ -5156,7 +5155,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_tag_form
 #, python-format
 msgid "Tag"
-msgstr "ടാഗ്"
+msgstr ""
 
 #. module: website_slides
 #. openerp-web
@@ -5175,7 +5174,7 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_tag_group_view_form
 msgid "Tag Name"
-msgstr "ടാഗ് പേര്"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel_tag__color
@@ -5218,13 +5217,13 @@ msgstr ""
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_category_demo_4_1
 msgid "Technical Drawings"
-msgstr "സാങ്കേതിക ഡ്രോയിംഗുകൾ"
+msgstr ""
 
 #. module: website_slides
 #: model_terms:slide.slide,description:website_slides.slide_slide_demo_4_10
 #: model_terms:slide.slide,description:website_slides.slide_slide_demo_4_11
 msgid "Technical drawing"
-msgstr "സാങ്കേതിക ഡ്രോയിംഗ്"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_category_demo_5_2
@@ -5301,8 +5300,6 @@ msgid ""
 "The course is accessible by anyone : the users don't need to join the "
 "channel to access the content of the course."
 msgstr ""
-"കോഴ്‌സ് ആർക്കും ആക്‌സസ് ചെയ്യാവുന്നതാണ്: കോഴ്‌സിന്റെ ഉള്ളടക്കം ആക്‌സസ് "
-"ചെയ്യുന്നതിന് ഉപയോക്താക്കൾ ചാനലിൽ ചേരേണ്ടതില്ല."
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel__description_short
@@ -5329,7 +5326,7 @@ msgstr ""
 #: model:ir.model.fields,help:website_slides.field_slide_channel_tag_group__website_url
 #: model:ir.model.fields,help:website_slides.field_slide_slide__website_url
 msgid "The full URL to access the document through the website."
-msgstr "വെബ്‌സൈറ്റ് വഴി ഡോക്യുമെന്റ് ആക്‌സസ് ചെയ്യാനുള്ള പൂർണ്ണ URL."
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_slide__can_self_mark_completed
@@ -5365,7 +5362,7 @@ msgstr ""
 #. module: website_slides
 #: model:slide.tag,name:website_slides.slide_tag_demo_theory
 msgid "Theory"
-msgstr "സിദ്ധാന്തം"
+msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_content_detailed
@@ -5490,7 +5487,7 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_tree
 msgid "Total"
-msgstr "ആകെ"
+msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_tree_report
@@ -5610,7 +5607,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.course_slides_list_slide
 #: model_terms:ir.ui.view,arch_db:website_slides.lesson_card
 msgid "Unpublished"
-msgstr "പ്രസിദ്ധീകരിക്കാത്തത്"
+msgstr ""
 
 #. module: website_slides
 #. openerp-web
@@ -5725,7 +5722,7 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.courses_home
 msgid "View"
-msgstr "വ്യൂ"
+msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_slides_cards
@@ -5828,7 +5825,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_slides.field_slide_embed__website_name
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__website_id
 msgid "Website"
-msgstr "വെബ്‌സൈറ്റ് "
+msgstr "വെബ്സൈറ്റ്"
 
 #. module: website_slides
 #: model:ir.model.fields.selection,name:website_slides.selection__gamification_challenge__challenge_category__slides
@@ -5839,14 +5836,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__website_message_ids
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__website_message_ids
 msgid "Website Messages"
-msgstr "വെബ്സൈറ്റ് സന്ദേശങ്ങൾ"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__website_url
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_tag_group__website_url
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__website_url
 msgid "Website URL"
-msgstr "വെബ്സൈറ്റ് URL"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel__website_message_ids
@@ -5912,8 +5909,6 @@ msgstr ""
 #, python-format
 msgid "What types of documents do we support?"
 msgstr ""
-"ഏത് തരത്തിലുള്ള ഡോക്യൂമെന്റസ് ഞങ്ങൾ പിന്തുണയ്ക്കുന്നത്?\n"
-" "
 
 #. module: website_slides
 #: model:slide.answer,text_value:website_slides.slide_slide_demo_1_4_question_1_2
@@ -5961,7 +5956,7 @@ msgstr ""
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_slide_demo_4_1
 msgid "Wood Types"
-msgstr "തടി തരങ്ങൾ"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_category_demo_3_0
@@ -6171,12 +6166,12 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_slide__video_source_type__youtube
 msgid "YouTube"
-msgstr "യൂട്യൂബ്"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields.selection,name:website_slides.selection__slide_slide__slide_type__youtube_video
 msgid "YouTube Video"
-msgstr "യൂട്യൂബ് വീഡിയോ"
+msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.mail_notification_channel_invite

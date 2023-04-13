@@ -10,7 +10,6 @@
 # Marcin Młynarczyk <mlynarczyk@gmail.com>, 2022
 # Andrzej Wiśniewski <a.wisniewski@hadron.eu.com>, 2022
 # Martin Trigaux, 2022
-# Tadeusz Karpiński <tadeuszkarpinski@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
@@ -18,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-09 14:06+0000\n"
 "PO-Revision-Date: 2022-09-22 05:54+0000\n"
-"Last-Translator: Tadeusz Karpiński <tadeuszkarpinski@gmail.com>, 2023\n"
+"Last-Translator: Martin Trigaux, 2022\n"
 "Language-Team: Polish (https://www.transifex.com/odoo/teams/41243/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,7 +30,7 @@ msgstr ""
 #: code:addons/pos_cache/static/src/js/Chrome.js:0
 #, python-format
 msgid "All products are loaded."
-msgstr "Wszystkie produkty są załadowane."
+msgstr ""
 
 #. module: pos_cache
 #: model:ir.model.fields,field_description:pos_cache.field_pos_cache__cache
@@ -92,24 +91,24 @@ msgstr "Data ostatniej aktualizacji"
 #. module: pos_cache
 #: model:ir.model.fields,field_description:pos_cache.field_pos_config__limit_products_per_request
 msgid "Limit Products Per Request"
-msgstr "Limit produktów na zapytanie"
+msgstr ""
 
 #. module: pos_cache
 #: model:ir.model.fields,field_description:pos_cache.field_pos_config__oldest_cache_time
 msgid "Oldest cache time"
-msgstr "Najstarszy czas cache"
+msgstr ""
 
 #. module: pos_cache
 #: model:ir.actions.server,name:pos_cache.refresh_pos_cache_cron_ir_actions_server
 #: model:ir.cron,cron_name:pos_cache.refresh_pos_cache_cron
 #: model:ir.cron,name:pos_cache.refresh_pos_cache_cron
 msgid "PoS: refresh cache"
-msgstr "PoS: odśwież cache"
+msgstr ""
 
 #. module: pos_cache
 #: model:ir.model,name:pos_cache.model_pos_cache
 msgid "Point of Sale Cache"
-msgstr "Cache Punktu Sprzedaży"
+msgstr ""
 
 #. module: pos_cache
 #: model:ir.model,name:pos_cache.model_pos_config
@@ -124,9 +123,9 @@ msgstr "Sesja punktu sprzedaży"
 #. module: pos_cache
 #: model:ir.model.fields,field_description:pos_cache.field_pos_cache__product_domain
 msgid "Product Domain"
-msgstr "Domena produktu"
+msgstr ""
 
 #. module: pos_cache
 #: model:ir.model.fields,field_description:pos_cache.field_pos_cache__product_fields
 msgid "Product Fields"
-msgstr "Pola produktu"
+msgstr ""

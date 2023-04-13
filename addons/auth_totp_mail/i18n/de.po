@@ -4,7 +4,6 @@
 # 
 # Translators:
 # Martin Trigaux, 2022
-# Larissa Manderfeld, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-04 09:24+0000\n"
 "PO-Revision-Date: 2022-09-22 05:45+0000\n"
-"Last-Translator: Larissa Manderfeld, 2023\n"
+"Last-Translator: Martin Trigaux, 2022\n"
 "Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -103,7 +102,7 @@ msgstr "Konfiguration der Zwei-Faktor-Authentifizierung öffnen"
 #. module: auth_totp_mail
 #: model:mail.template,name:auth_totp_mail.mail_template_totp_invite
 msgid "Settings: 2Fa Invitation"
-msgstr "Einstellungen: 2-Fa-Einladung"
+msgstr ""
 
 #. module: auth_totp_mail
 #: model:ir.model,name:auth_totp_mail.model_res_users

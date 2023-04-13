@@ -8,16 +8,13 @@ const { Component } = owl;
 class OpenMoveWidget extends Component {
     setup() {
         super.setup();
+        this.orm = useService("orm");
         this.action = useService("action");
     }
 
     async openMove(ev) {
-        this.action.doActionButton({
-            type: "object",
-            resId: this.props.record.resId,
-            name: "action_open_business_doc",
-            resModel: "account.move.line",
-        });
+        const action = await this.orm.call("account.move.line", "action_open_business_doc", [this.props.record.resId], {});
+        this.action.doAction(action);
     }
 }
 

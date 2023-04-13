@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2015-Present Webkul Software Pvt. Ltd. (<https://webkul.com/>) -->
+<!-- See LICENSE file for full copyright and licensing details. -->
+<!-- "License URL : <https://store.webkul.com/license.html/>" -->
+<odoo>
+	<data noupdate="1">
+		<record id="shopify_channel" forcecreate='True' model="multi.channel.sale">
+			<field name="name">Shopify</field>
+			<field name="channel">shopify</field>
+			<field name="environment">sandbox</field>
+			<field name="debug">enable</field>
+			<field name="color">#67C894</field>
+            <field name="image" type="base64" file="odoo_multi_channel_sale/static/description/instance_images/Shopify-connector-thumbnail.png"/>
+		</record>
+	</data>
+</odoo>

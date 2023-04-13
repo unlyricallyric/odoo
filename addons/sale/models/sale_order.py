@@ -337,6 +337,10 @@ class SaleOrder(models.Model):
     @api.depends('partner_id')
     def _compute_partner_invoice_id(self):
         for order in self:
+            print("################## partner ##########################")
+            print(order.partner_id)
+            print("################## address ##########################")
+            print(order.partner_id.address_get(['invoice']))
             order.partner_invoice_id = order.partner_id.address_get(['invoice'])['invoice'] if order.partner_id else False
 
     @api.depends('partner_id')

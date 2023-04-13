@@ -15,7 +15,6 @@
 # Hamid Darabi, 2023
 # سید محمد آذربرا <mohammadazarbara98@gmail.com>, 2023
 # Hamed Mohammadi <hamed@dehongi.com>, 2023
-# Ali Reza Feizi Derakhshi, 2023
 # fardin mardani, 2023
 # 
 msgid ""
@@ -1154,7 +1153,7 @@ msgstr "رنگ"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Columns"
-msgstr "ستون‌ها"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.s_dynamic_snippet_products_template_options
@@ -2176,7 +2175,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Mondial Relay"
-msgstr "رله موندیال"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings__module_delivery_mondialrelay
@@ -2835,7 +2834,7 @@ msgstr "قالب محصول"
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_product_template_attribute_line
 msgid "Product Template Attribute Line"
-msgstr "خط ویژگی الگوی محصول"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_public_category__product_tmpl_ids
@@ -3189,7 +3188,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_sale.sale_report_view_search_website
 #, python-format
 msgid "Sales"
-msgstr "فروش ها"
+msgstr "اصناف مرتبط (سقف‌کاذب، شرکتهای BMS, مجری تاسیسات ...)"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.sale_report_view_pivot_website
@@ -3939,24 +3938,24 @@ msgstr "گونه ها"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Vertical (2/3)"
-msgstr "عمودی (2/3)"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_image__video_url
 #: model_terms:ir.ui.view,arch_db:website_sale.view_product_image_form
 msgid "Video URL"
-msgstr "URL ویدیو"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.cart_popover
 msgid "View Cart ("
-msgstr "مشاهده سبد خرید ("
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.dynamic_filter_template_product_product_banner
 #: model_terms:ir.ui.view,arch_db:website_sale.dynamic_filter_template_product_product_centered
 msgid "View Product"
-msgstr "مشاهده محصول"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.dynamic_filter_template_product_product_view_detail
@@ -3968,7 +3967,7 @@ msgstr ""
 #: code:addons/website_sale/static/src/xml/website_sale_image_viewer.xml:0
 #, python-format
 msgid "Viewer"
-msgstr "بیننده"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_attribute__visibility
@@ -3994,17 +3993,17 @@ msgstr "صفحات بازدید شده"
 #: model:ir.model.fields,field_description:website_sale.field_website_visitor__product_ids
 #: model_terms:ir.ui.view,arch_db:website_sale.website_sale_visitor_view_kanban
 msgid "Visited Products"
-msgstr "محصولات بازدید شده"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.website_sale_visitor_page_view_graph
 msgid "Visitor Product Views"
-msgstr "بازدیدکنندگان محصول"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.website_sale_visitor_page_view_tree
 msgid "Visitor Product Views History"
-msgstr "تاریخچه بازدیدهای محصول بازدیدکنندگان"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_sale_order__shop_warning
@@ -4032,7 +4031,7 @@ msgstr ""
 #: code:addons/website_sale/static/src/js/website_sale_validate.js:0
 #, python-format
 msgid "We are waiting for confirmation from the bank or the payment provider"
-msgstr "ما منتظر تایید بانک یا ارائه دهنده پرداخت هستیم"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_website
@@ -4057,28 +4056,28 @@ msgstr "تارنما"
 #: model:ir.model.fields,field_description:website_sale.field_product_product__public_categ_ids
 #: model:ir.model.fields,field_description:website_sale.field_product_template__public_categ_ids
 msgid "Website Product Category"
-msgstr "دسته بندی محصولات وب سایت"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_public_category_form_view
 msgid "Website Public Categories"
-msgstr "دسته بندی های عمومی وب سایت"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_product__website_sequence
 #: model:ir.model.fields,field_description:website_sale.field_product_template__website_sequence
 msgid "Website Sequence"
-msgstr "توالی وب سایت"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.actions.act_url,name:website_sale.action_open_website
 msgid "Website Shop"
-msgstr "فروشگاه وب سایت"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_website_snippet_filter
 msgid "Website Snippet Filter"
-msgstr "فیلتر قطعه وب سایت"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_product__website_url
@@ -4121,14 +4120,11 @@ msgstr "تصویر opengraph وب سایت"
 #: model:ir.model.fields,help:website_sale.field_account_payment__website_id
 msgid "Website through which this invoice was created for eCommerce orders."
 msgstr ""
-"وب سایتی که از طریق آن این فاکتور برای سفارشات تجارت الکترونیک ایجاد شده "
-"است."
 
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_sale_order__website_id
 msgid "Website through which this order was placed for eCommerce orders."
 msgstr ""
-"وب سایتی که از طریق آن این سفارش برای سفارشات تجارت الکترونیک انجام شده است."
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_crm_team__website_ids
@@ -4138,7 +4134,7 @@ msgstr "وبسایتها"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "What should be done on \"Add to Cart\"?"
-msgstr "در «افزودن به سبد خرید» چه باید کرد؟"
+msgstr ""
 
 #. module: website_sale
 #. odoo-python
@@ -4150,7 +4146,7 @@ msgstr "وایت برد"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings__module_website_sale_wishlist
 msgid "Wishlists"
-msgstr "لیست آرزوها"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -4159,23 +4155,20 @@ msgid ""
 "(from Sales tab). With the second one, you set prices and computation rules "
 "from Pricelists."
 msgstr ""
-"با حالت اول می توانید چندین قیمت را در فرم پیکربندی محصول (از تب فروش) تعیین"
-" کنید. با مورد دوم، قیمت ها و قوانین محاسباتی را از لیست قیمت ها تنظیم می "
-"کنید."
 
 #. module: website_sale
 #. odoo-python
 #: code:addons/website_sale/models/product_pricelist.py:0
 #, python-format
 msgid "With this action, '%s' website would not have any pricelist available."
-msgstr "با این اقدام،'%s' وب سایت '' هیچ لیست قیمتی در دسترس نخواهد داشت."
+msgstr ""
 
 #. module: website_sale
 #. odoo-python
 #: code:addons/website_sale/models/website_snippet_filter.py:0
 #, python-format
 msgid "With three feet"
-msgstr "با سه پا(قدم)"
+msgstr ""
 
 #. module: website_sale
 #. odoo-javascript
@@ -4195,17 +4188,17 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:website_sale.sale_report_action_carts
 #: model_terms:ir.actions.act_window,help:website_sale.sale_report_action_dashboard
 msgid "You don't have any order from the website"
-msgstr "شما هیچ سفارشی از وب سایت ندارید"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.actions.act_window,help:website_sale.sale_order_action_to_invoice
 msgid "You don't have any order to invoice from the website"
-msgstr "شما هیچ سفارشی برای فاکتور از وب سایت ندارید"
+msgstr ""
 
 #. module: website_sale
 #: model:mail.template,subject:website_sale.mail_template_sale_cart_recovery
 msgid "You left items in your cart!"
-msgstr "شما موارد را در سبد خرید خود جا گذاشته اید!"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.actions.act_window,help:website_sale.action_view_abandoned_tree
@@ -4213,13 +4206,11 @@ msgid ""
 "You'll find here all the carts abandoned by your visitors.\n"
 "                If they completed their address, you should send them a recovery email!"
 msgstr ""
-"در اینجا تمام چرخ دستی های رها شده توسط بازدیدکنندگان خود را خواهید یافت.\n"
-"اگر آدرس خود را تکمیل کردند، باید یک ایمیل بازیابی برای آنها ارسال کنید!"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
 msgid "Your Address"
-msgstr "نشانی شما"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.alternative_products
@@ -4227,15 +4218,13 @@ msgid ""
 "Your Dynamic Snippet will be displayed here...\n"
 "                                This message is displayed because youy did not provide both a filter and a template to use."
 msgstr ""
-"قطعه پویا شما در اینجا نمایش داده می شود...\n"
-"این پیام به این دلیل نمایش داده می شود که شما هم فیلتر و هم الگوی استفاده را ارائه نکرده اید."
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.cart_lines
 #: model_terms:ir.ui.view,arch_db:website_sale.cart_popover
 #: model_terms:ir.ui.view,arch_db:website_sale.cart_summary
 msgid "Your cart is empty!"
-msgstr "سبد خرید شما خالی است!"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.payment_confirmation_status
@@ -4245,12 +4234,12 @@ msgstr "این پرداخت مجاز است."
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.cart
 msgid "Your previous cart has already been completed."
-msgstr "سبد خرید قبلی شما قبلا تکمیل شده است."
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
 msgid "Zip Code"
-msgstr "کد پستی"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.add_grid_or_list_option
@@ -4339,7 +4328,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
 msgid "new address"
-msgstr "آدرس جدید"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
@@ -4354,4 +4343,4 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.confirmation
 msgid "to follow your order."
-msgstr "تا سفارش شما را دنبال کند"
+msgstr ""

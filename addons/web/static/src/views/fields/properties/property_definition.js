@@ -181,14 +181,9 @@ export class PropertyDefinition extends Component {
         const propertyDefinition = {
             ...this.state.propertyDefinition,
             type: newType,
+            default: false,
+            value: false,
         };
-        if (["integer", "float"].includes(newType)) {
-            propertyDefinition.value = 0;
-            propertyDefinition.default = 0;
-        } else {
-            propertyDefinition.value = false;
-            propertyDefinition.default = false;
-        }
 
         delete propertyDefinition.comodel;
 

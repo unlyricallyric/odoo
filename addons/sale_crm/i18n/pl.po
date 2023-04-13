@@ -16,7 +16,6 @@
 # Tomasz Leppich <t.leppich@gmail.com>, 2022
 # Piotr Szlązak <szlazakpiotr@gmail.com>, 2022
 # Maksym <ms@myodoo.pl>, 2023
-# Tadeusz Karpiński <tadeuszkarpinski@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
@@ -24,7 +23,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-20 09:02+0000\n"
 "PO-Revision-Date: 2022-09-22 05:54+0000\n"
-"Last-Translator: Tadeusz Karpiński <tadeuszkarpinski@gmail.com>, 2023\n"
+"Last-Translator: Maksym <ms@myodoo.pl>, 2023\n"
 "Language-Team: Polish (https://www.transifex.com/odoo/teams/41243/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,7 +39,7 @@ msgstr "<span class=\"o_stat_text\"> Zamówień</span>"
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_crm_quotation_partner__lead_id
 msgid "Associated Lead"
-msgstr "Powiązany lead"
+msgstr ""
 
 #. module: sale_crm
 #: model_terms:ir.ui.view,arch_db:sale_crm.crm_quotation_partner_view_form
@@ -60,12 +59,12 @@ msgstr "Utwórz nowego klienta"
 #. module: sale_crm
 #: model:ir.model,name:sale_crm.model_crm_quotation_partner
 msgid "Create new or use existing Customer on new Quotation"
-msgstr "Utwórz nowego lub użyj istniejącego klienta w nowej ofercie"
+msgstr ""
 
 #. module: sale_crm
 #: model_terms:ir.ui.view,arch_db:sale_crm.crm_case_form_view_oppor
 msgid "Create new quotation"
-msgstr "Utwórz nową ofertę"
+msgstr ""
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_crm_quotation_partner__create_uid
@@ -152,7 +151,7 @@ msgstr "Liczba Ofert"
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_crm_lead__sale_order_count
 msgid "Number of Sale Orders"
-msgstr "Liczba zamówień sprzedaży"
+msgstr ""
 
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_sale_order__opportunity_id
@@ -172,7 +171,7 @@ msgstr "Oferta"
 #. module: sale_crm
 #: model:ir.model.fields,field_description:sale_crm.field_crm_quotation_partner__action
 msgid "Quotation Customer"
-msgstr "Klient oferty"
+msgstr ""
 
 #. module: sale_crm
 #: model_terms:ir.ui.view,arch_db:sale_crm.crm_case_form_view_oppor
@@ -225,4 +224,4 @@ msgstr "Użytkownik"
 #: code:addons/sale_crm/wizard/crm_opportunity_to_quotation.py:0
 #, python-format
 msgid "You can only apply this action from a lead."
-msgstr "Możesz zastosować tą akcję tylko z leada"
+msgstr ""

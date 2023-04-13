@@ -11,7 +11,6 @@
 # Ivan Kropotkin <yelizariev@itpp.dev>, 2022
 # Martin Trigaux, 2022
 # ILMIR <karamov@it-projects.info>, 2022
-# Alena Vlasova, 2023
 # Сергей Шебанин <sergey@shebanin.ru>, 2023
 # 
 msgid ""
@@ -130,12 +129,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_distribution_model_form_view
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_distribution_model_tree_view
 msgid "Analytic Distribution Model"
-msgstr "Аналитическая модель распределения"
+msgstr ""
 
 #. module: analytic
 #: model:ir.actions.act_window,name:analytic.action_analytic_distribution_model
 msgid "Analytic Distribution Models"
-msgstr "Аналитические модели распределения"
+msgstr ""
 
 #. module: analytic
 #. odoo-javascript
@@ -176,12 +175,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_applicability__analytic_plan_id
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_line_filter
 msgid "Analytic Plan"
-msgstr "Аналитический раздел"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model,name:analytic.model_account_analytic_applicability
 msgid "Analytic Plan's Applicabilities"
-msgstr "Применимость аналитических раделов"
+msgstr ""
 
 #. module: analytic
 #: model:ir.actions.act_window,name:analytic.account_analytic_plan_action
@@ -189,7 +188,7 @@ msgstr "Применимость аналитических раделов"
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_plan_form_view
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_plan_tree_view
 msgid "Analytic Plans"
-msgstr "Аналитические разделы"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__analytic_precision
@@ -214,7 +213,7 @@ msgstr ""
 #: code:addons/analytic/models/analytic_plan.py:0
 #, python-format
 msgid "Analytical Plans"
-msgstr "Аналитические разделы"
+msgstr ""
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_applicability__applicability
@@ -402,7 +401,7 @@ msgstr ""
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__default_applicability
 msgid "Default Applicability"
-msgstr "Применимость по умолчанию"
+msgstr ""
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_deltapc
@@ -684,7 +683,7 @@ msgstr ""
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__parent_id
 msgid "Parent"
-msgstr "Родительский"
+msgstr "Родитель"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__parent_path
@@ -706,7 +705,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__plan_id
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__plan_id
 msgid "Plan"
-msgstr "Раздел"
+msgstr " В план"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__unit_amount
@@ -722,7 +721,7 @@ msgstr "Ссылка"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_rd_department
 msgid "Research & Development"
-msgstr "Исследование и разработка"
+msgstr ""
 
 #. module: analytic
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action
@@ -790,7 +789,7 @@ msgstr ""
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_plan_form_view
 msgid "Subplans"
-msgstr "Дочерние"
+msgstr ""
 
 #. module: analytic
 #. odoo-python

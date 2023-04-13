@@ -29,28 +29,14 @@ const NavbarLinkPopoverWidget = weWidgets.LinkPopoverWidget.extend({
      *
      * @override
      */
-    async start() {
-        const _super = this._super.bind(this);
-
-        this.isWebsiteDesigner = await this._rpc({
-            'model': 'res.users',
-            'method': 'has_group',
-            'args': ['website.group_website_designer'],
-        });
-        const $removeLink = this.$('.o_we_remove_link');
+    start() {
         // remove link has no sense on navbar menu links, instead show edit menu
-        if (this.isWebsiteDesigner) {
-            const $anchor = $('<a/>', {
-                href: '#', class: 'ms-2 js_edit_menu', title: _t('Edit Menu'),
-                'data-bs-placement': 'top', 'data-bs-toggle': 'tooltip',
-            }).append($('<i/>', {class: 'fa fa-sitemap'}));
-            $removeLink.replaceWith($anchor);
-        } else {
-            this.$('.o_we_edit_link').remove();
-            $removeLink.remove();
-        }
-
-        return _super(...arguments);
+        const $anchor = $('<a/>', {
+            href: '#', class: 'ms-2 js_edit_menu', title: _t('Edit Menu'),
+            'data-bs-placement': 'top', 'data-bs-toggle': 'tooltip',
+        }).append($('<i/>', {class: 'fa fa-sitemap'}));
+        this.$('.o_we_remove_link').replaceWith($anchor);
+        return this._super(...arguments);
     },
 
     //--------------------------------------------------------------------------
@@ -91,7 +77,6 @@ const NavbarLinkPopoverWidget = weWidgets.LinkPopoverWidget.extend({
                 });
             },
         });
-        this.popover.hide();
     },
     /**
      * Opens the menu tree editor. On menu editor save, current page changes

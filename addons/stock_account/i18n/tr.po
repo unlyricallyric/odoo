@@ -15,7 +15,7 @@
 # Murat Kaplan <muratk@projetgrup.com>, 2022
 # Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2022
 # Umur Akın <umura@projetgrup.com>, 2022
-# Tugay Hatıl <tugayh@projetgrup.com>, 2023
+# Tugay Hatıl <tugayh@projetgrup.com>, 2022
 # 
 msgid ""
 msgstr ""
@@ -23,7 +23,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-15 12:49+0000\n"
 "PO-Revision-Date: 2022-09-22 05:55+0000\n"
-"Last-Translator: Tugay Hatıl <tugayh@projetgrup.com>, 2023\n"
+"Last-Translator: Tugay Hatıl <tugayh@projetgrup.com>, 2022\n"
 "Language-Team: Turkish (https://www.transifex.com/odoo/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,7 +43,7 @@ msgstr "Ürün maliyeti %(previous)s den  %(new_cost)s olarak güncellendi."
 #: code:addons/stock_account/models/stock_quant.py:0
 #, python-format
 msgid " [Accounted on %s]"
-msgstr "[%s'de hesaplandı]"
+msgstr ""
 
 #. module: stock_account
 #. odoo-python
@@ -73,8 +73,6 @@ msgid ""
 ")\n"
 "                            <small class=\"mx-2 fst-italic\">Use a negative added value to record a decrease in the product value</small>"
 msgstr ""
-")\n"
-"                            <small class=\"mx-2 fst-italic\">Ürün değerindeki bir düşüşü kaydetmek için negatif bir katma değer kullanın</small>"
 
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.view_category_property_form
@@ -192,8 +190,8 @@ msgid ""
 "Cannot find a stock input account for the product %s. You must define one on"
 " the product category, or on the location, before processing this operation."
 msgstr ""
-"%s ürünü için stok giriş hesabı bulunamadı. Bu işlemi yapmadan önce ürün "
-"kategorisi veya lokasyon üzerinden tanımlamanız gerekmektedir."
+"Bu ürün için bir stok giriş hesabı bulunamadı %s. Ürün kategorisi veya konum"
+" üzerinde bir stok giriş hesabı seçmeden bu operasyonu tamamlayamazsınız."
 
 #. module: stock_account
 #. odoo-python
@@ -204,8 +202,8 @@ msgid ""
 "on the product category, or on the location, before processing this "
 "operation."
 msgstr ""
-"%s ürünü için stok çıkış hesabı bulunamadı. Bu işlemi yapmadan önce ürün "
-"kategorisi veya lokasyon üzerinden tanımlamanız gerekmektedir."
+"Bu ürün için bir stok çıkış hesabı bulunamadı %s. Ürün kategorisi veya konum"
+" üzerinde bir stok giriş hesabı seçmeden bu operasyonu tamamlayamazsınız."
 
 #. module: stock_account
 #. odoo-python
@@ -221,7 +219,7 @@ msgstr ""
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.view_stock_quantity_history_inherit_stock_account
 msgid "Choose a date to get the valuation at that date"
-msgstr "Değerlemeyi o tarihte almak için bir tarih seçin"
+msgstr ""
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__company_id
@@ -258,8 +256,7 @@ msgstr "Maliyet Yöntemi"
 #: code:addons/stock_account/models/product.py:0
 #, python-format
 msgid "Costing method change for product category %s: from %s to %s."
-msgstr ""
-"%s ürün kategorisi için maliyetlendirme yöntemi değişikliği: %s'den %s'e"
+msgstr "%s ürün kategorisi için maliyetlendirme yöntemi değişikliği: - %s- %s"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__account_id
@@ -368,7 +365,7 @@ msgid ""
 " to %s."
 msgstr ""
 "Ürün kategorisindeki bir değişiklik nedeniyle (%sile %sarasında), %sürün "
-"şablonu için maliyet yöntemi değişti: %s'den %s'e."
+"şablonu için maliyet yöntemi değişti: %sile%s arasında."
 
 #. module: stock_account
 #: model:ir.model.fields.selection,name:stock_account.selection__product_category__property_cost_method__fifo
@@ -383,7 +380,7 @@ msgstr "Grupla ..."
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.view_inventory_valuation_search
 msgid "Has Remaining Qty"
-msgstr "Kalan Miktar Var"
+msgstr ""
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__id
@@ -424,7 +421,7 @@ msgstr "Fatura Satırı"
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__price_diff_value
 msgid "Invoice value correction with invoice currency"
-msgstr "Fatura para birimi ile fatura değeri düzeltmesi"
+msgstr ""
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__account_journal_id
@@ -510,7 +507,7 @@ msgstr ""
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_tree
 msgid "Moved Quantity"
-msgstr "Hareket Miktarı"
+msgstr ""
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__new_value
@@ -525,7 +522,7 @@ msgstr "Miktara göre yeni değer"
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_tree
 msgid "Open Valuation Layer"
-msgstr "Değerleme Katmanını Aç"
+msgstr ""
 
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_form
@@ -578,7 +575,7 @@ msgstr "Ürün Varyantı"
 #: code:addons/stock_account/models/product.py:0
 #, python-format
 msgid "Product value manually modified (from %s to %s)"
-msgstr "Manuel olarak değiştirilen ürün değeri ( %s'den %s'e)"
+msgstr "Manuel olarak değiştirilen ürün değeri (%sile %sarasında)"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__quantity
@@ -665,7 +662,7 @@ msgid ""
 msgstr ""
 "Standart Maliyet : Ürünler tanımlanan standart maliyetlerine göre değerlenir.\n"
 "Ortalama Maliyet (AVCO): Ürünler ağırlıklı ortalama maliyetine göre değerlenir.\n"
-"First in First Out (FIFO): Ürünler,  şirkete önce girenlerin, ilk önce de çıkacaklarını var sayar."
+"First in First Out (FIFO): Ürünler,  şirkete önce girenlerin, ilk önce de bırakacaklarını var sayar."
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_category__property_stock_account_input_categ_id
@@ -749,8 +746,6 @@ msgid ""
 "Technical field to correctly show the currently selected company's currency "
 "that corresponds to the totaled value of the product's valuation layers"
 msgstr ""
-"Ürünün değerleme katmanlarının toplam değerine karşılık gelen, halihazırda "
-"seçili olan şirketin para birimini doğru şekilde gösteren teknik alan"
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_stock_picking__country_code
@@ -798,8 +793,8 @@ msgid ""
 "The move lines are not in a consistent state: some are entering and other "
 "are leaving the company."
 msgstr ""
-"Stok hareketleri tutarlı bir durumda değil: bazıları şirkete giriyor ve "
-"diğerleri şirketten çıkıyor."
+"Hareket satırları istikrarlı bir durumda değildir: Bazıları girilir, "
+"diğerleri şirketten ayrılır."
 
 #. module: stock_account
 #. odoo-python
@@ -810,8 +805,9 @@ msgid ""
 "intercompany in a single step while they should go through the intercompany "
 "transit location."
 msgstr ""
-"Stok hareketleri tutarlı bir durumda değil: şirketler arası transit "
-"konumundan geçmeleri gerekirken tek adımda şirketler arası geçiş yapıyorlar."
+"Hareket çizgileri tutarlı bir durumda değil: şirketler arası geçiş "
+"konumundan geçmeleri gerektiğinde tek bir adımda şirketler arası ilişkiler "
+"yapıyorlar."
 
 #. module: stock_account
 #. odoo-python
@@ -821,8 +817,8 @@ msgid ""
 "The move lines are not in a consistent states: they do not share the same "
 "origin or destination company."
 msgstr ""
-"Stok hareketleri istikrarlı bir durumda değil: aynı başlangıcı ya da bitişi "
-"paylaşmıyorlar. "
+"Hareket satırları istikrarlı bir durumda değil: aynı başlangıcı ya da hedefi"
+" paylaşmıyorlar. "
 
 #. module: stock_account
 #: model_terms:ir.actions.act_window,help:stock_account.stock_valuation_layer_action
@@ -831,18 +827,16 @@ msgid ""
 "There are no valuation layers. Valuation layers are created when there are "
 "product moves that impact the valuation of the stock."
 msgstr ""
-"Değerleme katmanları yoktur. Stok değerlemesini etkileyen ürün hareketleri "
-"olduğunda değerleme katmanları oluşturulur."
 
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_report_tree
 msgid "Total Remaining Quantity"
-msgstr "Toplam Kalan Miktar"
+msgstr ""
 
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_report_tree
 msgid "Total Remaining Value"
-msgstr "Toplam Kalan Değer"
+msgstr ""
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_product__total_value
@@ -932,12 +926,12 @@ msgstr "Değerleme"
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_product__company_currency_id
 msgid "Valuation Currency"
-msgstr "Değerleme Para Birimi"
+msgstr ""
 
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.product_product_stock_tree_inherit_stock_account
 msgid "Valuation Report"
-msgstr "Değerlendirme raporu"
+msgstr ""
 
 #. module: stock_account
 #. odoo-javascript
@@ -945,14 +939,15 @@ msgstr "Değerlendirme raporu"
 #: model_terms:ir.ui.view,arch_db:stock_account.view_stock_quantity_history_inherit_stock_account
 #, python-format
 msgid "Valuation at Date"
-msgstr "Tarihte Değerleme"
+msgstr ""
 
 #. module: stock_account
 #. odoo-python
 #: code:addons/stock_account/models/product.py:0
 #, python-format
 msgid "Valuation method change for product category %s: from %s to %s."
-msgstr "%s ürün kategorisi için değerleme yöntemi değişikliği: - %s'den %s'e."
+msgstr ""
+"%s ürün kategorisi için değerleme yöntemi değişikliği: - %sile %sarasında."
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_quant__value
@@ -964,7 +959,7 @@ msgstr "Değer"
 #: code:addons/stock_account/static/src/stock_account_forecasted/forecasted_header.xml:0
 #, python-format
 msgid "Value On Hand:"
-msgstr "Eldeki Değer:"
+msgstr ""
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_product__value_svl

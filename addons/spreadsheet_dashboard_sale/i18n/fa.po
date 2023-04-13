@@ -8,7 +8,6 @@
 # Hamed Mohammadi <hamed@dehongi.com>, 2023
 # Martin Trigaux, 2023
 # Hanna Kheradroosta, 2023
-# fardin mardani, 2023
 # 
 msgid ""
 msgstr ""
@@ -16,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-10 10:23+0000\n"
 "PO-Revision-Date: 2022-09-29 09:44+0000\n"
-"Last-Translator: fardin mardani, 2023\n"
+"Last-Translator: Hanna Kheradroosta, 2023\n"
 "Language-Team: Persian (https://www.transifex.com/odoo/teams/41243/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -52,49 +51,49 @@ msgstr "میانگین سفارش"
 #: code:addons/spreadsheet_dashboard_sale/data/files/sales_dashboard.json:0
 #, python-format
 msgid "Average order amount"
-msgstr "میانگین مقدار سفارش"
+msgstr ""
 
 #. module: spreadsheet_dashboard_sale
 #. openerp-web
 #: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0
 #, python-format
 msgid "Best Category"
-msgstr "بهترین دسته"
+msgstr ""
 
 #. module: spreadsheet_dashboard_sale
 #. openerp-web
 #: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0
 #, python-format
 msgid "Best Seller"
-msgstr "بهترین فروشنده"
+msgstr ""
 
 #. module: spreadsheet_dashboard_sale
 #. openerp-web
 #: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0
 #, python-format
 msgid "Best Sellers by Revenue"
-msgstr "پرفروش ترین ها بر اساس درآمد"
+msgstr ""
 
 #. module: spreadsheet_dashboard_sale
 #. openerp-web
 #: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0
 #, python-format
 msgid "Best Sellers by Units Sold"
-msgstr "پرفروش ترین ها بر اساس واحدهای فروخته شده"
+msgstr ""
 
 #. module: spreadsheet_dashboard_sale
 #. openerp-web
 #: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0
 #, python-format
 msgid "Best Selling Categories"
-msgstr "دسته بندی های پرفروش"
+msgstr ""
 
 #. module: spreadsheet_dashboard_sale
 #. openerp-web
 #: code:addons/spreadsheet_dashboard_sale/data/files/product_dashboard.json:0
 #, python-format
 msgid "Best Selling Products"
-msgstr "پرفروش ترین محصولات"
+msgstr ""
 
 #. module: spreadsheet_dashboard_sale
 #. openerp-web

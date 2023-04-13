@@ -51,28 +51,28 @@ msgstr "Päivämäärä"
 #: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
 #, python-format
 msgid "Event by Organizer"
-msgstr "Tapahtuma järjestäjän mukaan"
+msgstr ""
 
 #. module: spreadsheet_dashboard_event_sale
 #. openerp-web
 #: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
 #, python-format
 msgid "Event by Tags"
-msgstr "Tapahtuma tunnisteiden mukaan"
+msgstr ""
 
 #. module: spreadsheet_dashboard_event_sale
 #. openerp-web
 #: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
 #, python-format
 msgid "Event by Template"
-msgstr "Tapahtuma mallin mukaan"
+msgstr ""
 
 #. module: spreadsheet_dashboard_event_sale
 #. openerp-web
 #: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
 #, python-format
 msgid "Event by Venue"
-msgstr "Tapahtuma tapahtumapaikan mukaan"
+msgstr ""
 
 #. module: spreadsheet_dashboard_event_sale
 #. openerp-web
@@ -91,7 +91,7 @@ msgstr "Tapahtumat"
 #: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
 #, python-format
 msgid "Events Status"
-msgstr "Tapahtumien tila"
+msgstr ""
 
 #. module: spreadsheet_dashboard_event_sale
 #. openerp-web
@@ -158,28 +158,28 @@ msgstr "Malli"
 #: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
 #, python-format
 msgid "Top Organizers"
-msgstr "Parhaat järjestäjät"
+msgstr ""
 
 #. module: spreadsheet_dashboard_event_sale
 #. openerp-web
 #: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
 #, python-format
 msgid "Top Tags"
-msgstr "Parhaat tunnisteet"
+msgstr ""
 
 #. module: spreadsheet_dashboard_event_sale
 #. openerp-web
 #: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
 #, python-format
 msgid "Top Templates"
-msgstr "Parhaat mallit"
+msgstr ""
 
 #. module: spreadsheet_dashboard_event_sale
 #. openerp-web
 #: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
 #, python-format
 msgid "Top Venues"
-msgstr "Parhaat tapahtumapaikat"
+msgstr ""
 
 #. module: spreadsheet_dashboard_event_sale
 #. openerp-web
@@ -208,14 +208,14 @@ msgstr "osallistujien määrä - edellinen"
 #: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
 #, python-format
 msgid "events - current"
-msgstr "tapahtumat - nykyinen"
+msgstr ""
 
 #. module: spreadsheet_dashboard_event_sale
 #. openerp-web
 #: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
 #, python-format
 msgid "events - previous"
-msgstr "tapahtumat - edellinen"
+msgstr ""
 
 #. module: spreadsheet_dashboard_event_sale
 #. openerp-web
@@ -231,11 +231,11 @@ msgstr "edellisen kauden jälkeen"
 #: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
 #, python-format
 msgid "untaxed revenue - current"
-msgstr "verottomat tulot - nykyinen"
+msgstr ""
 
 #. module: spreadsheet_dashboard_event_sale
 #. openerp-web
 #: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
 #, python-format
 msgid "untaxed revenue - previous"
-msgstr "verottomat tulot - edellinen"
+msgstr ""

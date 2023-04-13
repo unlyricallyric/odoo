@@ -15,7 +15,9 @@
 # Nadir Gazioglu <nadirgazioglu@gmail.com>, 2022
 # Murat Durmuş <muratd@projetgrup.com>, 2022
 # Ozlem Cikrikci <ozlemc@eskayazilim.com.tr>, 2022
+# Halil, 2022
 # Güven YILMAZ <guvenyilmaz@outlook.com.tr>, 2022
+# Tugay Hatıl <tugayh@projetgrup.com>, 2022
 # Buket Şeker <buket_skr@hotmail.com>, 2022
 # abc Def <hdogan1974@gmail.com>, 2022
 # Ayhan KIZILTAN <akiziltan76@hotmail.com>, 2022
@@ -23,9 +25,7 @@
 # Martin Trigaux, 2022
 # Murat Kaplan <muratk@projetgrup.com>, 2022
 # Ediz Duman <neps1192@gmail.com>, 2023
-# Halil, 2023
 # Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2023
-# Tugay Hatıl <tugayh@projetgrup.com>, 2023
 # 
 msgid ""
 msgstr ""
@@ -33,7 +33,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-02 10:33+0000\n"
 "PO-Revision-Date: 2022-09-22 05:54+0000\n"
-"Last-Translator: Tugay Hatıl <tugayh@projetgrup.com>, 2023\n"
+"Last-Translator: Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2023\n"
 "Language-Team: Turkish (https://www.transifex.com/odoo/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -100,22 +100,20 @@ msgid ""
 "#{record.milestone_count_reached.value} Milestones reached out of "
 "#{record.milestone_count.value}"
 msgstr ""
-"#{record.milestone_count_reached.value} Milestones reached out of "
-"#{record.milestone_count.value}"
 
 #. module: project
 #. odoo-python
 #: code:addons/project/models/project.py:0
 #, python-format
 msgid "%(name)s"
-msgstr "%(name)s"
+msgstr ""
 
 #. module: project
 #. odoo-python
 #: code:addons/project/models/project.py:0
 #, python-format
 msgid "%(name)s's Burndown Chart"
-msgstr "%(name)s's Burndown Chart"
+msgstr ""
 
 #. module: project
 #. odoo-python
@@ -585,7 +583,7 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "<i class=\"fa fa-warning\"/>&amp;nbsp;"
-msgstr "<i class=\"fa fa-warning\"/>&amp;nbsp;"
+msgstr ""
 
 #. module: project
 #. odoo-python
@@ -661,7 +659,7 @@ msgstr "<span class=\"o_stat_text\">Son Değerlendirme</span>"
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_form
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "<span class=\"o_stat_text\">Sub-tasks</span>"
-msgstr "<span class=\"o_stat_text\">Alt görevler</span>"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_milestone_view_form
@@ -793,7 +791,7 @@ msgstr "E-Posta Kabul Etme"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__access_instruction_message
 msgid "Access Instruction Message"
-msgstr "Erişim Talimatı Mesajı"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_share_wizard__access_mode
@@ -1006,9 +1004,6 @@ msgid ""
 "Track the costs and revenues of your task by setting its analytic account on your related documents (e.g. sales orders, invoices, purchase orders, vendor bills, expenses etc.).\n"
 "By default, the analytic account of the project is set. However, it can be changed on each task individually if necessary."
 msgstr ""
-"Bu görevin ve zaman çizelgelerinin bağlı olduğu analitik hesap.\n"
-"Analitik hesabını ilgili belgelerinizde (ör. satış siparişleri, faturalar, satın alma siparişleri, satıcı faturaları, giderler vb.) belirleyerek görevinizin maliyetlerini ve gelirlerini izleyin.\n"
-"Varsayılan olarak, projenin analitik hesabı ayarlanmıştır. Ancak, gerekirse her görevde ayrı ayrı değiştirilebilir."
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
@@ -1022,15 +1017,12 @@ msgid ""
 "Analyze how quickly your team is completing your project's tasks and check "
 "if everything is progressing according to plan."
 msgstr ""
-"Ekibinizin projenizin görevlerini ne kadar hızlı tamamladığını analiz edin "
-"ve her şeyin plana göre ilerleyip ilerlemediğini kontrol edin."
 
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.action_project_task_user_tree
 msgid ""
 "Analyze the progress of your projects and the performance of your employees."
 msgstr ""
-"Projelerinizin ilerleyişini ve çalışanlarınızın performansını analiz edin."
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__ancestor_id
@@ -1038,7 +1030,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.view_task_project_user_search
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Ancestor Task"
-msgstr "Ata Görevi"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_month__april
@@ -1080,7 +1072,6 @@ msgstr "Arşivlendi"
 #, python-format
 msgid "Archived tasks cannot be recurring. Please unarchive the task first."
 msgstr ""
-"Arşivlenen görevler tekrar edilemez. Lütfen önce görevi arşivden çıkarın."
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_task_type_delete_confirmation_wizard
@@ -1114,12 +1105,12 @@ msgstr "Birleştirme"
 #: code:addons/project/static/src/js/tours/project.js:0
 #, python-format
 msgid "Assign a responsible to your task"
-msgstr "Görevinize bir sorumlu atayın"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.res_config_settings_view_form
 msgid "Assign each new project to this plan"
-msgstr "Her yeni projeyi bu plana atayın"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_form
@@ -1229,7 +1220,7 @@ msgstr "Düzenli faaliyetler için görevleri otomatik oluştur"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type__auto_validation_kanban_state
 msgid "Automatic Kanban Status"
-msgstr "Otomatik Kanban Durumu"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_type__auto_validation_kanban_state
@@ -1254,30 +1245,30 @@ msgstr "Avatar"
 #: model:ir.model.fields,field_description:project.field_project_task__rating_avg
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__rating_avg
 msgid "Average Rating"
-msgstr "Ortalama puanı"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__rating_avg_percentage
 msgid "Average Rating (%)"
-msgstr "Ortalama puanı (%)"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_kanban
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
 msgid "Average Rating: Dissatisfied"
-msgstr "Ortalama Puan: Memnun Değil"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_kanban
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
 msgid "Average Rating: Okay"
-msgstr "Ortalama Puan: Uygun"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_kanban
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
 msgid "Average Rating: Satisfied"
-msgstr "Ortalama Puan: Memnun"
+msgstr ""
 
 #. module: project
 #. odoo-javascript
@@ -1352,7 +1343,7 @@ msgstr "Beyin fırtınası"
 #. module: project
 #: model:project.tags,name:project.project_tags_00
 msgid "Bug"
-msgstr "Bug"
+msgstr ""
 
 #. module: project
 #. odoo-python
@@ -1374,7 +1365,7 @@ msgstr "Haberdar et yada tamamlandı olarak işaretle"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_milestone__can_be_marked_as_done
 msgid "Can Be Marked As Done"
-msgstr "Tamamlandı Olarak İşaretlenebilir"
+msgstr ""
 
 #. module: project
 #. odoo-python
@@ -1475,9 +1466,6 @@ msgid ""
 "Kanban view of your tasks. Collaborators will be able to edit parts of tasks"
 " and send messages."
 msgstr ""
-"Görevlerinizin Kanban görünümünü onlarla paylaşarak anahtar kullanıcılarla "
-"verimli bir şekilde işbirliği yapın. Ortak çalışanlar, görevlerin "
-"bölümlerini düzenleyebilecek ve mesaj gönderebilecek."
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_collaborator__partner_id
@@ -1505,9 +1493,6 @@ msgid ""
 "Rating when changing stage: an email will be automatically sent when the task reaches the stage on which the rating email template is set.\n"
 "Periodic rating: an email will be automatically sent at regular intervals as long as the task remains in the stage in which the rating email template is set."
 msgstr ""
-"Bir görev belirli bir aşamaya girdiğinde onlara bir derecelendirme isteği göndererek müşterilerinizden geri bildirim toplayın. Bunu yapmak için ilgili aşamalarda bir derecelendirme e-posta şablonu tanımlayın.\n"
-"Derece değiştirirken aşama: Görev, derecelendirme e-posta şablonunun ayarlandığı aşamaya geldiğinde otomatik olarak bir e-posta gönderilir.\n"
-"Periyodik derecelendirme: Görev, derecelendirme e-posta şablonunun ayarlandığı aşamada kaldığı sürece otomatik olarak düzenli aralıklarla bir e-posta gönderilecektir."
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_tags__color
@@ -1535,8 +1520,6 @@ msgid ""
 "Communicate with customers on the task using the email gateway. Attach logo designs to the task, so that information flows from\n"
 "      designers to the workers who print the t-shirt. Organize priorities amongst orders using the"
 msgstr ""
-"E-posta ağ geçidini kullanarak görevde müşterilerle iletişim kurun. \n"
-"Göreve logo tasarımları ekleyin, böylece tasarımcılardan tişörtü basan işçilere bilgi akışı sağlanır. Kullanarak siparişler arasında öncelikleri düzenleyin."
 
 #. module: project
 #: model:ir.model,name:project.model_res_company
@@ -1583,7 +1566,7 @@ msgstr "Doğrulama"
 #: code:addons/project/static/src/js/tours/project.js:0
 #, python-format
 msgid "Congratulations, you are now a master of project management."
-msgstr "Tebrikler, artık bir proje yönetimi ustasısınız."
+msgstr ""
 
 #. module: project
 #. odoo-javascript
@@ -1632,8 +1615,6 @@ msgstr "Kapak Resmi"
 msgid ""
 "Create <b>activities</b> to set yourself to-dos or to schedule meetings."
 msgstr ""
-"Kendinize yapılacaklar ayarlamak veya toplantılar planlamak için "
-"<b>etkinlikler</b> oluşturun."
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__create_date
@@ -1661,8 +1642,6 @@ msgid ""
 "Create projects to organize your tasks and define a different workflow for "
 "each project."
 msgstr ""
-"Görevlerinizi organize etmek için projeler oluşturun ve her proje için "
-"farklı bir iş akışı tanımlayın."
 
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.open_view_project_all
@@ -1670,8 +1649,6 @@ msgid ""
 "Create projects to organize your tasks. Define a different workflow for each"
 " project."
 msgstr ""
-"Görevlerinizi düzenlemek için projeler oluşturun. Her proje için farklı bir "
-"iş akışı tanımlayın."
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
@@ -1683,7 +1660,6 @@ msgstr "Bir e-posta göndererek görevler oluşturun"
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_1
 msgid "Create tasks by sending an email to the email address of your project."
 msgstr ""
-"Projenizin e-posta adresine bir e-posta göndererek görevler oluşturun."
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__create_date
@@ -1833,8 +1809,6 @@ msgid ""
 "Customers propose feedbacks by email; Odoo creates tasks automatically, and you can\n"
 "      communicate on the task directly. Your managers decide which feedback is accepted"
 msgstr ""
-"Müşteriler e-posta yoluyla geri bildirim önerir; Odoo, görevleri otomatik olarak oluşturur ve görev üzerinde doğrudan iletişim kurabilirsiniz. \n"
-"Hangi geri bildirimin kabul edileceğine yöneticileriniz karar verir."
 
 #. module: project
 #. odoo-python
@@ -1897,8 +1871,6 @@ msgid ""
 "Date on which the stage of your task has last been modified.\n"
 "Based on this information you can identify tasks that are stalling and get statistics on the time it usually takes to move tasks from one stage to another."
 msgstr ""
-"Görevinizin aşamasının en son değiştirildiği tarih.\n"
-"Bu bilgilere dayanarak, bekleyen görevleri tanımlayabilir ve görevleri bir aşamadan diğerine taşımak için genellikle geçen süre hakkında istatistikler alabilirsiniz."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__date
@@ -1906,8 +1878,6 @@ msgid ""
 "Date on which this project ends. The timeframe defined on the project is "
 "taken into account when viewing its planning."
 msgstr ""
-"Bu projenin bittiği tarih. Projede tanımlanan zaman çerçevesi, planlamasını "
-"görüntülerken dikkate alınır."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task__date_assign
@@ -1915,9 +1885,6 @@ msgid ""
 "Date on which this task was last assigned (or unassigned). Based on this, "
 "you can get statistics on the time it usually takes to assign tasks."
 msgstr ""
-"Bu görevin en son atandığı (veya atanmadığı) tarih. Buna dayanarak, "
-"genellikle görevleri atamak için geçen süreye ilişkin istatistikler "
-"alabilirsiniz."
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__repeat_weekday
@@ -1985,13 +1952,13 @@ msgstr "Aralık"
 #: model:ir.model.fields,field_description:project.field_res_company__analytic_plan_id
 #: model:ir.model.fields,field_description:project.field_res_config_settings__analytic_plan_id
 msgid "Default Plan"
-msgstr "Varsayılan Plan"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_res_company__analytic_plan_id
 #: model:ir.model.fields,help:project.field_res_config_settings__analytic_plan_id
 msgid "Default Plan for a new analytic account for projects"
-msgstr "Projelerde yeni bir analitik hesap için Varsayılan Plan"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__alias_defaults
@@ -2016,15 +1983,11 @@ msgstr ""
 msgid ""
 "Define the steps your projects move through from creation to completion."
 msgstr ""
-"Projelerinizin oluşturulmasından tamamlanmasına kadar geçtiği adımları "
-"tanımlayın."
 
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.open_task_type_form
 msgid "Define the steps your tasks move through from creation to completion."
 msgstr ""
-"Görevlerinizin oluşturulmasından tamamlanmasına kadar geçtiği adımları "
-"tanımlayın."
 
 #. module: project
 #. odoo-javascript
@@ -2058,8 +2021,6 @@ msgid ""
 "Deliver your services automatically when a milestone is reached by linking "
 "it to a sales order item."
 msgstr ""
-"Bir satış siparişi kalemine bağlayarak bir kilometre taşına ulaşıldığında "
-"hizmetlerinizi otomatik olarak sunun"
 
 #. module: project
 #. odoo-javascript
@@ -2092,7 +2053,7 @@ msgstr "Açıklama"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__description
 msgid "Description to provide more information and context about this project"
-msgstr "Bu proje hakkında daha fazla bilgi ve bağlam sağlamak için açıklama"
+msgstr ""
 
 #. module: project
 #. odoo-javascript
@@ -2167,7 +2128,7 @@ msgstr "Görünüm Adı"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__display_parent_task_button
 msgid "Display Parent Task Button"
-msgstr "Üst Görev Butonunu Görüntüle"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__display_project_id
@@ -2271,8 +2232,6 @@ msgid ""
 "Email addresses that were in the CC of the incoming emails from this task "
 "and that are not currently linked to an existing customer."
 msgstr ""
-"Bu görevden gelen e-postaların CC'sinde bulunan ve şu anda mevcut bir "
-"müşteriyle bağlantılı olmayan e-posta adresleri."
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__email_cc
@@ -2320,7 +2279,7 @@ msgstr "Hata! Yinelemeli görevler hiyerarşisi oluşturamazsınız."
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 #, python-format
 msgid "Everyone can propose ideas, and the Editor marks the best ones as"
-msgstr "Herkes fikir önerebilir ve Editör en iyilerini şu şekilde işaretler:"
+msgstr ""
 
 #. module: project
 #. odoo-javascript
@@ -2400,7 +2359,7 @@ msgstr "Kanban Görüntüsünü Katla"
 #: model:ir.model.fields,help:project.field_project_task__is_closed
 #: model:ir.model.fields,help:project.field_report_project_task_user__is_closed
 msgid "Folded in Kanban stages are closing stages."
-msgstr "Katlanmış Kanban aşamaları kapanış aşamalarıdır."
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
@@ -2563,7 +2522,7 @@ msgstr "Mutlu yüz"
 #: model:ir.model.fields,field_description:project.field_project_task__has_late_and_unreached_milestone
 #: model:ir.model.fields,field_description:project.field_project_task_burndown_chart_report__has_late_and_unreached_milestone
 msgid "Has Late And Unreached Milestone"
-msgstr "Geç ve Ulaşılmamış Dönüm Noktasına Sahiptir"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_milestone__has_message
@@ -2681,9 +2640,6 @@ msgid ""
 "If enabled, this stage will be displayed as folded in the Kanban view of "
 "your projects. Projects in a folded stage are considered as closed."
 msgstr ""
-"Etkinleştirilirse, bu aşama projelerinizin Kanban görünümünde katlanmış "
-"olarak görüntülenecektir. Katlanmış aşamadaki projeler kapalı olarak kabul "
-"edilir."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_type__fold
@@ -2691,9 +2647,6 @@ msgid ""
 "If enabled, this stage will be displayed as folded in the Kanban view of "
 "your tasks. Tasks in a folded stage are considered as closed."
 msgstr ""
-"Etkinleştirilirse, bu aşama görevlerinizin Kanban görünümünde katlanmış "
-"olarak görüntülenecektir. Katlanmış aşamadaki görevler kapalı olarak kabul "
-"edilir."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_type__rating_template_id
@@ -2702,9 +2655,6 @@ msgid ""
 "Alternatively, it will be sent at a regular interval as long as the task remains in this stage, depending on the configuration of your project. \n"
 "To use this feature make sure that the 'Customer Ratings' option is enabled on your project."
 msgstr ""
-"Ayarlanırsa, görev bu aşamaya geldiğinde müşteriye e-posta ile otomatik olarak bir derecelendirme isteği gönderilir.\n"
-"Alternatif olarak, projenizin yapılandırmasına bağlı olarak görev bu aşamada kaldığı sürece düzenli aralıklarla gönderilecektir.\n"
-"Bu özelliği kullanmak için projenizde 'Müşteri Puanları' seçeneğinin etkinleştirildiğinden emin olun."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project_stage__mail_template_id
@@ -2712,8 +2662,6 @@ msgid ""
 "If set, an email will be automatically sent to the customer when the project"
 " reaches this stage."
 msgstr ""
-"Ayarlanırsa, proje bu aşamaya geldiğinde müşteriye otomatik olarak bir "
-"e-posta gönderilir."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_type__mail_template_id
@@ -2721,8 +2669,6 @@ msgid ""
 "If set, an email will be automatically sent to the customer when the task "
 "reaches this stage."
 msgstr ""
-"Ayarlanırsa, görev bu aşamaya geldiğinde müşteriye otomatik olarak bir "
-"e-posta gönderilir."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_bounced_content
@@ -2838,7 +2784,7 @@ msgstr "Geçersiz toplama işlevi %r."
 #: code:addons/project/report/project_task_burndown_chart_report.py:0
 #, python-format
 msgid "Invalid field %r on model %r"
-msgstr "%r modelinde geçersiz %r alanı"
+msgstr ""
 
 #. module: project
 #. odoo-python
@@ -2852,14 +2798,14 @@ msgstr "Geçersiz alan özellikleri %r."
 #: code:addons/project/models/project.py:0
 #, python-format
 msgid "Invalid operator: %s"
-msgstr "Geçersiz operatör: %s"
+msgstr ""
 
 #. module: project
 #. odoo-python
 #: code:addons/project/models/project.py:0
 #, python-format
 msgid "Invalid value: %s"
-msgstr "Geçersiz değer: %s"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_share_wizard_view_form
@@ -2886,12 +2832,12 @@ msgstr "Faturalanan"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__is_analytic_account_id_changed
 msgid "Is Analytic Account Manually Changed"
-msgstr "Analitik Hesap Manuel Olarak Değiştirildi mi?"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__is_blocked
 msgid "Is Blocked"
-msgstr "Engellendi"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_milestone__is_deadline_exceeded
@@ -2914,12 +2860,12 @@ msgstr "Takipçi"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__is_milestone_exceeded
 msgid "Is Milestone Exceeded"
-msgstr "Dönüm Noktası Aşıldı mı?"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__milestone_reached
 msgid "Is Milestone Reached"
-msgstr "Dönüm Noktası Aşıldı mı?"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__is_private
@@ -2951,8 +2897,6 @@ msgid ""
 "It seems that some tasks are part of a recurrence. At least one of them must"
 " be kept as a model to create the next occurences."
 msgstr ""
-"Görünüşe göre bazı görevler bir tekrarın parçası. Sonraki oluşumları "
-"sağlamak için bunlardan en az biri model olarak tutulmalıdır."
 
 #. module: project
 #. odoo-javascript
@@ -2968,8 +2912,6 @@ msgstr "Görünüşe göre bu görev bir yinelemenin parçası."
 msgid ""
 "It seems that this task is recurrent. Would you like to stop its recurrence?"
 msgstr ""
-"Görünüşe göre bu görev tekrar ediyor. Tekrar etmesini durdurmak ister "
-"misiniz?"
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_month__january
@@ -3026,8 +2968,6 @@ msgid ""
 "Keep track of the progress of your tasks from creation to completion.<br>\n"
 "                    Collaborate efficiently by chatting in real-time or via email."
 msgstr ""
-"Oluşturulmasından tamamlanmasına kadar görevlerinizin ilerleyişini takip edin.\n"
-"Gerçek zamanlı olarak veya e-posta yoluyla sohbet ederek verimli bir şekilde işbirliği yapın."
 
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.project_sharing_project_task_action
@@ -3035,8 +2975,6 @@ msgid ""
 "Keep track of the progress of your tasks from creation to completion.<br>\n"
 "                Collaborate efficiently by chatting in real-time or via email."
 msgstr ""
-"Oluşturulmasından tamamlanmasına kadar görevlerinizin ilerleyişini takip edin.\n"
-"Gerçek zamanlı olarak veya e-posta yoluyla sohbet ederek verimli bir şekilde işbirliği yapın."
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_digest_digest__kpi_project_task_opened_value
@@ -3144,7 +3082,7 @@ msgstr "Geciken Aktiviteler"
 #: model_terms:ir.ui.view,arch_db:project.view_task_project_user_search
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Late Milestones"
-msgstr "Geç Kilometre Taşları"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_search
@@ -3260,8 +3198,6 @@ msgid ""
 "Manage the lifecycle of your project using the kanban view. Add newly acquired projects,\n"
 "      assign them and use the"
 msgstr ""
-"Kanban görünümünü kullanarak projenizin yaşam döngüsünü yönetin. \n"
-"Yeni alınan projeleri ekleyin, atayın ve kullanın."
 
 #. module: project
 #. odoo-javascript
@@ -3303,8 +3239,6 @@ msgid ""
 "Measure your customer satisfaction by sending rating requests when your "
 "tasks reach a certain stage."
 msgstr ""
-"Görevleriniz belli bir aşamaya geldiğinde puanlama istekleri göndererek "
-"müşteri memnuniyetinizi ölçün."
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__favorite_user_ids
@@ -3358,12 +3292,12 @@ msgstr "Dönüm Noktası Sayısı"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__milestone_count_reached
 msgid "Milestone Count Reached"
-msgstr "Kilometre Taşı Sayısına Ulaşıldı"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__milestone_deadline
 msgid "Milestone Deadline"
-msgstr "Kilometre Taşı Son Tarihi"
+msgstr ""
 
 #. module: project
 #. odoo-javascript
@@ -3477,8 +3411,6 @@ msgid ""
 "Name of your project. It can be anything you want e.g. the name of a "
 "customer or a service."
 msgstr ""
-"Projenizin adı. İstediğiniz herhangi bir şey olabilir, örn. bir müşterinin "
-"veya bir hizmetin adı."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__label_tasks
@@ -3486,8 +3418,6 @@ msgid ""
 "Name used to refer to the tasks of your project e.g. tasks, tickets, "
 "sprints, etc..."
 msgstr ""
-"Projenizin görevlerine atıfta bulunmak için kullanılan ad, örn. görevler, "
-"biletler, sprintler, vb..."
 
 #. module: project
 #: model:project.task.type,legend_blocked:project.project_stage_1
@@ -3515,7 +3445,7 @@ msgstr "Yeni"
 #. module: project
 #: model:project.tags,name:project.project_tags_01
 msgid "New Feature"
-msgstr "Yeni özellik"
+msgstr ""
 
 #. module: project
 #. odoo-javascript
@@ -3614,14 +3544,14 @@ msgstr "Sonraki Yinelemeler"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_tasks_list
 msgid "No Milestone"
-msgstr "Kilometre Taşı Yok"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_project_filter
 #: model_terms:ir.ui.view,arch_db:project.view_task_project_user_search
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form
 msgid "No Rating"
-msgstr "Derecelendirme Yok"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__report_project_task_user__rating_last_text__none
@@ -3638,12 +3568,12 @@ msgstr "Konu Yok"
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.mail_activity_type_action_config_project_types
 msgid "No activity types found. Let's create one!"
-msgstr "Etkinlik türü bulunamadı. Hadi bir tane oluşturalım!"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.project_collaborator_action
 msgid "No collaborators found"
-msgstr "Ortak çalışan bulunamadı"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.rating_rating_action_project_report
@@ -3702,19 +3632,19 @@ msgstr "Hiçbiri"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Not Blocked"
-msgstr "Engellenmemiş"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Not Blocking"
-msgstr "Engellenmiyor"
+msgstr ""
 
 #. module: project
 #. odoo-python
 #: code:addons/project/models/project.py:0
 #, python-format
 msgid "Not Implemented."
-msgstr "Uygulanmadı."
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_share_wizard__note
@@ -3865,7 +3795,7 @@ msgstr "Açık Görevler"
 #: code:addons/project/models/project.py:0
 #, python-format
 msgid "Operation should be = or != (not %s)"
-msgstr "İşlem = veya != olmalıdır (%s değil)"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_force_thread_id
@@ -3884,8 +3814,6 @@ msgid ""
 "Organize your tasks by dispatching them across the pipeline.<br>\n"
 "                    Collaborate efficiently by chatting in real-time or via email."
 msgstr ""
-"Görevlerinizi ardışık düzen boyunca dağıtarak düzenleyin.<br>\n"
-"Gerçek zamanlı olarak veya e-posta yoluyla sohbet ederek verimli bir şekilde işbirliği yapın."
 
 #. module: project
 #. odoo-python
@@ -3969,20 +3897,6 @@ msgid ""
 "\n"
 "In any case, an internal user with no project access rights can still access a task, provided that they are given the corresponding URL (and that they are part of the followers if the project is private)."
 msgstr ""
-"Bu projenin ve görevlerinin görüleceği kişiler.\n"
-"\n"
-"- Davet edilen dahili kullanıcılar: bir projeyi takip ederken, dahili kullanıcılar ayrım gözetmeksizin projenin tüm görevlerine erişebilecek. Aksi takdirde, yalnızca takip ettikleri belirli görevlere erişim elde edeceklerdir.\n"
-"Proje > yönetici erişim hakkı düzeyine sahip bir kullanıcı, açıkça takipçilerin bir parçası olmasalar bile bu projeye ve görevlerine erişebilir.\n"
-"\n"
-"- Tüm dahili kullanıcılar: tüm dahili kullanıcılar, projeye ve tüm görevlerine ayrım gözetmeksizin erişebilir.\n"
-"\n"
-"- Davet edilen portal kullanıcıları ve tüm dahili kullanıcılar: tüm dahili kullanıcılar projeye ve tüm görevlerine ayrım gözetmeksizin erişebilir.\n"
-"Bir projeyi takip ederken, portal kullanıcıları tüm görevlerine ayrım gözetmeksizin erişebilecekler. Aksi takdirde, yalnızca takip ettikleri belirli görevlere erişim elde edeceklerdir.\n"
-"\n"
-"Bir proje salt okunur olarak paylaşıldığında, portal kullanıcısı kendi portalına yönlendirilir. Görevleri görüntüleyebilirler ancak düzenleyemezler.\n"
-"Düzenlemede bir proje paylaşıldığında, portal kullanıcısı görevlerin kanbana ve liste görünümlerine yönlendirilir. Görevlerdeki seçili sayıda alanı değiştirebilirler.\n"
-"\n"
-"Her durumda, proje erişim hakları olmayan dahili bir kullanıcı, ilgili URL'nin kendisine verilmesi (ve proje özelse takipçilerin bir parçası olması) şartıyla bir göreve erişebilir."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__rating_percentage_satisfaction
@@ -4029,8 +3943,6 @@ msgid ""
 "Plan resource allocation across projects and estimate deadlines more "
 "accurately"
 msgstr ""
-"Projeler arasında kaynak tahsisini planlayın ve teslim tarihlerini daha "
-"doğru bir şekilde tahmin edin"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
@@ -4092,8 +4004,6 @@ msgid ""
 "Portal users will be removed from the followers of the project and its "
 "tasks."
 msgstr ""
-"Portal kullanıcıları, projenin takipçilerinden ve görevlerinden "
-"kaldırılacaktır."
 
 #. module: project
 #. odoo-javascript
@@ -4108,7 +4018,7 @@ msgstr "Önceki"
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 #, python-format
 msgid "Prioritize Tasks by using the"
-msgstr "Kullanarak Görevleri Önceliklendirin"
+msgstr ""
 
 #. module: project
 #. odoo-python
@@ -4123,7 +4033,7 @@ msgstr "Öncelik"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_my_tasks_priority_widget_template
 msgid "Priority: {{'Important' if task.priority == '1' else 'Normal'}}"
-msgstr "Priority: {{'Important' if task.priority == '1' else 'Normal'}}"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__privacy_visibility_warning
@@ -4208,7 +4118,7 @@ msgstr "Proje İşbirlikçileri"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__project_color
 msgid "Project Color"
-msgstr "Proje Rengi"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_account_analytic_account__project_count
@@ -4329,12 +4239,12 @@ msgstr "Proje: Yinelenen Görevler Oluşturun"
 #. module: project
 #: model:mail.template,name:project.project_done_email_template
 msgid "Project: Project Completed"
-msgstr "Proje: Proje Tamamlandı"
+msgstr ""
 
 #. module: project
 #: model:mail.template,name:project.mail_template_data_project_task
 msgid "Project: Request Acknowledgment"
-msgstr "Proje: Onay İste"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.server,name:project.ir_cron_rating_project_ir_actions_server
@@ -4378,7 +4288,6 @@ msgstr "Projeler"
 msgid ""
 "Projects contain tasks on the same topic, and each has its own dashboard."
 msgstr ""
-"Projeler, aynı konudaki görevleri içerir ve her birinin kendi panosu vardır."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_type__project_ids
@@ -4387,9 +4296,6 @@ msgid ""
 " several projects, you can share this stage among them and get consolidated "
 "information this way."
 msgstr ""
-"Bu aşamanın mevcut olduğu projeler. Birkaç projede benzer bir iş akışı "
-"izlerseniz, bu aşamayı aralarında paylaşabilir ve bu şekilde konsolide bilgi"
-" alabilirsiniz."
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__task_properties
@@ -4438,7 +4344,7 @@ msgstr "Değerlendirme (/5)"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__rating_avg_text
 msgid "Rating Avg Text"
-msgstr "Değerlendirme Ort Metni"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type__rating_template_id
@@ -4463,7 +4369,7 @@ msgstr "Son Resmin Değerlendirilmesi"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__rating_last_text
 msgid "Rating Last Text"
-msgstr "Son Metni Derecelendirme"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__rating_last_value
@@ -4484,7 +4390,7 @@ msgstr "Puanlama Memnuniyeti"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__rating_last_text
 msgid "Rating Text"
-msgstr "Değerlendirme Metni"
+msgstr ""
 
 #. module: project
 #. odoo-javascript
@@ -4812,7 +4718,7 @@ msgstr "Cumartesi"
 #: code:addons/project/static/src/js/tours/project.js:0
 #, python-format
 msgid "Schedule your activity once it is ready."
-msgstr "Etkinliğinizi hazır olduğunda planlayın."
+msgstr ""
 
 #. module: project
 #. odoo-javascript
@@ -4864,7 +4770,7 @@ msgstr "Mesajlarda Ara"
 #: code:addons/project/controllers/portal.py:0
 #, python-format
 msgid "Search in Milestone"
-msgstr "Milestone'da ara"
+msgstr ""
 
 #. module: project
 #. odoo-python
@@ -4966,8 +4872,6 @@ msgid ""
 "Set on project's stages to inform customers when a project reaches that "
 "stage"
 msgstr ""
-"Bir proje o aşamaya geldiğinde müşterileri bilgilendirmek için projenin "
-"aşamalarını belirleyin"
 
 #. module: project
 #: model:mail.template,description:project.rating_project_request_email_template
@@ -5023,7 +4927,7 @@ msgstr "Salt Okunur"
 #: code:addons/project/models/project_task_recurrence.py:0
 #, python-format
 msgid "Should repeat at least once"
-msgstr "En az bir kez tekrarlanmalı"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__is_favorite
@@ -5143,7 +5047,7 @@ msgstr "Silinecek Aşamalar"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Stalling for 30 Days+"
-msgstr "Stalling for 30 Days+"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__date_start
@@ -5220,7 +5124,7 @@ msgstr "Alt Görevler Planlanan Saatler"
 #: model_terms:ir.ui.view,arch_db:project.rating_rating_view_form_project
 #: model_terms:ir.ui.view,arch_db:project.rating_rating_view_search_project
 msgid "Submitted On"
-msgstr "Gönderme Tarihi"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task__subtask_planned_hours
@@ -5229,9 +5133,6 @@ msgid ""
 "linked to this task. Usually less than or equal to the allocated hours of "
 "this task."
 msgstr ""
-"Bu göreve bağlı tüm alt görevler (ve kendi alt görevleri) için ayrılan "
-"saatlerin toplamı. Genellikle bu görev için ayrılan saatten az veya ona "
-"eşittir."
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_update_default_description
@@ -5338,7 +5239,7 @@ msgstr "Görev Logları"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__task_properties_definition
 msgid "Task Properties"
-msgstr "Görev Özellikleri"
+msgstr ""
 
 #. module: project
 #: model:mail.message.subtype,name:project.mt_project_task_rating
@@ -5512,7 +5413,7 @@ msgstr "Testler"
 #: code:addons/project/static/src/views/burndown_chart/burndown_chart_search_model.js:0
 #, python-format
 msgid "The Burndown Chart must be grouped by"
-msgstr "Burndown Grafiği aşağıdakilere göre gruplandırılmalıdır:"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task__personal_stage_id
@@ -5531,14 +5432,14 @@ msgstr "Geçerli kullanıcının kişisel görev aşaması."
 msgid ""
 "The end date should be after the day of the month or the last day of the "
 "month"
-msgstr "Bitiş tarihi, ayın gününden veya ayın son gününden sonra olmalıdır"
+msgstr ""
 
 #. module: project
 #. odoo-python
 #: code:addons/project/models/project_task_recurrence.py:0
 #, python-format
 msgid "The end date should be in the future"
-msgstr "Bitiş tarihi gelecekte olmalıdır"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_update_default_description
@@ -5555,7 +5456,7 @@ msgstr "Aşağıdaki kilometre taşları eklendi:"
 #: code:addons/project/models/project_task_recurrence.py:0
 #, python-format
 msgid "The interval should be greater than 0"
-msgstr "Aralık 0'dan büyük olmalıdır"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_model_id
@@ -5604,14 +5505,14 @@ msgstr ""
 #. module: project
 #: model:ir.model.constraint,message:project.constraint_project_project_project_date_greater
 msgid "The project's start date must be before its end date."
-msgstr "Projenin başlangıç tarihi, bitiş tarihinden önce olmalıdır."
+msgstr ""
 
 #. module: project
 #. odoo-python
 #: code:addons/project/models/project.py:0
 #, python-format
 msgid "The search does not support the %s operator or %s value."
-msgstr "Arama, %s operatörünü veya %s değerini desteklemiyor."
+msgstr ""
 
 #. module: project
 #. odoo-python
@@ -5631,7 +5532,7 @@ msgstr ""
 #: code:addons/project/report/project_task_burndown_chart_report.py:0
 #, python-format
 msgid "The view must be grouped by date and by stage_id"
-msgstr "Görünüm, date ve stage_id'ye göre gruplandırılmalıdır"
+msgstr ""
 
 #. module: project
 #. odoo-javascript
@@ -5668,7 +5569,7 @@ msgstr "Herhangi bir görev yok."
 #: code:addons/project/controllers/portal.py:0
 #, python-format
 msgid "There is nothing to report."
-msgstr "Bildirilecek bir şey yok."
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task__email_from
@@ -5729,8 +5630,6 @@ msgid ""
 "Those represent the different categories of things you have to do (e.g. "
 "\"Call\" or \"Send email\")."
 msgstr ""
-"Bunlar, yapmanız gereken farklı kategorileri temsil eder (ör. \"Ara\" veya "
-"\"E-posta gönder\")."
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__thu
@@ -5754,7 +5653,7 @@ msgstr "Zaman Yönetimi"
 #: model:digest.tip,name:project.digest_tip_project_1
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_1
 msgid "Tip: Create tasks from incoming emails"
-msgstr "İpucu: Gelen e-postalardan görevler oluşturun"
+msgstr ""
 
 #. module: project
 #: model:digest.tip,name:project.digest_tip_project_0
@@ -5776,7 +5675,7 @@ msgstr "Başlık"
 #: code:addons/project/static/src/components/project_right_side_panel/components/project_profitability.xml:0
 #, python-format
 msgid "To Bill"
-msgstr "Faturalanacak"
+msgstr ""
 
 #. module: project
 #: model:project.project.stage,name:project.project_project_stage_0
@@ -5840,8 +5739,6 @@ msgstr "Görevlerdeki müşteri memnuniyetini takip edin"
 #: model_terms:ir.ui.view,arch_db:project.res_config_settings_view_form
 msgid "Track major progress points that must be reached to achieve success"
 msgstr ""
-"Başarıya ulaşmak için ulaşılması gereken önemli ilerleme noktalarını takip "
-"edin"
 
 #. module: project
 #. odoo-javascript
@@ -5859,9 +5756,6 @@ msgid ""
 "timesheets are linked to an analytic account and any analytic account "
 "belongs to a plan."
 msgstr ""
-"Projelerinizin karlılığını takip edin. Herhangi bir proje, görevleri ve "
-"zaman çizelgeleri bir analitik hesaba bağlıdır ve herhangi bir analitik "
-"hesap bir plana aittir."
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.res_config_settings_view_form
@@ -5879,8 +5773,6 @@ msgid ""
 "Transparent tags are not visible in the kanban view of your projects and "
 "tasks."
 msgstr ""
-"Saydam etiketler, projelerinizin ve görevlerinizin kanban görünümünde "
-"görünmez."
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__tue
@@ -5904,7 +5796,7 @@ msgstr "Ayda 2 Kez"
 #: code:addons/project/models/project.py:0
 #, python-format
 msgid "Two tasks cannot depend on each other."
-msgstr "İki görev birbirine bağlı olamaz."
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__activity_exception_decoration
@@ -5997,7 +5889,7 @@ msgstr "E-posta Takma Adını Kullan"
 #. module: project
 #: model:res.groups,name:project.group_project_milestone
 msgid "Use Milestones"
-msgstr "Kilometre Taşlarını Kullan"
+msgstr ""
 
 #. module: project
 #: model:res.groups,name:project.group_project_rating
@@ -6054,7 +5946,7 @@ msgstr "Görevlerinizi kategorilere ayırmak için etiketleri kullanın."
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 #, python-format
 msgid "Use the"
-msgstr "Kullan"
+msgstr ""
 
 #. module: project
 #. odoo-javascript
@@ -6211,7 +6103,6 @@ msgid ""
 "Would you like to unarchive all of the tasks contained in these stages as "
 "well?"
 msgstr ""
-"Bu aşamalarda yer alan tüm görevleri de arşivden çıkarmak ister misiniz?"
 
 #. module: project
 #. odoo-javascript
@@ -6248,16 +6139,13 @@ msgid ""
 "creating a tag that is already existing in other projects, it won't generate"
 " any duplicates."
 msgstr ""
-"Yalnızca projenizde zaten mevcut olan etiketleri görebilirsiniz. Halihazırda"
-" başka projelerde var olan bir etiket oluşturmayı denerseniz, herhangi bir "
-"kopya oluşturmaz."
 
 #. module: project
 #. odoo-python
 #: code:addons/project/models/project.py:0
 #, python-format
 msgid "You can only set a personal stage on a private task."
-msgstr "Yalnızca özel bir görevde kişisel aşama ayarlayabilirsiniz."
+msgstr ""
 
 #. module: project
 #. odoo-python
@@ -6300,14 +6188,14 @@ msgstr ""
 #: code:addons/project/models/project.py:0
 #, python-format
 msgid "You cannot read %s fields in task."
-msgstr "Görevdeki %s alanlarını okuyamazsınız."
+msgstr ""
 
 #. module: project
 #. odoo-python
 #: code:addons/project/models/project.py:0
 #, python-format
 msgid "You cannot write on %s fields in task."
-msgstr "Görevde %s alanlarına yazamazsınız."
+msgstr ""
 
 #. module: project
 #. odoo-python
@@ -6337,10 +6225,6 @@ msgid ""
 "you navigate.<br/> You can discard these changes from here or manually save "
 "your task.<br/>Let's save it manually."
 msgstr ""
-"Kaydedilmemiş değişiklikleriniz var - merak etmeyin! Siz gezinirken Odoo onu"
-" otomatik olarak kaydedecektir. <br/>Bu değişiklikleri buradan atabilir veya"
-" görevinizi manuel olarak kaydedebilirsiniz. <br/>Hadi manuel olarak "
-"kaydedelim."
 
 #. module: project
 #. odoo-javascript
@@ -6365,7 +6249,7 @@ msgstr ""
 #: code:addons/project/models/project_task_recurrence.py:0
 #, python-format
 msgid "You should select a least one day"
-msgstr "En az bir gün seçmelisiniz"
+msgstr ""
 
 #. module: project
 #. odoo-javascript
@@ -6384,8 +6268,6 @@ msgid ""
 "and which feedback is\n"
 "      moved to the \"Refused\" column."
 msgstr ""
-"hangi geri bildirimin \n"
-"\"Reddedildi\" sütununa taşındığı."
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_kanban
@@ -6409,7 +6291,7 @@ msgstr "avatar"
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 #, python-format
 msgid "bullets to indicate the status of a task."
-msgstr "bir görevin durumunu belirtmek için madde işaretleri."
+msgstr ""
 
 #. module: project
 #. odoo-javascript
@@ -6418,8 +6300,6 @@ msgstr "bir görevin durumunu belirtmek için madde işaretleri."
 msgid ""
 "button to inform your colleagues that a task is ready for the next stage."
 msgstr ""
-"iş arkadaşlarınıza bir görevin bir sonraki aşamaya hazır olduğunu bildirmek "
-"için düğme."
 
 #. module: project
 #. odoo-javascript
@@ -6431,7 +6311,7 @@ msgstr "yorumlar"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_update_view_form
 msgid "e.g. Monthly review"
-msgstr "Örneğin. Aylık inceleme"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
@@ -6443,13 +6323,13 @@ msgstr "örn. Ofis Parti"
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_project_task_view_form
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "e.g. Product Launch"
-msgstr "Örneğin. Ürün lansmanı"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_sharing_quick_create_task_form
 #: model_terms:ir.ui.view,arch_db:project.quick_create_task_form
 msgid "e.g. Send Invitations"
-msgstr "Örneğin. Davetiye Gönder"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_project_view_form_simplified
@@ -6459,7 +6339,7 @@ msgstr "Örneğin. Ofis partisi"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_milestone_view_form
 msgid "e.g: Product Launch"
-msgstr "örneğin: Ürün Lansmanı"
+msgstr ""
 
 #. module: project
 #. odoo-javascript
@@ -6472,7 +6352,7 @@ msgstr "örneğin: Ürün Lansmanı"
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 #, python-format
 msgid "icon to organize your daily activities."
-msgstr "günlük aktivitelerinizi düzenlemek için simge."
+msgstr ""
 
 #. module: project
 #. odoo-javascript
@@ -6480,7 +6360,7 @@ msgstr "günlük aktivitelerinizi düzenlemek için simge."
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 #, python-format
 msgid "icon."
-msgstr "simge."
+msgstr ""
 
 #. module: project
 #. odoo-javascript
@@ -6492,12 +6372,12 @@ msgstr "oturum açıldı"
 #. module: project
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_1
 msgid "project."
-msgstr "proje."
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.milestone_deadline
 msgid "ready to be marked as reached"
-msgstr "ulaşıldı olarak işaretlenmeye hazır"
+msgstr ""
 
 #. module: project
 #. odoo-python
@@ -6509,12 +6389,12 @@ msgstr "Görev"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_update_default_description
 msgid "the deadline for the following milestone has been updated:"
-msgstr "Aşağıdaki dönüm noktası için son tarih güncellendi:"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_update_default_description
 msgid "the deadline for the following milestones has been updated:"
-msgstr "Aşağıdaki kilometre taşları için son tarih güncellendi:"
+msgstr ""
 
 #. module: project
 #. odoo-javascript
@@ -6524,8 +6404,6 @@ msgid ""
 "to define if the project is\n"
 "      ready for the next step."
 msgstr ""
-"projenin olup olmadığını belirlemek için\n"
-"sonraki adım için hazır."
 
 #. module: project
 #. odoo-javascript
@@ -6533,7 +6411,6 @@ msgstr ""
 #, python-format
 msgid "to indicate a problem or a need for discussion on a task."
 msgstr ""
-"bir sorunu veya bir görevle ilgili tartışma ihtiyacını belirtmek için."
 
 #. module: project
 #. odoo-javascript
@@ -6547,12 +6424,12 @@ msgstr "bir yorum gönder."
 #: code:addons/project/static/src/xml/project_task_kanban_examples.xml:0
 #, python-format
 msgid "to signalize what is the current status of your Idea."
-msgstr "Fikrinizin mevcut durumunun ne olduğunu belirtmek için."
+msgstr ""
 
 #. module: project
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_1
 msgid "will generate tasks in your"
-msgstr "içinde görevler üretecek"
+msgstr ""
 
 #. module: project
 #: model:mail.template,subject:project.rating_project_request_email_template

@@ -9,7 +9,7 @@
 # Martin Trigaux, 2022
 # Murat Kaplan <muratk@projetgrup.com>, 2022
 # Murat Durmuş <muratd@projetgrup.com>, 2022
-# Tugay Hatıl <tugayh@projetgrup.com>, 2023
+# Tugay Hatıl <tugayh@projetgrup.com>, 2022
 # 
 msgid ""
 msgstr ""
@@ -17,8 +17,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-20 09:02+0000\n"
 "PO-Revision-Date: 2022-09-22 05:57+0000\n"
-"Last-Translator: Tugay Hatıl <tugayh@projetgrup.com>, 2023\n"
-"Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
+"Last-Translator: Tugay Hatıl <tugayh@projetgrup.com>, 2022\n"
+"Language-Team: Turkish (https://www.transifex.com/odoo/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -31,13 +31,11 @@ msgid ""
 "<span attrs=\"{'invisible': [('show_availability', '=', "
 "False)]}\">Units</span>"
 msgstr ""
-"<span attrs=\"{'invisible': [('show_availability', '=', "
-"False)]}\">Birimler</span>"
 
 #. module: website_sale_stock
 #: model:ir.model.fields,field_description:website_sale_stock.field_product_product__stock_notification_partner_ids
 msgid "Back in stock Notifications"
-msgstr "Stoklara geri dön"
+msgstr ""
 
 #. module: website_sale_stock
 #: model:ir.model,name:website_sale_stock.model_res_config_settings
@@ -81,31 +79,30 @@ msgstr "Özel mesajlar için varsayılan görünürlük."
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:0
 #, python-format
 msgid "Get notified when back in stock"
-msgstr "Tekrar stokta olduğunda bildirim alın"
+msgstr ""
 
 #. module: website_sale_stock
 #: model_terms:ir.ui.view,arch_db:website_sale_stock.res_config_settings_view_form
 msgid "How to display products having low quantities (on hand - reserved)"
 msgstr ""
-"Miktarları düşük olan ürünler nasıl görüntülenir (eldeki - rezerve edilmiş)"
 
 #. module: website_sale_stock
 #: code:addons/website_sale_stock/controllers/main.py:0
 #, python-format
 msgid "Invalid Email"
-msgstr "Geçersiz e-posta"
+msgstr ""
 
 #. module: website_sale_stock
 #. openerp-web
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:0
 #, python-format
 msgid "Invalid email"
-msgstr "Geçersiz e-posta"
+msgstr ""
 
 #. module: website_sale_stock
 #: model_terms:ir.ui.view,arch_db:website_sale_stock.res_config_settings_view_form
 msgid "Inventory Defaults"
-msgstr "Envanter Varsayılanları"
+msgstr ""
 
 #. module: website_sale_stock
 #. openerp-web
@@ -155,7 +152,7 @@ msgstr "Ürün Varyantı"
 #: model:ir.cron,cron_name:website_sale_stock.ir_cron_send_availability_email
 #: model:ir.cron,name:website_sale_stock.ir_cron_send_availability_email
 msgid "Product: send email regarding products availability"
-msgstr "Ürün: ürünlerin mevcudiyeti ile ilgili e-posta gönder"
+msgstr ""
 
 #. module: website_sale_stock
 #: model_terms:ir.ui.view,arch_db:website_sale_stock.availability_email_body
@@ -218,7 +215,7 @@ msgstr "'%(product_name)s' ürünü artık mevcut"
 #: code:addons/website_sale_stock/static/src/js/website_sale_reorder.js:0
 #, python-format
 msgid "This product is out of stock."
-msgstr "Bu ürün stokta yoktur."
+msgstr ""
 
 #. module: website_sale_stock
 #: model:ir.model,name:website_sale_stock.model_stock_picking
@@ -242,7 +239,7 @@ msgstr "Depo"
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:0
 #, python-format
 msgid "We'll notify you once the product is back in stock."
-msgstr "Ürün tekrar stoğa girdiğinde sizi bilgilendireceğiz."
+msgstr ""
 
 #. module: website_sale_stock
 #: model:ir.model,name:website_sale_stock.model_website
@@ -253,7 +250,7 @@ msgstr "Websitesi"
 #. module: website_sale_stock
 #: model:ir.model.fields,help:website_sale_stock.field_stock_picking__website_id
 msgid "Website where this order has been placed, for eCommerce orders."
-msgstr "E-Ticaret siparişleri için bu siparişin verildiği web sitesi."
+msgstr ""
 
 #. module: website_sale_stock
 #. openerp-web
@@ -274,7 +271,7 @@ msgstr "Mevcut tüm ürünleri sepetinize eklediniz."
 #: code:addons/website_sale_stock/static/src/js/website_sale_reorder.js:0
 #, python-format
 msgid "You already have %s Units in your cart."
-msgstr "Sepetinizde zaten %s birim var."
+msgstr ""
 
 #. module: website_sale_stock
 #: code:addons/website_sale_stock/models/sale_order.py:0
@@ -282,7 +279,6 @@ msgstr "Sepetinizde zaten %s birim var."
 #, python-format
 msgid "You ask for %(desired_qty)s products but only %(new_qty)s is available"
 msgstr ""
-"%(desired_qty)s ürünleri istiyorsunuz ancak yalnızca %(new_qty)s mevcut"
 
 #. module: website_sale_stock
 #. openerp-web
@@ -290,7 +286,7 @@ msgstr ""
 #: code:addons/website_sale_stock/static/src/js/website_sale_reorder.js:0
 #, python-format
 msgid "You ask for %s Units but only %s are available."
-msgstr "%s Birimleri istiyorsunuz ancak yalnızca %s mevcut."
+msgstr ""
 
 #. module: website_sale_stock
 #. openerp-web
@@ -317,4 +313,4 @@ msgstr "sadece altındaysa"
 #: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:0
 #, python-format
 msgid "youremail@gmail.com"
-msgstr "youremail@gmail.com"
+msgstr ""

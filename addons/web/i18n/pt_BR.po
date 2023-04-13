@@ -8,8 +8,7 @@
 # Rodrigo de Almeida Sottomaior Macedo <rmsolucoeseminformatica@protonmail.com>, 2022
 # grazziano <gra.negocia@gmail.com>, 2022
 # Mateus Lopes <mateus1@gmail.com>, 2022
-# Richard Imgärtchen, 2023
-# Martin Trigaux, 2023
+# Martin Trigaux, 2022
 # 
 msgid ""
 msgstr ""
@@ -17,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-02 10:35+0000\n"
 "PO-Revision-Date: 2022-09-22 05:55+0000\n"
-"Last-Translator: Martin Trigaux, 2023\n"
-"Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/41243/pt_BR/)\n"
+"Last-Translator: Martin Trigaux, 2022\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/odoo/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -283,8 +282,6 @@ msgid ""
 "<span class=\"text-nowrap\">$ <span "
 "class=\"oe_currency_value\">11,750.00</span></span>"
 msgstr ""
-"<span class=\"text-nowrap\">$ <span "
-"class=\"oe_currency_value\">11.750,00</span></span>"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.report_invoice_wizard_preview
@@ -303,7 +300,7 @@ msgstr "<span class=\"text-nowrap\">1.500,00</span>"
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.report_invoice_wizard_preview
 msgid "<span class=\"text-nowrap\">2,350.00</span>"
-msgstr "<span class=\"text-nowrap\">2.350,00</span>"
+msgstr ""
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.report_invoice_wizard_preview
@@ -879,7 +876,6 @@ msgstr ""
 
 #. module: web
 #. odoo-javascript
-#: code:addons/web/static/src/views/form/form_controller.js:0
 #: code:addons/web/static/src/legacy/js/views/form/form_controller.js:0
 #, python-format
 msgid "Are you sure that you want to archive this record?"
@@ -4945,13 +4941,6 @@ msgstr "Definições"
 #, python-format
 msgid "Share with all users"
 msgstr "Compartilhar com todos os usuários"
-
-#. module: web
-#. odoo-javascript
-#: code:addons/web/static/src/webclient/user_menu/user_menu_items.js:0
-#, python-format
-msgid "Shortcuts"
-msgstr "Atalhos"
 
 #. module: web
 #. odoo-javascript

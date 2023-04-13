@@ -2325,7 +2325,7 @@ msgstr "Website-berichten"
 #. module: lunch
 #: model:ir.model.fields,help:lunch.field_lunch_supplier__website_message_ids
 msgid "Website communication history"
-msgstr "Website communicatiegeschiedenis"
+msgstr "Geschiedenis van websitecommunicatie"
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert__wed

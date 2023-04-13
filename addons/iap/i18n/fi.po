@@ -6,7 +6,6 @@
 # Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2022
 # Kari Lindgren <kari.lindgren@emsystems.fi>, 2022
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2022
-# Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-09 14:06+0000\n"
 "PO-Revision-Date: 2022-09-22 05:52+0000\n"
-"Last-Translator: Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023\n"
+"Last-Translator: Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2022\n"
 "Language-Team: Finnish (https://www.transifex.com/odoo/teams/41243/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,12 +24,12 @@ msgstr ""
 #. module: iap
 #: model_terms:ir.ui.view,arch_db:iap.iap_account_view_form
 msgid "Account Information"
-msgstr "Tilitiedot"
+msgstr ""
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__account_token
 msgid "Account Token"
-msgstr "Tilin tunniste"
+msgstr ""
 
 #. module: iap
 #. openerp-web
@@ -93,12 +92,12 @@ msgstr "IAP Tili"
 #: model:ir.ui.menu,name:iap.iap_account_menu
 #: model_terms:ir.ui.view,arch_db:iap.iap_account_view_tree
 msgid "IAP Accounts"
-msgstr "IAP-tilit"
+msgstr ""
 
 #. module: iap
 #: model:ir.model,name:iap.model_iap_enrich_api
 msgid "IAP Lead Enrichment API"
-msgstr "IAP liidin rikastus API"
+msgstr ""
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__id
@@ -110,7 +109,7 @@ msgstr "ID"
 #: code:addons/iap/static/src/xml/iap_templates.xml:0
 #, python-format
 msgid "Insufficient credit to perform this service."
-msgstr "Krediitit eivät riitä tämän palvelun suorittamiseen."
+msgstr ""
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account____last_update
@@ -147,7 +146,7 @@ msgstr "Palvelun nimi"
 #: code:addons/iap/static/src/js/insufficient_credit_error_handler.js:0
 #, python-format
 msgid "Start a Trial at Odoo"
-msgstr "Aloita kokeilu Odoo:ssa"
+msgstr ""
 
 #. module: iap
 #: code:addons/iap/tools/iap_tools.py:0
@@ -156,8 +155,6 @@ msgid ""
 "The url that this service requested returned an error. Please contact the "
 "author of the app. The url it tried to contact was %s"
 msgstr ""
-"Tämän palvelun pyytämä osoite palautti virheen. Ota yhteyttä sovelluksen "
-"tekijään. URL, johon se yritti ottaa yhteyttä, oli %s"
 
 #. module: iap
 #. openerp-web
@@ -165,9 +162,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:iap.res_config_settings_view_form
 #, python-format
 msgid "View My Services"
-msgstr "Näytä omat palveluni"
+msgstr ""
 
 #. module: iap
 #: model_terms:ir.ui.view,arch_db:iap.res_config_settings_view_form
 msgid "View your IAP Services and recharge your credits"
-msgstr "Tarkastele omia IAP-palveluja ja lataa krediittejä"
+msgstr ""

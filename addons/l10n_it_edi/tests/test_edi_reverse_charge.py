@@ -261,21 +261,8 @@ class TestItEdiReverseCharge(TestItEdi):
                 "//DatiPagamento/DettaglioPagamento/DataScadenzaPagamento": "<DataScadenzaPagamento/>",
             },
             xpaths_file={
-                "//DatiGenerali": f"""
-                    <DatiGenerali>
-                        <DatiGeneraliDocumento>
-                            <TipoDocumento>TD18</TipoDocumento>
-                            <Divisa>EUR</Divisa>
-                            <Data>2022-03-24</Data>
-                            <Numero/>
-                            <ImportoTotaleDocumento>-1808.90</ImportoTotaleDocumento>
-                        </DatiGeneraliDocumento>
-                        <DatiFattureCollegate>
-                            <IdDocumento>{self.reverse_charge_bill.name}</IdDocumento>
-                            <Data>{self.reverse_charge_refund.invoice_date}</Data>
-                        </DatiFattureCollegate>
-                    </DatiGenerali>
-                """,
+                "//DatiGeneraliDocumento/Numero": "<Numero/>",
+                "//DatiGeneraliDocumento/ImportoTotaleDocumento": "<ImportoTotaleDocumento>-1808.90</ImportoTotaleDocumento>",
                 "//DatiPagamento/DettaglioPagamento/DataScadenzaPagamento": "<DataScadenzaPagamento/>",
                 "(//DettaglioLinee/PrezzoUnitario)[1]": "<PrezzoUnitario>-800.400000</PrezzoUnitario>",
                 "(//DettaglioLinee/PrezzoUnitario)[2]": "<PrezzoUnitario>-800.400000</PrezzoUnitario>",

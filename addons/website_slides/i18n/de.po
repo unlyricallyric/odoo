@@ -7,7 +7,6 @@
 # Ralf Hilgenstock <rh@dialoge.info>, 2022
 # Martin Trigaux, 2022
 # Friederike Fasterling-Nesselbosch, 2022
-# Larissa Manderfeld, 2023
 # 
 msgid ""
 msgstr ""
@@ -15,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-10 10:22+0000\n"
 "PO-Revision-Date: 2022-09-22 05:57+0000\n"
-"Last-Translator: Larissa Manderfeld, 2023\n"
-"Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
+"Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
+"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1575,12 +1574,12 @@ msgstr "Darf Körper bearbeiten"
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__can_self_mark_completed
 msgid "Can Mark Completed"
-msgstr "Kann als abgeschlossen markieren"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__can_self_mark_uncompleted
 msgid "Can Mark Uncompleted"
-msgstr "Kann als nicht abgeschlossen markieren"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__can_publish
@@ -1712,7 +1711,7 @@ msgstr ""
 #. module: website_slides
 #: model:mail.template,name:website_slides.mail_template_channel_shared
 msgid "Channel Shared"
-msgstr "Kanal geteilt"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__channel_type
@@ -1822,8 +1821,6 @@ msgid ""
 "Click on the \"Edit\" button in the top corner of the screen to edit your "
 "slide content."
 msgstr ""
-"Klicken Sie auf die Schaltfläche „Bearbeiten“ oben rechts auf dem "
-"Bildschirm, um den Inhalt Ihrer Folie zu bearbeiten."
 
 #. module: website_slides
 #. openerp-web
@@ -2002,8 +1999,6 @@ msgstr "Konfiguration"
 #: model:mail.template,subject:website_slides.mail_template_channel_completed
 msgid "Congratulations! You completed {{ object.channel_id.name }}"
 msgstr ""
-"Herzlichen Glückwunsch! Sie haben {{ object.channel_id.name }} "
-"vervollständigt"
 
 #. module: website_slides
 #. openerp-web
@@ -2709,22 +2704,22 @@ msgstr "Im Backend bearbeiten"
 #. module: website_slides
 #: model:mail.template,name:website_slides.mail_template_channel_completed
 msgid "Elearning: Completed Course"
-msgstr "E-Learning: abgeschlossener Kurs"
+msgstr ""
 
 #. module: website_slides
 #: model:mail.template,name:website_slides.mail_template_slide_channel_invite
 msgid "Elearning: Course Invite"
-msgstr "E-Learning: Kurseinladung"
+msgstr ""
 
 #. module: website_slides
 #: model:mail.template,name:website_slides.slide_template_shared
 msgid "Elearning: Course Share"
-msgstr "E-Learning: Kurs veröffentlichen"
+msgstr ""
 
 #. module: website_slides
 #: model:mail.template,name:website_slides.slide_template_published
 msgid "Elearning: New Course Content Notification"
-msgstr "E-Learning: Benachrichtigung für neuen Kurseinhalt"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_partner__partner_email
@@ -4686,7 +4681,7 @@ msgstr "Durchschnittliche Bewertung (Sterne)"
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__rating_avg_text
 msgid "Rating Avg Text"
-msgstr "Bewertung durchschn. Text"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__rating_last_feedback
@@ -4711,7 +4706,7 @@ msgstr "Bewertung Zufriedenheit"
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__rating_last_text
 msgid "Rating Text"
-msgstr "Bewertungstext"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__rating_count
@@ -5099,22 +5094,22 @@ msgstr "E-Mail versenden"
 #. module: website_slides
 #: model:mail.template,description:website_slides.mail_template_channel_completed
 msgid "Sent to attendees once they've completed the course"
-msgstr "Versand an Teilnehmer, sobald sie einen Kurs abgeschlossen haben"
+msgstr ""
 
 #. module: website_slides
 #: model:mail.template,description:website_slides.slide_template_published
 msgid "Sent to attendees when new course is published"
-msgstr "Versand an Teilnehmer, wenn ein neuer Kurs veröffentlicht wurde"
+msgstr ""
 
 #. module: website_slides
 #: model:mail.template,description:website_slides.mail_template_slide_channel_invite
 msgid "Sent to attendees when they are added to a course"
-msgstr "Versand an Teilnehmer, wenn sie einem Kurs hinzugefügt werden"
+msgstr ""
 
 #. module: website_slides
 #: model:mail.template,description:website_slides.slide_template_shared
 msgid "Sent when attendees share the course by email"
-msgstr "Versand, wenn Teilnehmer den Kurs per E-Mail teilen"
+msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__seo_name
@@ -6254,7 +6249,7 @@ msgstr ""
 #: code:addons/website_slides/static/src/xml/website_slides_upload.xml:0
 #, python-format
 msgid "What does"
-msgstr "Was"
+msgstr ""
 
 #. module: website_slides
 #: model:slide.question,question:website_slides.slide_slide_demo_0_4_question_0
@@ -6823,8 +6818,6 @@ msgid ""
 "mean? The Vimeo \"Private\" privacy setting means it is a video which can be viewed only by the users with the link to it.\n"
 "                                    Your video will never come up in the search results nor on your channel."
 msgstr ""
-"? Die Privatsphäreeinstellungen „Privat“ von Vimeo bedeutet, dass ein Video nur von den Benutzern angesehen werden kann, die einen Link dazu haben..\n"
-"                                    Ihr Video wird weder in den Suchergebnissen noch auf Ihrem Kanal auftauchen."
 
 #. module: website_slides
 #. openerp-web

@@ -3,6 +3,7 @@
 # 	* hr_recruitment
 # 
 # Translators:
+# Gert Valdek <gert@airobot.ee>, 2022
 # Andre Roomet <andreroomet@gmail.com>, 2022
 # Aveli Kannel <aveli@avalah.ee>, 2022
 # Egon Raamat <egon@avalah.ee>, 2022
@@ -16,8 +17,8 @@
 # Rivo Zängov <eraser@eraser.ee>, 2022
 # Algo Kärp <algokarp@gmail.com>, 2022
 # Leaanika Randmets, 2022
-# JanaAvalah, 2023
 # Anna, 2023
+# Jana Jaakson, 2023
 # 
 msgid ""
 msgstr ""
@@ -25,8 +26,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-15 12:49+0000\n"
 "PO-Revision-Date: 2022-09-22 05:52+0000\n"
-"Last-Translator: Anna, 2023\n"
-"Language-Team: Estonian (https://app.transifex.com/odoo/teams/41243/et/)\n"
+"Last-Translator: Jana Jaakson, 2023\n"
+"Language-Team: Estonian (https://www.transifex.com/odoo/teams/41243/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -981,7 +982,7 @@ msgstr "Autor"
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__availability
 msgid "Availability"
-msgstr "Eeldatav alguskuupäev"
+msgstr "Saadavus"
 
 #. module: hr_recruitment
 #: model:hr.recruitment.degree,name:hr_recruitment.degree_bachelor
@@ -1515,7 +1516,7 @@ msgstr "Fail"
 #. module: hr_recruitment
 #: model:hr.recruitment.stage,name:hr_recruitment.stage_job2
 msgid "First Interview"
-msgstr "Esimene vestlus"
+msgstr "Esimene intervjuu"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_recruitment_stage__fold
@@ -1561,7 +1562,7 @@ msgstr "Hea"
 #. module: hr_recruitment
 #: model:hr.recruitment.degree,name:hr_recruitment.degree_graduate
 msgid "Graduate"
-msgstr "Keskharidus"
+msgstr "Koolilõpetaja"
 
 #. module: hr_recruitment
 #: model:ir.model.fields.selection,name:hr_recruitment.selection__hr_applicant__kanban_state__done
@@ -1717,7 +1718,7 @@ msgstr "Töös"
 #. module: hr_recruitment
 #: model:hr.recruitment.stage,name:hr_recruitment.stage_job1
 msgid "Initial Qualification"
-msgstr "Uus"
+msgstr "Esialgne kvalifikatsioon"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_res_config_settings__module_hr_recruitment_survey
@@ -1728,7 +1729,7 @@ msgstr "Intervjuu ankeedid"
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__interviewer_ids
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_job__interviewer_ids
 msgid "Interviewers"
-msgstr "Intervjuu osalejad"
+msgstr "Intervjueerijad"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_applicant_send_mail__is_mail_template_editor
@@ -1975,7 +1976,7 @@ msgstr "Tagasi töölauale."
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant__linkedin_profile
 msgid "LinkedIn Profile"
-msgstr "Linkedin"
+msgstr "LinkedIn´i profiil"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_applicant_send_mail__template_id
@@ -2268,7 +2269,7 @@ msgstr "Käimasolev"
 #: model:ir.model.fields,field_description:hr_recruitment.field_res_config_settings__module_website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.res_config_settings_view_form
 msgid "Online Posting"
-msgstr "Postita töökuulutusi veebilehel"
+msgstr "Postitamine internetis"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__alias_force_thread_id
@@ -2372,7 +2373,7 @@ msgstr "Lisapalga ettepanek"
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.res_config_settings_view_form
 msgid "Publish available jobs on your website"
-msgstr "Avalikusta saadaolevad tööpakkumised oma veebilehel"
+msgstr "Avalikusta saadaolevad tööpakkumised oma Internetilehel"
 
 #. module: hr_recruitment
 #. odoo-python
@@ -2613,7 +2614,7 @@ msgstr "Otsi kandideerimise allikaid"
 #. module: hr_recruitment
 #: model:hr.recruitment.stage,name:hr_recruitment.stage_job3
 msgid "Second Interview"
-msgstr "Teine vestlus"
+msgstr "Teine intervjuu"
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.applicant_send_mail_view_form

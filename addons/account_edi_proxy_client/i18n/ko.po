@@ -6,7 +6,6 @@
 # Martin Trigaux, 2022
 # Linkup <link-up@naver.com>, 2022
 # JH CHOI <hwangtog@gmail.com>, 2022
-# Sarah Park, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:18+0000\n"
 "PO-Revision-Date: 2022-09-22 05:44+0000\n"
-"Last-Translator: Sarah Park, 2023\n"
+"Last-Translator: JH CHOI <hwangtog@gmail.com>, 2022\n"
 "Language-Team: Korean (https://www.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,12 +24,12 @@ msgstr ""
 #. module: account_edi_proxy_client
 #: model:ir.model,name:account_edi_proxy_client.model_account_edi_proxy_client_user
 msgid "Account EDI proxy user"
-msgstr "계정 EDI 프록시 사용자"
+msgstr ""
 
 #. module: account_edi_proxy_client
 #: model:ir.model.fields,field_description:account_edi_proxy_client.field_res_company__account_edi_proxy_client_ids
 msgid "Account Edi Proxy Client"
-msgstr "계정 EDI 프록시 사용자"
+msgstr ""
 
 #. module: account_edi_proxy_client
 #: model:ir.model.fields,field_description:account_edi_proxy_client.field_account_edi_proxy_client_user__active
@@ -80,7 +79,7 @@ msgstr "Edi 양식"
 #. module: account_edi_proxy_client
 #: model:ir.model.fields,field_description:account_edi_proxy_client.field_account_edi_proxy_client_user__edi_identification
 msgid "Edi Identification"
-msgstr "Edi 식별"
+msgstr ""
 
 #. module: account_edi_proxy_client
 #: model:ir.model.fields,field_description:account_edi_proxy_client.field_account_edi_proxy_client_user__id
@@ -90,7 +89,7 @@ msgstr "ID"
 #. module: account_edi_proxy_client
 #: model:ir.model.fields,field_description:account_edi_proxy_client.field_account_edi_proxy_client_user__id_client
 msgid "Id Client"
-msgstr "Id 클라이언트"
+msgstr ""
 
 #. module: account_edi_proxy_client
 #: model:ir.model.fields,field_description:account_edi_proxy_client.field_account_edi_proxy_client_user____last_update
@@ -120,14 +119,14 @@ msgstr "새로 고침 토큰"
 #. module: account_edi_proxy_client
 #: model:ir.model.fields,help:account_edi_proxy_client.field_account_edi_proxy_client_user__private_key
 msgid "The key to encrypt all the user's data"
-msgstr "전체 사용자 데이터 암호화 키"
+msgstr ""
 
 #. module: account_edi_proxy_client
 #: model:ir.model.fields,help:account_edi_proxy_client.field_account_edi_proxy_client_user__edi_identification
 msgid ""
 "The unique id that identifies this user for on the edi format, typically the"
 " vat"
-msgstr "EDI 형식 (일반적으로 VAT)에서 이 사용자를 식별하는 고유 ID"
+msgstr ""
 
 #. module: account_edi_proxy_client
 #: code:addons/account_edi_proxy_client/models/account_edi_proxy_user.py:0
@@ -135,7 +134,7 @@ msgstr "EDI 형식 (일반적으로 VAT)에서 이 사용자를 식별하는 고
 msgid ""
 "The url that this service requested returned an error. The url it tried to "
 "contact was %s"
-msgstr "이 서비스가 요청한 URL이 오류를 반환했습니다. 접속을 시도한 URL은 %s입니다."
+msgstr ""
 
 #. module: account_edi_proxy_client
 #: code:addons/account_edi_proxy_client/models/account_edi_proxy_user.py:0
@@ -143,21 +142,21 @@ msgstr "이 서비스가 요청한 URL이 오류를 반환했습니다. 접속�
 msgid ""
 "The url that this service requested returned an error. The url it tried to "
 "contact was %s. %s"
-msgstr "이 서비스가 요청한 URL이 오류를 반환했습니다. 접속을 시도한 URL은 %s입니다. %s"
+msgstr ""
 
 #. module: account_edi_proxy_client
 #: code:addons/account_edi_proxy_client/models/account_edi_proxy_user.py:0
 #, python-format
 msgid ""
 "The url that this service tried to contact does not exist. The url was %r"
-msgstr "이 서비스가 접속을 시도한 URL이 존재하지 않습니다. URL은 %r입니다."
+msgstr ""
 
 #. module: account_edi_proxy_client
 #: model:ir.model.constraint,message:account_edi_proxy_client.constraint_account_edi_proxy_client_user_unique_edi_identification_per_format
 msgid "This edi identification is already assigned to a user"
-msgstr "이미 사용자에게 할당된 EDI ID입니다"
+msgstr ""
 
 #. module: account_edi_proxy_client
 #: model:ir.model.constraint,message:account_edi_proxy_client.constraint_account_edi_proxy_client_user_unique_id_client
 msgid "This id_client is already used on another user."
-msgstr "이미 다른 사용자가 사용 중인 id_client 입니다."
+msgstr ""

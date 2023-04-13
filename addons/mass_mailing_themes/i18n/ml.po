@@ -239,7 +239,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.email_designer_snippets
 msgid "Coupon Code"
-msgstr "കൂപ്പൺ കോഡ്"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
@@ -249,7 +249,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bignews_template
 msgid "Cover image"
-msgstr "മുഖചിത്രം"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
@@ -312,7 +312,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
 msgid "Facebook"
-msgstr "ഫേസ്ബുക് "
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
@@ -327,12 +327,12 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "Free Delivery"
-msgstr "ഫ്രീ ഡെലിവറി"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "Free delivery*"
-msgstr "ഫ്രീ ഡെലിവറി*"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
@@ -376,7 +376,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
 msgid "Instagram"
-msgstr "ഇൻസ്റ്റാഗ്രാം"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
@@ -413,7 +413,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
 msgid "LinkedIn"
-msgstr "ലിങ്ക്ഡ്ഇൻ"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
@@ -506,7 +506,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bignews_template
 msgid "Signature"
-msgstr "കയ്യൊപ്പ്"
+msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template

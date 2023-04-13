@@ -20,7 +20,7 @@ msgstr ""
 "POT-Creation-Date: 2022-12-15 12:51+0000\n"
 "PO-Revision-Date: 2022-09-22 05:53+0000\n"
 "Last-Translator: Tadeusz Karpiński <tadeuszkarpinski@gmail.com>, 2023\n"
-"Language-Team: Polish (https://app.transifex.com/odoo/teams/41243/pl/)\n"
+"Language-Team: Polish (https://www.transifex.com/odoo/teams/41243/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -49,8 +49,6 @@ msgid ""
 "Analytic account in which cost and revenue entries will take        place "
 "for financial management of the manufacturing order."
 msgstr ""
-"Konto analityczne, na którym odbywać się będą zapisy kosztów i przychodów w "
-"celu finansowego zarządzania zleceniem produkcyjnym."
 
 #. module: mrp_account
 #: model:ir.model.fields,help:mrp_account.field_mrp_bom__analytic_account_id
@@ -58,8 +56,6 @@ msgid ""
 "Analytic account in which cost and revenue entries will take place for "
 "financial management of the manufacturing order."
 msgstr ""
-"Konto analityczne, na którym odbywać się będą zapisy kosztów i przychodów w "
-"celu finansowego zarządzania zleceniem produkcyjnym."
 
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_mrp_bom
@@ -112,7 +108,7 @@ msgstr "Zaewidencjonowane Koszty"
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_production__extra_cost
 msgid "Extra Unit Cost"
-msgstr "Dodatkowy koszt jednostkowy"
+msgstr ""
 
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_account_move_line
@@ -140,7 +136,7 @@ msgstr "Liczba zamówień produkcyjnych"
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_workorder__mo_analytic_account_line_id
 msgid "Mo Analytic Account Line"
-msgstr "Pozycja konta analitycznego Mo"
+msgstr ""
 
 #. module: mrp_account
 #: model:ir.model.fields,help:mrp_account.field_mrp_workcenter__costs_hour_account_id
@@ -148,8 +144,6 @@ msgid ""
 "Posts analytical accounting entries in real time for both component and "
 "operational costs."
 msgstr ""
-"Księgowanie analityczne w czasie rzeczywistym zarówno dla kosztów składowych"
-" jak i operacyjnych."
 
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_product_template
@@ -169,7 +163,7 @@ msgstr "Zamówienie produkcji"
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_production__show_valuation
 msgid "Show Valuation"
-msgstr "Pokaż wycenę"
+msgstr ""
 
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_stock_move
@@ -189,7 +183,7 @@ msgstr "Wycena"
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_workorder__wc_analytic_account_line_id
 msgid "Wc Analytic Account Line"
-msgstr "Pozycja konta analitycznego Wc"
+msgstr ""
 
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_mrp_workcenter
@@ -220,12 +214,12 @@ msgstr "Zlecenia operacji"
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_mrp_workcenter_productivity
 msgid "Workcenter Productivity Log"
-msgstr "Dziennik produktywności centrum roboczego"
+msgstr ""
 
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_account_analytic_account__workcenter_ids
 msgid "Workcenters"
-msgstr "Centra robocze"
+msgstr ""
 
 #. module: mrp_account
 #. odoo-python

@@ -4,9 +4,9 @@
 # 
 # Translators:
 # Lukas Van Cauter <cvl@odoo.com>, 2022
+# Jolien De Paepe, 2023
 # Martin Trigaux, 2023
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2023
-# Jolien De Paepe, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-02 10:33+0000\n"
 "PO-Revision-Date: 2022-09-22 05:53+0000\n"
-"Last-Translator: Jolien De Paepe, 2023\n"
-"Language-Team: Dutch (https://app.transifex.com/odoo/teams/41243/nl/)\n"
+"Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2023\n"
+"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -3486,7 +3486,7 @@ msgstr "Nee"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "No Point of Sale selected"
-msgstr "Geen Kassa geselecteerd"
+msgstr "Geen verkooppunt geselecteerd"
 
 #. module: point_of_sale
 #. odoo-python
@@ -4384,7 +4384,7 @@ msgid ""
 "Please create/select a Point of Sale above to show the configuration "
 "options."
 msgstr ""
-"Maak/selecteer hierboven een kassa om de configuratie-opties te tonen."
+"Maak/selecteer hierboven een Verkooppunt om de configuratie-opties te tonen."
 
 #. module: point_of_sale
 #. odoo-python
@@ -5740,7 +5740,7 @@ msgstr "Instellingen"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Settings on this page will apply to this point of sale."
-msgstr "Instellingen op deze pagina zijn van toepassing op dit Kassa."
+msgstr "Instellingen op deze pagina zijn van toepassing op dit verkooppunt."
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -6191,7 +6191,7 @@ msgid ""
 "The Point of Sale only supports the \"add a rounding line\" rounding "
 "strategy."
 msgstr ""
-"Het Kassa ondersteunt alleen de afrondingsstrategie \"voeg een "
+"Het verkooppunt ondersteunt alleen de afrondingsstrategie \"voeg een "
 "afrondingsregel toe\"."
 
 #. module: point_of_sale
@@ -6371,7 +6371,8 @@ msgstr ""
 #, python-format
 msgid ""
 "The payment methods for the point of sale %s must belong to its company."
-msgstr "De betaalmethoden voor het Kassa %s moeten van zijn bedrijf zijn."
+msgstr ""
+"De betaalmethoden voor het verkooppunt %s moeten van zijn bedrijf zijn."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__iface_start_categ_id
@@ -6829,7 +6830,7 @@ msgstr "Fooien"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_payment_method_view_form
 msgid "Tips:"
-msgstr "Tips:"
+msgstr "Fooien:"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_config_kanban
@@ -7261,7 +7262,7 @@ msgstr "Websiteberichten"
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_session__website_message_ids
 msgid "Website communication history"
-msgstr "Website communicatiegeschiedenis"
+msgstr "Website communicatie geschiedenis"
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -7428,8 +7429,8 @@ msgstr ""
 msgid ""
 "You cannot delete a point of sale category while a session is still opened."
 msgstr ""
-"Je kunt een kassacategorie niet verwijderen terwijl er nog een sessie is "
-"geopend."
+"Je kunt een verkooppuntcategorie niet verwijderen terwijl er nog een sessie "
+"is geopend."
 
 #. module: point_of_sale
 #. odoo-python
@@ -7752,13 +7753,3 @@ msgstr ""
 #, python-format
 msgid "were duplicates of existing orders"
 msgstr "waren duplicaten van bestaande orders"
-
-#. module: point_of_sale
-#: code:addons/point_of_sale/models/pos_session.py:0
-#, python-format
-msgid ""
-"You don't have the access rights to get the point of sale closing control "
-"data."
-msgstr ""
-"Je hebt geen toegangsrechten om de gegevens van de sluitingscontrole van de "
-"kassa te verkrijgen."

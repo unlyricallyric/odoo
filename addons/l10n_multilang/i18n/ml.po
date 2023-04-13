@@ -12,7 +12,7 @@ msgstr ""
 "POT-Creation-Date: 2022-09-23 08:02+0000\n"
 "PO-Revision-Date: 2022-09-22 05:53+0000\n"
 "Last-Translator: Niyas Raphy, 2023\n"
-"Language-Team: Malayalam (https://app.transifex.com/odoo/teams/41243/ml/)\n"
+"Language-Team: Malayalam (https://www.transifex.com/odoo/teams/41243/ml/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -22,27 +22,27 @@ msgstr ""
 #. module: l10n_multilang
 #: model:ir.model,name:l10n_multilang.model_account_account
 msgid "Account"
-msgstr "അക്കൗണ്ട്"
+msgstr ""
 
 #. module: l10n_multilang
 #: model:ir.model,name:l10n_multilang.model_account_chart_template
 msgid "Account Chart Template"
-msgstr "അക്കൗണ്ട് ചാർട്ട് ടെംപ്ലേറ്റ്"
+msgstr ""
 
 #. module: l10n_multilang
 #: model:ir.model,name:l10n_multilang.model_account_group
 msgid "Account Group"
-msgstr "അക്കൗണ്ട് ഗ്രൂപ്പ്"
+msgstr ""
 
 #. module: l10n_multilang
 #: model:ir.model.fields,field_description:l10n_multilang.field_account_account__name
 msgid "Account Name"
-msgstr "അക്കൗണ്ട് പേര്"
+msgstr ""
 
 #. module: l10n_multilang
 #: model:ir.model,name:l10n_multilang.model_account_account_tag
 msgid "Account Tag"
-msgstr "അക്കൗണ്ട് ടാഗ്"
+msgstr ""
 
 #. module: l10n_multilang
 #: model:ir.model,name:l10n_multilang.model_account_analytic_account
@@ -69,12 +69,12 @@ msgstr ""
 #. module: l10n_multilang
 #: model:ir.model,name:l10n_multilang.model_base_language_install
 msgid "Install Language"
-msgstr "ഭാഷ ഇൻസ്റ്റാൾ ചെയ്യുക"
+msgstr ""
 
 #. module: l10n_multilang
 #: model:ir.model,name:l10n_multilang.model_account_journal
 msgid "Journal"
-msgstr "ജേണൽ"
+msgstr ""
 
 #. module: l10n_multilang
 #: model:ir.model.fields,field_description:l10n_multilang.field_account_journal__name
@@ -103,7 +103,7 @@ msgstr "പേര്"
 #: model:ir.model.fields,field_description:l10n_multilang.field_account_fiscal_position__note
 #: model:ir.model.fields,field_description:l10n_multilang.field_account_fiscal_position_template__note
 msgid "Notes"
-msgstr "നോട്ട്സ്"
+msgstr ""
 
 #. module: l10n_multilang
 #: model:ir.model.fields,field_description:l10n_multilang.field_account_chart_template__spoken_languages
@@ -113,18 +113,18 @@ msgstr ""
 #. module: l10n_multilang
 #: model:ir.model.fields,field_description:l10n_multilang.field_account_account_tag__name
 msgid "Tag Name"
-msgstr "ടാഗ് പേര്"
+msgstr ""
 
 #. module: l10n_multilang
 #: model:ir.model,name:l10n_multilang.model_account_tax
 msgid "Tax"
-msgstr "നികുതി"
+msgstr ""
 
 #. module: l10n_multilang
 #: model:ir.model.fields,field_description:l10n_multilang.field_account_tax__name
 #: model:ir.model.fields,field_description:l10n_multilang.field_account_tax_template__name
 msgid "Tax Name"
-msgstr "നികുതിയുടെ പേര്"
+msgstr ""
 
 #. module: l10n_multilang
 #: model:ir.model,name:l10n_multilang.model_account_group_template

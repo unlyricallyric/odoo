@@ -6,9 +6,8 @@
 # Trần Hà <tranthuha13590@gmail.com>, 2022
 # Thin Tran <trvathin@gmail.com>, 2022
 # Duy BQ <duybq86@gmail.com>, 2022
+# Martin Trigaux, 2022
 # Thi Huong Nguyen, 2022
-# Martin Trigaux, 2023
-# Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
@@ -16,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-15 12:45+0000\n"
 "PO-Revision-Date: 2022-09-22 05:55+0000\n"
-"Last-Translator: Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2023\n"
+"Last-Translator: Thi Huong Nguyen, 2022\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -947,7 +946,7 @@ msgstr "Huỷ bỏ"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippets
 msgid "Discard record"
-msgstr "Hủy bản ghi"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model.fields,field_description:web_editor.field_web_editor_converter_test_sub__display_name
@@ -1054,6 +1053,14 @@ msgstr ""
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#, python-format
+msgid "Embed"
+msgstr ""
+
+#. module: web_editor
+#. odoo-javascript
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 #, python-format
 msgid "Embed Image"
 msgstr ""
@@ -1077,13 +1084,6 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 #, python-format
 msgid "Embed the youtube video in the document."
-msgstr ""
-
-#. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
-#, python-format
-msgid "Empty quote"
 msgstr ""
 
 #. module: web_editor
@@ -1325,27 +1325,6 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 #, python-format
 msgid "Heading 3"
-msgstr ""
-
-#. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
-#, python-format
-msgid "Heading 4"
-msgstr ""
-
-#. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
-#, python-format
-msgid "Heading 5"
-msgstr ""
-
-#. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
-#, python-format
-msgid "Heading 6"
 msgstr ""
 
 #. module: web_editor
@@ -1764,14 +1743,6 @@ msgstr "Liên kết đến"
 
 #. module: web_editor
 #. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
-#, python-format
-msgid "List"
-msgstr "Danh sách"
-
-#. module: web_editor
-#. odoo-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 #, python-format
 msgid "Load more..."
@@ -2057,8 +2028,23 @@ msgstr ""
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#, python-format
+msgid "Paste"
+msgstr "Paste"
+
+#. module: web_editor
+#. odoo-javascript
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 #, python-format
 msgid "Paste as URL"
+msgstr ""
+
+#. module: web_editor
+#. odoo-javascript
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#, python-format
+msgid "Paste as text"
 msgstr ""
 
 #. module: web_editor
@@ -2451,7 +2437,7 @@ msgstr ""
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippets
 msgid "Save record"
-msgstr "Lưu bản ghi"
+msgstr ""
 
 #. module: web_editor
 #. odoo-javascript
@@ -2595,6 +2581,13 @@ msgstr "Show optimized images"
 #, python-format
 msgid "Signature"
 msgstr "Chữ ký"
+
+#. module: web_editor
+#. odoo-javascript
+#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
+#, python-format
+msgid "Simple text paste."
+msgstr ""
 
 #. module: web_editor
 #. odoo-javascript
@@ -2937,13 +2930,6 @@ msgstr ""
 msgid ""
 "To save a snippet, we need to save all your previous modifications and "
 "reload the page."
-msgstr ""
-
-#. module: web_editor
-#. odoo-javascript
-#: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
-#, python-format
-msgid "To-do"
 msgstr ""
 
 #. module: web_editor

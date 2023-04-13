@@ -20,7 +20,7 @@ msgstr ""
 "POT-Creation-Date: 2023-02-02 10:33+0000\n"
 "PO-Revision-Date: 2022-09-22 05:56+0000\n"
 "Last-Translator: Thi Huong Nguyen, 2023\n"
-"Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
+"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -6326,7 +6326,7 @@ msgstr "Livechat Widget"
 #: code:addons/website/static/src/xml/website.editor.xml:0
 #, python-format
 msgid "Loading..."
-msgstr "Đang tải..."
+msgstr "Đang nạp..."
 
 #. module: website
 #. odoo-javascript
@@ -6616,13 +6616,6 @@ msgstr "Xem trước Mobile"
 
 #. module: website
 #. odoo-javascript
-#: code:addons/website/static/src/js/editor/snippets.options.js:0
-#, python-format
-msgid "Mobile Alignment"
-msgstr ""
-
-#. module: website
-#. openerp-web
 #: code:addons/website/static/src/js/editor/snippets.options.js:0
 #, python-format
 msgid "Mobile menu"
@@ -9659,13 +9652,6 @@ msgstr ""
 
 #. module: website
 #. odoo-javascript
-#: code:addons/website/static/src/components/translator/translator.js:0
-#, python-format
-msgid "This translation is not editable."
-msgstr ""
-
-#. module: website
-#. odoo-javascript
 #: code:addons/website/static/src/components/dialog/seo.js:0
 #, python-format
 msgid ""
@@ -9878,13 +9864,6 @@ msgstr "Transition"
 #, python-format
 msgid "Translate Attribute"
 msgstr "Thuộc tính dịch"
-
-#. module: website
-#. odoo-javascript
-#: code:addons/website/static/src/components/translator/translator.js:0
-#, python-format
-msgid "Translate header in the text. Menu is generated automatically."
-msgstr ""
 
 #. module: website
 #. odoo-javascript

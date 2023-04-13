@@ -61,14 +61,6 @@
                             {id: 30, name: "Yoshi"}
                         ],
                     },
-                    'hr.employee.public': {
-                        fields: {},
-                        records: [
-                            {id: 10, name: "Mario"},
-                            {id: 20, name: "Luigi"},
-                            {id: 30, name: "Yoshi"}
-                        ],
-                    },
                 };
             },
         });

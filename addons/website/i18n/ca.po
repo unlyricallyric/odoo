@@ -22,7 +22,7 @@
 # Josep Sànchez <papapep@gmx.com>, 2022
 # jabelchi, 2022
 # Guspy12, 2022
-# jabiri7, 2022
+# Farouk Jabiri, 2022
 # Ivan Espinola, 2023
 # Óscar Fonseca <tecnico@extreme-micro.com>, 2023
 # 
@@ -33,7 +33,7 @@ msgstr ""
 "POT-Creation-Date: 2023-02-02 10:33+0000\n"
 "PO-Revision-Date: 2022-09-22 05:56+0000\n"
 "Last-Translator: Óscar Fonseca <tecnico@extreme-micro.com>, 2023\n"
-"Language-Team: Catalan (https://app.transifex.com/odoo/teams/41243/ca/)\n"
+"Language-Team: Catalan (https://www.transifex.com/odoo/teams/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -901,7 +901,7 @@ msgid ""
 "                            <b>Partners</b>"
 msgstr ""
 "<i class=\"s_mega_menu_little_icons_icon fa fa-group fa-fw me-2\"/>\n"
-"                            <b>Contactes</b>"
+"                            <b>socis</b>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_little_icons
@@ -4240,7 +4240,7 @@ msgstr "Esdeveniment"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_media_list
 msgid "Event heading"
-msgstr "Encapçalament de l'esdeveniment"
+msgstr "Capçalera d' esdeveniment"
 
 #. module: website
 #: model:website.configurator.feature,name:website.feature_module_event
@@ -6500,7 +6500,7 @@ msgstr "Contingut multimèdia"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_media_list
 msgid "Media heading"
-msgstr "Encapçalament de contingut multimèdia"
+msgstr "Capçalera de contingut multimèdia"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_alert_options
@@ -6650,13 +6650,6 @@ msgstr "Vista prèvia adaptativa"
 
 #. module: website
 #. odoo-javascript
-#: code:addons/website/static/src/js/editor/snippets.options.js:0
-#, python-format
-msgid "Mobile Alignment"
-msgstr "Alineament mòbil."
-
-#. module: website
-#. openerp-web
 #: code:addons/website/static/src/js/editor/snippets.options.js:0
 #, python-format
 msgid "Mobile menu"
@@ -7710,7 +7703,7 @@ msgstr "Finestra emergent"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_big_icons_subtitles
 msgid "Portfolio"
-msgstr "Portfolio"
+msgstr "Portafolis "
 
 #. module: website
 #. odoo-javascript
@@ -7725,7 +7718,7 @@ msgstr "Posició"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_media_list
 msgid "Post heading"
-msgstr "Encapçalament de la publicació"
+msgstr "Capçalera de l'article"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -7897,7 +7890,7 @@ msgstr "Propietats"
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website__partner_id
 msgid "Public Partner"
-msgstr "Contacte públic"
+msgstr "Empresa publica"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website__user_id
@@ -9689,13 +9682,6 @@ msgstr ""
 
 #. module: website
 #. odoo-javascript
-#: code:addons/website/static/src/components/translator/translator.js:0
-#, python-format
-msgid "This translation is not editable."
-msgstr ""
-
-#. module: website
-#. odoo-javascript
 #: code:addons/website/static/src/components/dialog/seo.js:0
 #, python-format
 msgid ""
@@ -9910,13 +9896,6 @@ msgstr "Transició"
 #, python-format
 msgid "Translate Attribute"
 msgstr "Traduir l'atribut"
-
-#. module: website
-#. odoo-javascript
-#: code:addons/website/static/src/components/translator/translator.js:0
-#, python-format
-msgid "Translate header in the text. Menu is generated automatically."
-msgstr ""
 
 #. module: website
 #. odoo-javascript
@@ -11517,7 +11496,7 @@ msgstr "google1234567890123456.html"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
 msgid "heading, h1"
-msgstr "encapçalament, h1"
+msgstr "capçalera, h1"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_contact

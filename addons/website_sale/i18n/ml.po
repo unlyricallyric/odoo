@@ -12,7 +12,7 @@ msgstr ""
 "POT-Creation-Date: 2023-02-02 10:33+0000\n"
 "PO-Revision-Date: 2022-09-22 05:57+0000\n"
 "Last-Translator: Niyas Raphy, 2023\n"
-"Language-Team: Malayalam (https://app.transifex.com/odoo/teams/41243/ml/)\n"
+"Language-Team: Malayalam (https://www.transifex.com/odoo/teams/41243/ml/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -107,7 +107,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_sale.address_on_payment
 #: model_terms:ir.ui.view,arch_db:website_sale.confirmation
 msgid "<b>Shipping: </b>"
-msgstr "<b>ഷിപ്പിംഗ്: </b>"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.o_wsale_offcanvas
@@ -142,7 +142,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.s_add_to_cart
 msgid "<i class=\"fa fa-cart-plus me-2\"/>Add to Cart"
-msgstr "<i class=\"fa fa-cart-plus me-2\"/>കാർട്ടിലേക്ക് ചേർക്കുക"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address_kanban
@@ -171,7 +171,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address_on_payment
 msgid "<i class=\"fa fa-edit\"/> Edit"
-msgstr "<i class=\"fa fa-edit\"/>എഡിറ്റ് "
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -195,7 +195,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.confirmation
 msgid "<i class=\"fa fa-print\"/> Print"
-msgstr "<i class=\"fa fa-print\"/>പ്രിന്റ്  "
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.sale_order_re_order_btn
@@ -225,7 +225,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.sort
 msgid "<small class=\"d-none d-lg-inline text-muted\">Sort By:</small>"
-msgstr "<small class=\"d-none d-lg-inline text-muted\">സോർട് ബൈ:</small>"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
@@ -512,12 +512,12 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.view_sales_order_filter_ecommerce
 msgid "Abandoned"
-msgstr "ഉപേക്ഷിച്ച"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_sale_order__is_abandoned_cart
 msgid "Abandoned Cart"
-msgstr "ഉപേക്ഷിച്ച കാർട്ട്"
+msgstr ""
 
 #. module: website_sale
 #. odoo-javascript
@@ -528,7 +528,7 @@ msgstr "ഉപേക്ഷിച്ച കാർട്ട്"
 #: model:ir.ui.menu,name:website_sale.menu_orders_abandoned_orders
 #, python-format
 msgid "Abandoned Carts"
-msgstr "ഉപേക്ഷിച്ച കാർട്ട്"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.crm_team_view_kanban_dashboard
@@ -594,7 +594,7 @@ msgstr "ചേർക്കുക"
 #: code:addons/website_sale/static/src/xml/website_sale_reorder_modal.xml:0
 #, python-format
 msgid "Add To Cart"
-msgstr "കാർട്ടിലേക്ക് ചേർക്കുക"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings__add_to_cart_action
@@ -653,12 +653,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 #, python-format
 msgid "Add to Cart"
-msgstr "കാർട്ടിലേക്ക് ചേർക്കുക"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.wizard_checkout
 msgid "Address"
-msgstr "വിലാസം"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings__module_website_sale_autocomplete
@@ -737,7 +737,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Attributes"
-msgstr "ആട്രിബ്യൂട്ടുകൾ"
+msgstr ""
 
 #. module: website_sale
 #. odoo-javascript
@@ -755,12 +755,12 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Background"
-msgstr "പശ്ചാത്തലം"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Badge"
-msgstr "ബാഡ്ജ്"
+msgstr ""
 
 #. module: website_sale
 #. odoo-javascript
@@ -981,7 +981,7 @@ msgstr ""
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:0
 #, python-format
 msgid "Carts"
-msgstr "കാർട്സ്"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -1076,7 +1076,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
 msgid "City"
-msgstr "സിറ്റി"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.o_wsale_offcanvas
@@ -1128,7 +1128,7 @@ msgstr "കളർ"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Columns"
-msgstr "കോളംസ്"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.s_dynamic_snippet_products_template_options
@@ -1140,7 +1140,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_res_company
 msgid "Companies"
-msgstr "കമ്പനികൾ"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
@@ -1202,7 +1202,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_res_config_settings
 msgid "Config Settings"
-msgstr "കോൺഫിഗറേഷൻ സെറ്റിങ്‌സ്"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -1235,12 +1235,12 @@ msgstr ""
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_res_partner
 msgid "Contact"
-msgstr "കോൺടാക്ട് "
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product
 msgid "Contact Us"
-msgstr "ഞങ്ങളെ സമീപിക്കുക"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website__contact_us_button_url
@@ -1274,7 +1274,7 @@ msgstr "രാജ്യം"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
 msgid "Country..."
-msgstr "രാജ്യം..."
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -1302,12 +1302,12 @@ msgstr "ഉണ്ടാക്കിയത്"
 #: model:ir.model.fields,field_description:website_sale.field_website_base_unit__create_date
 #: model:ir.model.fields,field_description:website_sale.field_website_sale_extra_field__create_date
 msgid "Created on"
-msgstr "സൃഷ്ടിച്ചത്"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.view_sales_order_filter_ecommerce_abondand
 msgid "Creation Date"
-msgstr "സൃഷ്ടിച്ച തീയതി"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.s_dynamic_snippet_products_template_options
@@ -1339,7 +1339,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.sale_report_view_search_website
 msgid "Customer Country"
-msgstr "കസ്റ്റമർ രാജ്യം"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_comment
@@ -1391,7 +1391,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Default"
-msgstr "ഡീഫോൾട്"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -1475,7 +1475,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_digest_digest
 msgid "Digest"
-msgstr "ഡൈജസ്റ്റ്"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings__module_website_sale_digital
@@ -1517,7 +1517,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Display Type"
-msgstr "ഡിസ്പ്ലേ ടൈപ്പ്"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_product_product__base_unit_count
@@ -1624,7 +1624,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_sale.payment_confirmation_status
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Edit"
-msgstr "എഡിറ്റ്"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form_web_terms
@@ -1788,7 +1788,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_sale.products
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Grid"
-msgstr "ഗ്രിഡ്"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.sale_report_view_search_website
@@ -1839,7 +1839,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_sale.field_website_base_unit__id
 #: model:ir.model.fields,field_description:website_sale.field_website_sale_extra_field__id
 msgid "ID"
-msgstr "ഐഡി"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -1858,7 +1858,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_sale.field_product_public_category__image_1920
 #: model_terms:ir.ui.view,arch_db:website_sale.product_searchbar_input_snippet_options
 msgid "Image"
-msgstr "ചിത്രം"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_image__image_1024
@@ -1931,7 +1931,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.actions.act_window,name:website_sale.action_invoices_ecommerce
 msgid "Invoices"
-msgstr "ഇൻവോയ്സുകൾ"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings__module_account
@@ -2019,7 +2019,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_sale.field_website_base_unit__write_uid
 #: model:ir.model.fields,field_description:website_sale.field_website_sale_extra_field__write_uid
 msgid "Last Updated by"
-msgstr "അവസാനം അപ്ഡേറ്റ് ചെയ്തത്"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_image__write_date
@@ -2047,7 +2047,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Layout"
-msgstr "ലേഔട്ട്"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -2113,7 +2113,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Main image"
-msgstr "പ്രധാന ചിത്രം"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -2139,7 +2139,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:website_sale.selection__website__product_page_image_spacing__medium
 #, python-format
 msgid "Medium"
-msgstr "മീഡിയം"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings__module_website_sale_delivery
@@ -2187,7 +2187,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_sale.header_cart_link
 #, python-format
 msgid "My Cart"
-msgstr "എന്റെ കാർട്ട്"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_image__name
@@ -2249,7 +2249,7 @@ msgstr ""
 #: code:addons/website_sale/static/src/xml/website_sale_reorder_modal.xml:0
 #, python-format
 msgid "No"
-msgstr "ഇല്ല"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.actions.act_window,help:website_sale.action_view_abandoned_tree
@@ -2430,7 +2430,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_sale.view_sales_order_filter_ecommerce_abondand
 #: model_terms:ir.ui.view,arch_db:website_sale.view_sales_order_filter_ecommerce_unpaid
 msgid "Order Date"
-msgstr "ഓർഡർ തീയതി"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_sale_order__website_order_line
@@ -2511,22 +2511,22 @@ msgstr ""
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_payment_provider
 msgid "Payment Provider"
-msgstr "പേയ്മെന്റ് ദാതാവ്"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.menu,name:website_sale.menu_ecommerce_payment_providers
 msgid "Payment Providers"
-msgstr "പേയ്മെന്റ് ദാതാക്കൾ"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.menu,name:website_sale.menu_ecommerce_payment_tokens
 msgid "Payment Tokens"
-msgstr "പേയ്മെന്റ് ടോക്കണുകൾ"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.menu,name:website_sale.menu_ecommerce_payment_transactions
 msgid "Payment Transactions"
-msgstr "പേയ്മെന്റ് ഇടപാടുകൾ"
+msgstr ""
 
 #. module: website_sale
 #. odoo-javascript
@@ -2718,7 +2718,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.sale_report_view_search_website
 msgid "Product Category"
-msgstr "പ്രോഡക്റ്റ് കാറ്റഗറി"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings__module_website_sale_comparison
@@ -2729,19 +2729,19 @@ msgstr ""
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_product_image
 msgid "Product Image"
-msgstr "പ്രോഡക്റ്റ് ചിത്രം"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_image_view_kanban
 #: model_terms:ir.ui.view,arch_db:website_sale.view_product_image_form
 msgid "Product Images"
-msgstr "പ്രോഡക്റ്റ് ചിത്രങ്ങൾ"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product
 #: model_terms:ir.ui.view,arch_db:website_sale.product_product_view_form_add
 msgid "Product Name"
-msgstr "പ്രോഡക്റ്റ് പേര്"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -2791,19 +2791,19 @@ msgstr ""
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_product_tag
 msgid "Product Tag"
-msgstr "പ്രോഡക്റ്റ് ടാഗ്"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.actions.act_window,name:website_sale.product_public_tags_action
 #: model:ir.model.fields,field_description:website_sale.field_product_ribbon__product_tag_ids
 #: model:ir.ui.menu,name:website_sale.product_catalog_product_tags
 msgid "Product Tags"
-msgstr "പ്രോഡക്റ്റ് ടാഗ്"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_image__product_tmpl_id
 msgid "Product Template"
-msgstr "പ്രോഡക്റ്റ് ടെംപ്ലേറ്റ്"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_product_template_attribute_line
@@ -2819,12 +2819,12 @@ msgstr ""
 #: model:ir.model,name:website_sale.model_product_product
 #: model:ir.model.fields,field_description:website_sale.field_product_image__product_variant_id
 msgid "Product Variant"
-msgstr "പ്രോഡക്റ്റ് വേരിയന്റ്"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Product Variants"
-msgstr "പ്രോഡക്റ്റ് വാരിയന്റ്സ്"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_website_visitor__visitor_product_count
@@ -2901,7 +2901,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Promo Code"
-msgstr "പ്രൊമോ കോഡ്"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -2977,7 +2977,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_sale.field_product_template__rating_ids
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Rating"
-msgstr "റേറ്റിംഗ്"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_template__rating_avg_text
@@ -3110,7 +3110,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_sale.field_product_tag__ribbon_id
 #: model:ir.model.fields,field_description:website_sale.field_product_template__website_ribbon_id
 msgid "Ribbon"
-msgstr "റിബൺ"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_ribbon__bg_color
@@ -3146,12 +3146,12 @@ msgstr ""
 #. module: website_sale
 #: model:product.ribbon,html:website_sale.sale_ribbon
 msgid "Sale"
-msgstr "സെയിൽ"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.sale_report_view_graph_website
 msgid "Sale Analysis"
-msgstr "സെയിൽ അനാലിസിസ് "
+msgstr ""
 
 #. module: website_sale
 #. odoo-javascript
@@ -3162,17 +3162,17 @@ msgstr "സെയിൽ അനാലിസിസ് "
 #: model_terms:ir.ui.view,arch_db:website_sale.sale_report_view_search_website
 #, python-format
 msgid "Sales"
-msgstr "സെയിൽസ്"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.sale_report_view_pivot_website
 msgid "Sales Analysis"
-msgstr "സെയിൽസ് അനാലിസിസ്"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_sale_report
 msgid "Sales Analysis Report"
-msgstr "സെയിൽ അനാലിസിസ് റിപ്പോർട്ട്"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_sale_order
@@ -3182,7 +3182,7 @@ msgstr "സെയിൽസ് ഓർഡർ"
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "സെയിൽസ് ഓർഡർ ലൈൻ"
+msgstr ""
 
 #. module: website_sale
 #. odoo-javascript
@@ -3220,7 +3220,7 @@ msgstr "സെയിൽസ്  ടീം"
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings__salesperson_id
 #: model:ir.model.fields,field_description:website_sale.field_website__salesperson_id
 msgid "Salesperson"
-msgstr "സയില്സ്മാന്"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.dynamic_filter_template_product_product_add_to_cart
@@ -3320,12 +3320,12 @@ msgstr "സീക്വൻസ് "
 #. module: website_sale
 #: model:product.public.category,name:website_sale.services
 msgid "Services"
-msgstr "സേവനങ്ങള്"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Share"
-msgstr "ഷെയർ"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
@@ -3360,7 +3360,7 @@ msgstr ""
 #: model:website.menu,name:website_sale.menu_shop
 #: model_terms:ir.ui.view,arch_db:website_sale.products
 msgid "Shop"
-msgstr "ഷോപ്"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.checkout
@@ -3432,7 +3432,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Size"
-msgstr "വലിപ്പം"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_product__website_size_x
@@ -3479,7 +3479,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Sort by"
-msgstr "സോർട് ബൈ"
+msgstr ""
 
 #. module: website_sale
 #. odoo-javascript
@@ -3571,7 +3571,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "Tag"
-msgstr "ടാഗ്"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.s_dynamic_snippet_products_template_options
@@ -3642,7 +3642,7 @@ msgstr ""
 #: model:ir.model.fields,help:website_sale.field_product_product__website_url
 #: model:ir.model.fields,help:website_sale.field_product_template__website_url
 msgid "The full URL to access the document through the website."
-msgstr "വെബ്‌സൈറ്റ് വഴി ഡോക്യുമെന്റ് ആക്‌സസ് ചെയ്യാനുള്ള പൂർണ്ണ URL."
+msgstr ""
 
 #. module: website_sale
 #. odoo-python
@@ -3804,7 +3804,7 @@ msgstr ""
 #: code:addons/website_sale/static/src/xml/website_sale_reorder_modal.xml:0
 #, python-format
 msgid "Total"
-msgstr "ആകെ"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model.fields,help:website_sale.field_website_visitor__product_count
@@ -3876,7 +3876,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products_item
 msgid "Unpublished"
-msgstr "പ്രസിദ്ധീകരിക്കാത്തത്"
+msgstr ""
 
 #. module: website_sale
 #. odoo-javascript
@@ -4021,7 +4021,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_sale.sale_report_view_search_website
 #: model_terms:ir.ui.view,arch_db:website_sale.website_sale_pricelist_form_view
 msgid "Website"
-msgstr "വെബ്‌സൈറ്റ് "
+msgstr "വെബ്സൈറ്റ്"
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_product_public_category
@@ -4055,7 +4055,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_sale.field_product_product__website_url
 #: model:ir.model.fields,field_description:website_sale.field_product_template__website_url
 msgid "Website URL"
-msgstr "വെബ്സൈറ്റ് URL"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_website_visitor
@@ -4101,7 +4101,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_crm_team__website_ids
 msgid "Websites"
-msgstr "വെബ്സൈറ്റുകൾ"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -4118,7 +4118,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_config_settings__module_website_sale_wishlist
 msgid "Wishlists"
-msgstr "വിഷ്‌ലിസ്റ്റുകൾ"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -4245,7 +4245,7 @@ msgstr ""
 #: model:ir.ui.menu,name:website_sale.menu_ecommerce_settings
 #, python-format
 msgid "eCommerce"
-msgstr "ഇ-കൊമേഴ്‌സ്"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.actions.act_window,name:website_sale.product_public_category_action
@@ -4305,7 +4305,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
 msgid "or"
-msgstr "അഥവാ"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.payment_sale_note

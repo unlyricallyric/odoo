@@ -184,25 +184,17 @@
         <field name="type_tax_use">purchase</field>
         <field name="tax_group_id" ref="tax_group_1"/>
         <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-                'plus_report_expression_ids': [ref('tax_report_total_income_pnd53')]
-            }),
+            (0,0, {'repartition_type': 'base'}),
             (0,0, {
                 'repartition_type': 'tax',
                 'account_id': ref('a_wht'),
-                'minus_report_expression_ids': [ref('tax_report_total_remittance_pnd53')]
             }),
         ]"/>
         <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-                'minus_report_expression_ids': [ref('tax_report_total_income_pnd53')]
-            }),
+            (0,0, {'repartition_type': 'base'}),
             (0,0, {
                 'repartition_type': 'tax',
                 'account_id': ref('a_wht'),
-                'plus_report_expression_ids': [ref('tax_report_total_remittance_pnd53')]
             }),
         ]"/>
     </record>
@@ -214,25 +206,17 @@
         <field name="type_tax_use">purchase</field>
         <field name="tax_group_id" ref="tax_group_2"/>
         <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-                'plus_report_expression_ids': [ref('tax_report_total_income_pnd53')],
-            }),
+            (0,0, {'repartition_type': 'base'}),
             (0,0, {
                 'repartition_type': 'tax',
                 'account_id': ref('a_wht'),
-                'minus_report_expression_ids': [ref('tax_report_total_remittance_pnd53')]
             }),
         ]"/>
         <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-                'minus_report_expression_ids': [ref('tax_report_total_income_pnd53')]
-            }),
+            (0,0, {'repartition_type': 'base'}),
             (0,0, {
                 'repartition_type': 'tax',
                 'account_id': ref('a_wht'),
-                'plus_report_expression_ids': [ref('tax_report_total_remittance_pnd53')]
             }),
         ]"/>
     </record>
@@ -244,25 +228,17 @@
         <field name="type_tax_use">purchase</field>
         <field name="tax_group_id" ref="tax_group_3"/>
         <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-                'plus_report_expression_ids': [ref('tax_report_total_income_pnd53')],
-            }),
+            (0,0, {'repartition_type': 'base'}),
             (0,0, {
                 'repartition_type': 'tax',
                 'account_id': ref('a_wht'),
-                'minus_report_expression_ids': [ref('tax_report_total_remittance_pnd53')]
             }),
         ]"/>
         <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-                'minus_report_expression_ids': [ref('tax_report_total_income_pnd53')]
-            }),
+            (0,0, {'repartition_type': 'base'}),
             (0,0, {
                 'repartition_type': 'tax',
                 'account_id': ref('a_wht'),
-                'plus_report_expression_ids': [ref('tax_report_total_remittance_pnd53')]
             }),
         ]"/>
     </record>
@@ -274,25 +250,17 @@
         <field name="type_tax_use">purchase</field>
         <field name="tax_group_id" ref="tax_group_5"/>
         <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-                'plus_report_expression_ids': [ref('tax_report_total_income_pnd53')],
-            }),
+            (0,0, {'repartition_type': 'base'}),
             (0,0, {
                 'repartition_type': 'tax',
                 'account_id': ref('a_wht'),
-                'minus_report_expression_ids': [ref('tax_report_total_remittance_pnd53')]
             }),
         ]"/>
         <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-                'minus_report_expression_ids': [ref('tax_report_total_income_pnd53')]
-            }),
+            (0,0, {'repartition_type': 'base'}),
             (0,0, {
                 'repartition_type': 'tax',
                 'account_id': ref('a_wht'),
-                'plus_report_expression_ids': [ref('tax_report_total_remittance_pnd53')]
             }),
         ]"/>
     </record>
@@ -304,25 +272,17 @@
         <field name="type_tax_use">purchase</field>
         <field name="tax_group_id" ref="tax_group_1"/>
         <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-                'plus_report_expression_ids': [ref('tax_report_total_income_pnd3')]
-            }),
+            (0,0, {'repartition_type': 'base'}),
             (0,0, {
                 'repartition_type': 'tax',
                 'account_id': ref('a_wht'),
-                'minus_report_expression_ids': [ref('tax_report_total_remittance_pnd3')]
             }),
         ]"/>
         <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-                'minus_report_expression_ids': [ref('tax_report_total_income_pnd3')]
-            }),
+            (0,0, {'repartition_type': 'base'}),
             (0,0, {
                 'repartition_type': 'tax',
                 'account_id': ref('a_wht'),
-                'plus_report_expression_ids': [ref('tax_report_total_remittance_pnd3')]
             }),
         ]"/>
     </record>
@@ -334,25 +294,17 @@
         <field name="type_tax_use">purchase</field>
         <field name="tax_group_id" ref="tax_group_2"/>
         <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-                'plus_report_expression_ids': [ref('tax_report_total_income_pnd3')]
-            }),
+            (0,0, {'repartition_type': 'base'}),
             (0,0, {
                 'repartition_type': 'tax',
                 'account_id': ref('a_wht'),
-                'minus_report_expression_ids': [ref('tax_report_total_remittance_pnd3')]
             }),
         ]"/>
         <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-                'minus_report_expression_ids': [ref('tax_report_total_income_pnd3')]
-            }),
+            (0,0, {'repartition_type': 'base'}),
             (0,0, {
                 'repartition_type': 'tax',
                 'account_id': ref('a_wht'),
-                'plus_report_expression_ids': [ref('tax_report_total_remittance_pnd3')]
             }),
         ]"/>
     </record>
@@ -364,25 +316,17 @@
         <field name="type_tax_use">purchase</field>
         <field name="tax_group_id" ref="tax_group_3"/>
         <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-                'plus_report_expression_ids': [ref('tax_report_total_income_pnd3')]
-            }),
+            (0,0, {'repartition_type': 'base'}),
             (0,0, {
                 'repartition_type': 'tax',
                 'account_id': ref('a_wht'),
-                'minus_report_expression_ids': [ref('tax_report_total_remittance_pnd3')]
             }),
         ]"/>
         <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-                'minus_report_expression_ids': [ref('tax_report_total_income_pnd3')]
-            }),
+            (0,0, {'repartition_type': 'base'}),
             (0,0, {
                 'repartition_type': 'tax',
                 'account_id': ref('a_wht'),
-                'plus_report_expression_ids': [ref('tax_report_total_remittance_pnd3')]
             }),
         ]"/>
     </record>
@@ -394,25 +338,17 @@
         <field name="type_tax_use">purchase</field>
         <field name="tax_group_id" ref="tax_group_5"/>
         <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-                'plus_report_expression_ids': [ref('tax_report_total_income_pnd3')]
-            }),
+            (0,0, {'repartition_type': 'base'}),
             (0,0, {
                 'repartition_type': 'tax',
                 'account_id': ref('a_wht'),
-                'minus_report_expression_ids': [ref('tax_report_total_remittance_pnd3')]
             }),
         ]"/>
         <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
-            (0,0, {
-                'repartition_type': 'base',
-                'minus_report_expression_ids': [ref('tax_report_total_income_pnd3')]
-            }),
+            (0,0, {'repartition_type': 'base'}),
             (0,0, {
                 'repartition_type': 'tax',
                 'account_id': ref('a_wht'),
-                'plus_report_expression_ids': [ref('tax_report_total_remittance_pnd3')]
             }),
         ]"/>
     </record>

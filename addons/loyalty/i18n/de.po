@@ -7,7 +7,6 @@
 # Martin Trigaux, 2022
 # Chris Egal <sodaswed@web.de>, 2022
 # Friederike Fasterling-Nesselbosch, 2022
-# Larissa Manderfeld, 2023
 # 
 msgid ""
 msgstr ""
@@ -15,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-15 12:50+0000\n"
 "PO-Revision-Date: 2022-09-22 05:53+0000\n"
-"Last-Translator: Larissa Manderfeld, 2023\n"
-"Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
+"Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
+"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -42,9 +41,6 @@ msgid ""
 "        Manage where your program should be available for use.\n"
 "        "
 msgstr ""
-"\n"
-"        Verwalten Sie, wo Ihr Programm zur Nutzung zur Verfügung stehen soll.\n"
-"        "
 
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_program__portal_visible
@@ -102,7 +98,7 @@ msgstr "%s pro Punkt für"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 msgid "( Max"
-msgstr "(Max."
+msgstr ""
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
@@ -173,38 +169,11 @@ msgid ""
 "            </div>\n"
 "        "
 msgstr ""
-"<div style=\"background: #ffffff\">\n"
-"                <div style=\"margin:0px; font-size:24px; font-family:arial, 'helvetica neue', helvetica, sans-serif; line-height:36px; color:#333333; text-align: center\">\n"
-"                    Hier ist Ihre Geschenkkarte!\n"
-"                </div>\n"
-"                <div style=\"padding-top:20px; padding-bottom:20px\">\n"
-"                    <img src=\"/loyalty/static/img/gift_card.png\" style=\"display:block; border:0; outline:none; text-decoration:none; margin:auto;\" width=\"300\"/>\n"
-"                </div>\n"
-"                <div style=\"padding:0; margin:0px; padding-top:35px; padding-bottom:35px; text-align:center;\">\n"
-"                    <h3 style=\"margin:0px; line-height:48px; font-family:arial, 'helvetica neue', helvetica, sans-serif; font-size:40px; font-style:normal; font-weight:normal; color:#333333; text-align:center\">\n"
-"                        <strong t-out=\"format_amount(object.points, object.currency_id) or ''\">150,00 $</strong></h3>\n"
-"                </div>\n"
-"                <div style=\"padding:0; margin:0px; padding-top:35px; padding-bottom:35px; background-color:#efefef; text-align:center;\">\n"
-"                    <p style=\"margin:0px; font-size:14px;font-family:arial, 'helvetica neue', helvetica, sans-serif; line-height:21px; color:#333333\">\n"
-"                        <strong>Geschenkkartencode</strong>\n"
-"                    </p>\n"
-"                    <p style=\"margin:0px; font-size:25px;font-family:arial, 'helvetica neue', helvetica, sans-serif; line-height:38px; color:#A9A9A9\" t-out=\"object.code or ''\">4f10-15d6-41b7-b04c-7b3e</p>\n"
-"                </div>\n"
-"                <div t-if=\"object.expiration_date\" style=\"padding:0; margin:0px; padding-top:10px; padding-bottom:10px; text-align:center;\">\n"
-"                    <h3 style=\"margin:0px; line-height:17px; font-family:arial, 'helvetica neue', helvetica, sans-serif; font-size:14px; font-style:normal; font-weight:normal; color:#A9A9A9; text-align:center\">Karte läuft am <t t-out=\"format_date(object.expiration_date) or ''\">05/05/2021</t> ab.</h3>\n"
-"                </div>\n"
-"                <div style=\"padding:20px; margin:0px; text-align:center;\">\n"
-"                    <span style=\"background-color:#999999; display:inline-block; width:auto; border-radius:5px;\">\n"
-"                        <a t-attf-href=\"{{ object.get_base_url() }}/shop\" target=\"_blank\" style=\"text-decoration:none; font-family:arial, 'helvetica neue', helvetica, sans-serif; font-size:22px; color:#FFFFFF; border-style:solid; border-color:#999999; border-width:20px 30px; display:inline-block; background-color:#999999; border-radius:5px; font-weight:bold; font-style:normal; line-height:26px; width:auto; text-align:center\">Jetzt einlösen!</a>\n"
-"                    </span>\n"
-"                </div>\n"
-"            </div>\n"
-"        "
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 msgid "<i class=\"fa fa-cube fa-fw\" title=\"Product Domain\"/>"
-msgstr "<i class=\"fa fa-cube fa-fw\" title=\"Product Domain\"/>"
+msgstr ""
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
@@ -215,7 +184,7 @@ msgstr "<i class=\"fa fa-cube fa-fw\" title=\"Produkte\"/>"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 msgid "<i class=\"fa fa-cube fa-fw\" title=\"Products\"/><span>All Products</span>"
-msgstr "<i class=\"fa fa-cube fa-fw\" title=\"Products\"/><span>Alle Produkte</span>"
+msgstr ""
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
@@ -266,8 +235,6 @@ msgid ""
 "<span class=\"fw-bold text-decoration-underline\">Grant</span>\n"
 "                                    <br/>"
 msgstr ""
-"<span class=\"fw-bold text-decoration-underline\">Gewähren</span>\n"
-"                                    <br/>"
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
@@ -294,12 +261,6 @@ msgid ""
 "                                <span class=\"o_stat_text\" attrs=\"{'invisible': [('program_type', '!=', 'gift_card')]}\">Gift Cards</span>\n"
 "                                <span class=\"o_stat_text\" attrs=\"{'invisible': [('program_type', '!=', 'ewallet')]}\">eWallets</span>"
 msgstr ""
-"<span class=\"o_stat_text\" attrs=\"{'invisible': [('program_type', 'not in', ('coupons', 'next_order_coupons'))]}\">Gutscheine</span>\n"
-"                                <span class=\"o_stat_text\" attrs=\"{'invisible': [('program_type', '!=', 'loyalty')]}\">Treuekarten</span>\n"
-"                                <span class=\"o_stat_text\" attrs=\"{'invisible': [('program_type', 'not in', ('promotion', 'buy_x_get_y'))]}\">Werbeaktion</span>\n"
-"                                <span class=\"o_stat_text\" attrs=\"{'invisible': [('program_type', '!=', 'promo_code')]}\">Rabatt</span>\n"
-"                                <span class=\"o_stat_text\" attrs=\"{'invisible': [('program_type', '!=', 'gift_card')]}\">Geschenkkarte</span>\n"
-"                                <span class=\"o_stat_text\" attrs=\"{'invisible': [('program_type', '!=', 'ewallet')]}\">E-Geldbörse</span>"
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
@@ -321,7 +282,7 @@ msgstr ""
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 msgid "<span> x </span>"
-msgstr "<span> x </span>"
+msgstr ""
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
@@ -405,54 +366,6 @@ msgid ""
 "</tbody></table>\n"
 "        "
 msgstr ""
-"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%; margin:0px auto; background:#ffffff; color:#333333;\"><tbody>\n"
-"<tr>\n"
-"    <td valign=\"top\" style=\"text-align: center; font-size: 14px;\">\n"
-"        <t t-if=\"object._get_mail_partner().name\">\n"
-"            Herzlichen Glückwusch, <t t-out=\"object._get_mail_partner().name or ''\">Brandon Freeman</t>,<br/>\n"
-"        </t>\n"
-"\n"
-"        Hier ist Ihre Prämie von <t t-out=\"object.program_id.company_id.name or ''\">YourCompany</t>.<br/>\n"
-"\n"
-"        <t t-foreach=\"object.program_id.reward_ids\" t-as=\"reward\">\n"
-"            <t t-if=\"reward.required_points &lt;= object.points\">\n"
-"                <span style=\"font-size: 50px; color: #875A7B; font-weight: bold;\" t-esc=\"reward.description\">Prämienbeschreibung</span>\n"
-"                <br/>\n"
-"            </t>\n"
-"        </t>\n"
-"    </td>\n"
-"</tr>\n"
-"<tr style=\"margin-top: 16px\">\n"
-"    <td valign=\"top\" style=\"text-align: center; font-size: 14px;\">\n"
-"        Nutzen Sie diesen Aktionscode\n"
-"        <t t-if=\"object.expiration_date\">\n"
-"            vor dem <t t-out=\"object.expiration_date or ''\">2021-06-16</t>\n"
-"        </t>\n"
-"        <p style=\"margin-top: 16px;\">\n"
-"            <strong style=\"padding: 16px 8px 16px 8px; border-radius: 3px; background-color: #F1F1F1;\" t-out=\"object.code or ''\">15637502648479132902</strong>\n"
-"        </p>\n"
-"        <t t-foreach=\"object.program_id.rule_ids\" t-as=\"rule\">\n"
-"            <t t-if=\"rule.minimum_qty not in [0, 1]\">\n"
-"                <span style=\"font-size: 14px;\">\n"
-"                    Mindesteinkauf von <t t-out=\"rule.minimum_qty or ''\">10</t> Produkten\n"
-"                </span><br/>\n"
-"            </t>\n"
-"            <t t-if=\"rule.minimum_amount != 0.00\">\n"
-"                <span style=\"font-size: 14px;\">\n"
-"                    Gültig ab einem Einkaufswert von <t t-out=\"'%0.2f' % float(rule.minimum_amount) or ''\">10,00</t> <t t-out=\"rule.company_id.currency_id.symbol or ''\">$</t>\n"
-"                </span><br/>\n"
-"            </t>\n"
-"        </t>\n"
-"        <br/>\n"
-"        Vielen Dank!\n"
-"        <t t-if=\"object._get_signature()\">\n"
-"            <br/>\n"
-"            <t t-out=\"object._get_signature() or ''\">--<br/>Mitchell Admin</t>\n"
-"        </t>\n"
-"    </td>\n"
-"</tr>\n"
-"</tbody></table>\n"
-"        "
 
 #. module: loyalty
 #. odoo-python
@@ -511,7 +424,7 @@ msgstr "Eine Prämie hinzufügen"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Add a rule"
-msgstr "Eine Regel hinzufügen"
+msgstr ""
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__all_discount_product_ids
@@ -607,7 +520,7 @@ msgstr "Kaufen Sie 3 große Schränke, erhalten Sie einen gratis"
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__program_type__buy_x_get_y
 msgid "Buy X Get Y"
-msgstr "X Kaufen Y Erhalten"
+msgstr ""
 
 #. module: loyalty
 #. odoo-python
@@ -645,7 +558,7 @@ msgstr "Wallet leeren"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_form
 msgid "Clear all promo point(s)"
-msgstr "Alle Werbeaktionspunkte bereinigen"
+msgstr ""
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__code
@@ -685,7 +598,7 @@ msgstr "E-Mail schreiben"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__rule_ids
 msgid "Conditional rules"
-msgstr "Bedingte Regel"
+msgstr ""
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_form
@@ -730,17 +643,17 @@ msgstr "Coupon-Punkt(e)"
 #. module: loyalty
 #: model:loyalty.program,portal_point_name:loyalty.10_percent_coupon
 msgid "Coupon points"
-msgstr "Gutscheinpunkte"
+msgstr ""
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_generate_wizard_view_form
 msgid "Coupon value"
-msgstr "Gutscheinwert"
+msgstr ""
 
 #. module: loyalty
 #: model:mail.template,name:loyalty.mail_template_loyalty_card
 msgid "Coupon: Coupon Information"
-msgstr "Geschenkgutschein: Informationen zum Geschenkgutschein"
+msgstr ""
 
 #. module: loyalty
 #. odoo-python
@@ -794,7 +707,7 @@ msgstr "Erstellt am"
 #: model:loyalty.program,portal_point_name:loyalty.3_cabinets_plus_1_free
 #, python-format
 msgid "Credit(s)"
-msgstr "Guthaben"
+msgstr ""
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__currency_id
@@ -844,7 +757,7 @@ msgstr "Beschreibung"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_form
 msgid "Description on order"
-msgstr "Beschreibung auf Auftrag"
+msgstr ""
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__discount
@@ -867,7 +780,7 @@ msgstr "Anwendbarkeit Rabatt"
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__program_type__promo_code
 msgid "Discount Code"
-msgstr "Rabattcode"
+msgstr ""
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__discount_line_product_id
@@ -891,7 +804,7 @@ msgstr "Rabatt Produktbereich"
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 #, python-format
 msgid "Discount code"
-msgstr "Rabattcode"
+msgstr ""
 
 #. module: loyalty
 #. odoo-python
@@ -899,7 +812,7 @@ msgstr "Rabattcode"
 #: model:loyalty.program,portal_point_name:loyalty.10_percent_with_code
 #, python-format
 msgid "Discount point(s)"
-msgstr "Rabattpunkte"
+msgstr ""
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__discount_product_category_id
@@ -951,8 +864,6 @@ msgid ""
 "Each rule can grant points to the customer he will be able to exchange "
 "against rewards"
 msgstr ""
-"Jede Regel kann dem Kunden Punkte gewähren, die er gegen Prämien eintauschen"
-" kann."
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_mail__mail_template_id
@@ -962,7 +873,7 @@ msgstr "E-Mail Vorlage"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__mail_template_id
 msgid "Email template"
-msgstr "E-Mail-Vorlage"
+msgstr ""
 
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_rule__minimum_amount_tax_mode__excl
@@ -1034,7 +945,7 @@ msgstr "Gratis Produkt - [%s]"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 msgid "Free product"
-msgstr "Gratisprodukt"
+msgstr ""
 
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__applies_on__future
@@ -1084,7 +995,7 @@ msgstr "Einen Code erhalten, und 10% Rabatt auf bestimmte Produkte bekommen"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_gift_ewallet_view_form
 msgid "Gift &amp; Ewallet"
-msgstr "Geschenk &amp; E-Geldbörse"
+msgstr ""
 
 #. module: loyalty
 #. odoo-python
@@ -1103,17 +1014,17 @@ msgstr "Geschenkkarte"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Gift Card Products"
-msgstr "Geschenkkartprodukte"
+msgstr ""
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_generate_wizard_view_form
 msgid "Gift Card value"
-msgstr "Geschenkkartenwert"
+msgstr ""
 
 #. module: loyalty
 #: model:mail.template,name:loyalty.mail_template_gift_card
 msgid "Gift Card: Gift Card Information"
-msgstr "Geschenkkarte: Informationen zur Geschenkkarte"
+msgstr ""
 
 #. module: loyalty
 #. odoo-python
@@ -1130,14 +1041,11 @@ msgid ""
 "                                    <br/>\n"
 "                                    Then, Gift Cards can be used to pay orders."
 msgstr ""
-"Geschenkkarten werden manuell erstellt oder automatisch per E-Mail verschickt, wenn der Kunde ein Geschenkkartenprodukt bestellt.\n"
-"                                    <br/>\n"
-"                                    Dann können Sie die Geschenkkarten zum Bezahlen von Bestellungen verwenden."
 
 #. module: loyalty
 #: model:ir.actions.act_window,name:loyalty.loyalty_program_gift_ewallet_action
 msgid "Gift cards & eWallet"
-msgstr "Geschenkkarten & elektronische Geldbeutel"
+msgstr ""
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_generate_wizard__points_granted
@@ -1151,8 +1059,6 @@ msgid ""
 "Grant 1 credit for each item bought then reward the customer with Y items in"
 " exchange of X credits."
 msgstr ""
-"Gewähren Sie 1 Guthaben für jeden gekauften Artikel und belohnen Sie den "
-"Kunden mit Y Artikeln im Austausch für X Guthaben."
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__has_message
@@ -1235,7 +1141,7 @@ msgstr "Ist nominativ"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__is_payment_program
 msgid "Is Payment Program"
-msgstr "Ist Zahlungsprogramm"
+msgstr ""
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__coupon_count_display
@@ -1301,7 +1207,7 @@ msgstr "Treuekarten"
 #. module: loyalty
 #: model:ir.model,name:loyalty.model_loyalty_mail
 msgid "Loyalty Communication"
-msgstr "Treuekommunikation"
+msgstr ""
 
 #. module: loyalty
 #: model:ir.model,name:loyalty.model_loyalty_card
@@ -1328,7 +1234,7 @@ msgstr "Treueregel"
 #: code:addons/loyalty/models/loyalty_program.py:0
 #, python-format
 msgid "Loyalty point(s)"
-msgstr "Treuepunkt(e)"
+msgstr ""
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__message_main_attachment_id
@@ -1389,7 +1295,7 @@ msgstr "Multi-Produkt"
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__program_type__next_order_coupons
 #, python-format
 msgid "Next Order Coupons"
-msgstr "Gutscheine für nächsten Einkauf"
+msgstr ""
 
 #. module: loyalty
 #: model_terms:ir.actions.act_window,help:loyalty.loyalty_card_action
@@ -1404,7 +1310,7 @@ msgstr "Kein Treueprogramm gefunden."
 #. module: loyalty
 #: model_terms:ir.actions.act_window,help:loyalty.loyalty_program_discount_loyalty_action
 msgid "No program found."
-msgstr "Kein Programm gefunden."
+msgstr ""
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__message_needaction_counter
@@ -1439,7 +1345,7 @@ msgstr "Partner"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_form
 msgid "Point(s)"
-msgstr "Punkt(e)"
+msgstr ""
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__points
@@ -1451,12 +1357,12 @@ msgstr "Punkte"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__points_display
 msgid "Points Display"
-msgstr "Punkteanzeige"
+msgstr ""
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Points Unit"
-msgstr "Punkteeinheit"
+msgstr ""
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__required_points
@@ -1554,7 +1460,7 @@ msgstr "Promo-Code"
 #: code:addons/loyalty/models/loyalty_program.py:0
 #, python-format
 msgid "Promo point(s)"
-msgstr "Werbeaktionspunkte"
+msgstr ""
 
 #. module: loyalty
 #. odoo-python
@@ -1562,7 +1468,7 @@ msgstr "Werbeaktionspunkte"
 #: code:addons/loyalty/models/loyalty_program.py:0
 #, python-format
 msgid "Promos"
-msgstr "Werbeaktion"
+msgstr ""
 
 #. module: loyalty
 #. odoo-python
@@ -1636,7 +1542,7 @@ msgstr "Die Regel Punktbelohnung muss streng positiv sein."
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Rules & Rewards"
-msgstr "Regeln & Belohnungen"
+msgstr ""
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__message_has_sms_error
@@ -1679,12 +1585,12 @@ msgstr ""
 #. module: loyalty
 #: model:mail.template,description:loyalty.mail_template_gift_card
 msgid "Sent to customer who purchased a gift card"
-msgstr "Versand an Kunden, die eine Geschenkkarte erworben haben"
+msgstr ""
 
 #. module: loyalty
 #: model:mail.template,description:loyalty.mail_template_loyalty_card
 msgid "Sent to customer with coupon information"
-msgstr "Versand an Kunden mit Gutscheininformationen"
+msgstr ""
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__sequence
@@ -1950,19 +1856,19 @@ msgstr "eWallet"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "eWallet Products"
-msgstr "E-Geldbörse-Produkte"
+msgstr ""
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_generate_wizard_view_form
 msgid "eWallet value"
-msgstr "E-Geldbörse-Wert"
+msgstr ""
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 #, python-format
 msgid "eWallets"
-msgstr "E-Geldbörsen"
+msgstr ""
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
@@ -1971,14 +1877,11 @@ msgid ""
 "                                    <br/>\n"
 "                                    Then, eWallets are proposed during the checkout, to pay orders."
 msgstr ""
-"E-Geldbörsen werden manuell erstellt oder automatisch erstellt, wenn der Kunde ein E-Geldbörse-Produkt bestellt.\n"
-"                                    <br/>\n"
-"                                    Dann werden die E-Geldbörsen zwährend des Kassiervorgangs angeboten, um Bestellungen zu bezahlen."
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 msgid "item(s) bought"
-msgstr "Artikel gekauft"
+msgstr ""
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
@@ -1986,8 +1889,6 @@ msgid ""
 "on the cheapest product\n"
 "                                        <br/>"
 msgstr ""
-"auf das günstigste Produkt\n"
-"                                        <br/>"
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report

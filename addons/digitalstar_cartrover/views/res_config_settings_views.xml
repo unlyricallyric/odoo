@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="res_config_settings_view_form" model="ir.ui.view">
+            <field name="name">res.config.settings.view.cartrover</field>
+            <field name="model">res.config.settings</field>
+            <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[hasclass('settings')]" position="inside">
+                    <div class="app_settings_block"
+                         data-string="Cartrover"
+                         id="cartrover"
+                         string="Cartrover"
+                         data-key="digitalstar_cartrover"
+                    >
+                        <h2>Cartrover Management</h2>
+                        <div class="row mt16 o_settings_container" id="key_setting">
+                            <div class="col-12 col-lg-6 o_setting_box">
+                                <div class="o_setting_left_pane"/>
+                                <div class="o_setting_right_pane">
+                                    <span class="o_form_label">API Key</span>
+                                    <div class="text-muted content-group mt16">
+                                        <field name="api_key" class="text-center" style="width: 50%; min-width: 4rem;" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="row mt16 o_settings_container" id="secret_setting">
+                           <div class="col-12 col-lg-6 o_setting_box">
+                                <div class="o_setting_left_pane"/>
+                                <div class="o_setting_right_pane">
+                                    <span class="o_form_label">API Secret</span>
+                                    <div class="text-muted content-group mt16">
+                                        <field name="api_secret" class="text-center" style="width: 50%; min-width: 4rem;" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt16 o_settings_container" id="secret_setting">
+                           <div class="col-12 col-lg-6 o_setting_box">
+                                <div class="o_setting_left_pane"/>
+                                <div class="o_setting_right_pane">
+                                    <span class="o_form_label">Operation</span>
+                                    <div class="text-muted content-group mt16">
+                                            <button type="object"
+                                                    name="action_sync_orders"
+                                                    string="Import Orders From Cartrover"
+                                                    class="oe_highlight" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="catsover_config_settings_action" model="ir.actions.act_window">
+            <field name="name">Settings</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.config.settings</field>
+            <field name="view_mode">form</field>
+            <field name="target">inline</field>
+            <field name="context">{'module' : 'digitalstar_cartrover', 'bin_size': False}</field>
+        </record>
+
+          <!-- Top menu item -->
+        <menuitem name="Digitalstar Cartrover" id="digitalstar_cartrover.menu_root"  groups="base.group_user"/>
+
+        <menuitem id="cartrover_config_settings_menu"
+                  name="Settings"
+                  parent="digitalstar_cartrover.menu_root"
+                  sequence="0"
+                  action="catsover_config_settings_action"
+                  groups="base.group_system"
+        />
+    </data>
+</odoo>

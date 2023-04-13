@@ -696,20 +696,14 @@ class AccountReconcileModel(models.Model):
         significant_token_size = 4
         numerical_tokens = []
         exact_tokens = []
-        text_tokens = []
         for text_value in st_line_text_values:
-            tokens = [
-                ''.join(x for x in token if re.match(r'[0-9a-zA-Z\s]', x))
-                for token in (text_value or '').split()
-            ]
+            tokens = (text_value or '').split()
 
             # Numerical tokens
             for token in tokens:
                 # The token is too short to be significant.
                 if len(token) < significant_token_size:
                     continue
-
-                text_tokens.append(token)
 
                 formatted_token = ''.join(x for x in token if x.isdecimal())
 
@@ -722,7 +716,7 @@ class AccountReconcileModel(models.Model):
             # Exact tokens.
             if len(tokens) == 1:
                 exact_tokens.append(tokens[0])
-        return numerical_tokens, exact_tokens, text_tokens
+        return numerical_tokens, exact_tokens
 
     def _get_invoice_matching_amls_candidates(self, st_line, partner):
         """ Returns the match candidates for the 'invoice_matching' rule, with respect to the provided parameters.
@@ -745,7 +739,7 @@ class AccountReconcileModel(models.Model):
 
         sub_queries = []
         all_params = []
-        numerical_tokens, exact_tokens, _text_tokens = self._get_invoice_matching_st_line_tokens(st_line)
+        numerical_tokens, exact_tokens = self._get_invoice_matching_st_line_tokens(st_line)
         if numerical_tokens:
             for table_alias, field in (
                 ('account_move_line', 'name'),

@@ -5,7 +5,6 @@
 # Translators:
 # Martin Trigaux, 2022
 # Ahmed Aly <ahmed.aly@datenpol.at>, 2022
-# Larissa Manderfeld, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-20 09:01+0000\n"
 "PO-Revision-Date: 2022-09-22 05:46+0000\n"
-"Last-Translator: Larissa Manderfeld, 2023\n"
+"Last-Translator: Ahmed Aly <ahmed.aly@datenpol.at>, 2022\n"
 "Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -99,8 +98,6 @@ msgid ""
 "<span id=\"oe_hr_attendance_status\" class=\"fa fa-circle text-success "
 "me-1\" role=\"img\" aria-label=\"Available\" title=\"Available\"/>"
 msgstr ""
-"<span id=\"oe_hr_attendance_status\" class=\"fa fa-circle text-success "
-"me-1\" role=\"img\" aria-label=\"Available\" title=\"Available\"/>"
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.hr_employees_view_kanban
@@ -108,8 +105,6 @@ msgid ""
 "<span id=\"oe_hr_attendance_status\" class=\"fa fa-circle text-warning me-1\" role=\"img\" aria-label=\"Not available\" title=\"Not available\">\n"
 "                                    </span>"
 msgstr ""
-"<span id=\"oe_hr_attendance_status\" class=\"fa fa-circle text-warning me-1\" role=\"img\" aria-label=\"Not available\" title=\"Not available\">\n"
-"                                    </span>"
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
@@ -211,7 +206,7 @@ msgstr "Statistik Anwesenheit"
 #: model:ir.model.fields,field_description:hr_attendance.field_res_company__attendance_kiosk_delay
 #: model:ir.model.fields,field_description:hr_attendance.field_res_config_settings__attendance_kiosk_delay
 msgid "Attendance Kiosk Delay"
-msgstr "Reaktionszeit im Kioskmodus"
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_res_company__attendance_kiosk_mode
@@ -273,18 +268,18 @@ msgstr "Barcode"
 #. module: hr_attendance
 #: model:ir.model.fields.selection,name:hr_attendance.selection__res_company__attendance_kiosk_mode__barcode
 msgid "Barcode / RFID"
-msgstr "Barcode/RFID"
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.model.fields.selection,name:hr_attendance.selection__res_company__attendance_kiosk_mode__barcode_manual
 msgid "Barcode / RFID and Manual Selection"
-msgstr "Barcode/RFID und manuelle Auswahl"
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_res_company__attendance_barcode_source
 #: model:ir.model.fields,field_description:hr_attendance.field_res_config_settings__attendance_barcode_source
 msgid "Barcode Source"
-msgstr "Barcodequelle"
+msgstr ""
 
 #. module: hr_attendance
 #: code:addons/hr_attendance/models/hr_attendance.py:0
@@ -389,7 +384,6 @@ msgstr "Abgemeldet um"
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "Choose how long the greeting message will be displayed."
 msgstr ""
-"Bestimmen Sie, wie lange die Begrüßungsnachricht angezeigt werden soll."
 
 #. module: hr_attendance
 #: model:ir.model,name:hr_attendance.model_res_company
@@ -471,12 +465,12 @@ msgstr "Tag"
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "Define the camera used for the barcode scan."
-msgstr "Bestimmen Sie die zum Barcodescannen verwendete Kamera."
+msgstr ""
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "Define the way the user will be identified by the application."
-msgstr "Bestimmen Sie, wei der Benutzer von der Anwendung identifiziert wird."
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance__department_id
@@ -494,7 +488,7 @@ msgstr "Anzeigename"
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form
 msgid "Display Time"
-msgstr "Anzeigezeit"
+msgstr ""
 
 #. module: hr_attendance
 #. openerp-web
@@ -575,7 +569,7 @@ msgstr "Beginn Überstunden"
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:0
 #, python-format
 msgid "Extra hours today:"
-msgstr "Heutige Überstunden:"
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.model.fields,help:hr_attendance.field_hr_attendance_overtime__duration_real
@@ -592,7 +586,7 @@ msgstr "Wer zuerst kommt, mahlt zuerst"
 #. module: hr_attendance
 #: model:ir.model.fields.selection,name:hr_attendance.selection__res_company__attendance_barcode_source__front
 msgid "Front Camera"
-msgstr "Frontkamera"
+msgstr ""
 
 #. module: hr_attendance
 #. openerp-web
@@ -748,7 +742,7 @@ msgstr "Es lohnt sich, eine lohnende Aufgabe gut zu machen!"
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:0
 #, python-format
 msgid "Invalid request"
-msgstr "Ungültige Anfrage"
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.ui.menu,name:hr_attendance.menu_hr_attendance_kiosk_no_user_mode
@@ -783,7 +777,7 @@ msgstr "Zuletzt aktualisiert am"
 #. module: hr_attendance
 #: model:ir.model.fields.selection,name:hr_attendance.selection__res_company__attendance_kiosk_mode__manual
 msgid "Manual Selection"
-msgstr "Manuelle Auswahl"
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.model,name:hr_attendance.model_ir_ui_menu
@@ -832,7 +826,7 @@ msgstr "OK"
 #. module: hr_attendance
 #: model:res.groups,name:hr_attendance.group_hr_attendance_user
 msgid "Officer : Manage all attendances"
-msgstr "Büroangestellter: Alle Anwesenheiten verwalten"
+msgstr ""
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_employee__overtime_ids
@@ -844,7 +838,7 @@ msgstr "Überzogen"
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:0
 #, python-format
 msgid "Please contact your administrator."
-msgstr "Bitten kontaktieren Sie Ihren Administrator,"
+msgstr ""
 
 #. module: hr_attendance
 #. openerp-web
@@ -1015,7 +1009,7 @@ msgstr "Benutzer"
 #. module: hr_attendance
 #: model:res.groups,name:hr_attendance.group_hr_attendance_kiosk
 msgid "User : Only kiosk mode"
-msgstr "Benutzer: Nur Kioskmodus"
+msgstr ""
 
 #. module: hr_attendance
 #. openerp-web
@@ -1106,7 +1100,7 @@ msgstr "Abmelden"
 #: code:addons/hr_attendance/static/src/xml/attendance.xml:0
 #, python-format
 msgid "o_barcode_main pt-5"
-msgstr "o_barcode_main pt-5"
+msgstr ""
 
 #. module: hr_attendance
 #: model_terms:ir.ui.view,arch_db:hr_attendance.res_config_settings_view_form

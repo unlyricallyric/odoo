@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+digitalstar_cartrover.access_cartrover_credentials,access_cartrover_credentials,digitalstar_cartrover.model_cartrover_credentials,base.group_user,1,0,0,0

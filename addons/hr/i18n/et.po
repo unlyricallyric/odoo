@@ -16,10 +16,10 @@
 # Rivo Zängov <eraser@eraser.ee>, 2022
 # Martin Aavastik <martin@avalah.ee>, 2022
 # Eneli Õigus <enelioigus@gmail.com>, 2022
+# Anna, 2023
 # Leaanika Randmets, 2023
 # Birgit Vijar, 2023
-# JanaAvalah, 2023
-# Anna, 2023
+# Jana Jaakson, 2023
 # 
 msgid ""
 msgstr ""
@@ -27,8 +27,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-15 12:49+0000\n"
 "PO-Revision-Date: 2022-09-22 05:46+0000\n"
-"Last-Translator: Anna, 2023\n"
-"Language-Team: Estonian (https://app.transifex.com/odoo/teams/41243/et/)\n"
+"Last-Translator: Jana Jaakson, 2023\n"
+"Language-Team: Estonian (https://www.transifex.com/odoo/teams/41243/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1554,7 +1554,7 @@ msgstr "Google Adwords'i kogemus"
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__certificate__graduate
 msgid "Graduate"
-msgstr "Keskharidus"
+msgstr "Koolilõpetaja"
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2029,7 +2029,7 @@ msgstr "Osakonna liige"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__member_ids
 msgid "Members"
-msgstr "Osalejad"
+msgstr "Osalejaid"
 
 #. module: hr
 #: model:ir.model,name:hr.model_ir_ui_menu
@@ -2842,7 +2842,7 @@ msgstr "Sportlik tegevus"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__spouse_birthdate
 #: model:ir.model.fields,field_description:hr.field_res_users__spouse_birthdate
 msgid "Spouse Birthdate"
-msgstr "Abikaasa sünnikuupäev"
+msgstr "Abikaasa sünnipäev"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__spouse_complete_name
@@ -3200,8 +3200,8 @@ msgstr "Kasutaja"
 #. odoo-python
 #: code:addons/hr/models/hr_plan_activity_type.py:0
 #, python-format
-msgid "The user of %s's coach is not set."
-msgstr ""
+msgid "User of coach of employee %s is not set."
+msgstr "Töötaja %s juhendaja kasutaja pole määratud."
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__user_partner_id

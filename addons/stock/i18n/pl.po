@@ -34,7 +34,7 @@
 # Martin Trigaux, 2022
 # Maksym <ms@myodoo.pl>, 2022
 # Łukasz Grzenkowicz <lukasz.grzenkowicz@gmail.com>, 2022
-# przemekjaroc, 2023
+# Przemek Jaroc, 2023
 # Tadeusz Karpiński <tadeuszkarpinski@gmail.com>, 2023
 # 
 msgid ""
@@ -44,7 +44,7 @@ msgstr ""
 "POT-Creation-Date: 2023-02-02 10:33+0000\n"
 "PO-Revision-Date: 2022-09-22 05:55+0000\n"
 "Last-Translator: Tadeusz Karpiński <tadeuszkarpinski@gmail.com>, 2023\n"
-"Language-Team: Polish (https://app.transifex.com/odoo/teams/41243/pl/)\n"
+"Language-Team: Polish (https://www.transifex.com/odoo/teams/41243/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1682,7 +1682,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_inventory_conflict__quant_to_fix_ids
 msgid "Conflicts"
-msgstr "Konflikty"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__visibility_days
@@ -5700,7 +5700,7 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
 msgid "Planning Issues"
-msgstr "Kwestie planowania"
+msgstr ""
 
 #. module: stock
 #. odoo-python
@@ -7023,7 +7023,7 @@ msgstr "Uruchom planowanie"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__module_stock_sms
 msgid "SMS Confirmation"
-msgstr "Potwierdzenie SMS"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_lot__message_has_sms_error
@@ -8887,8 +8887,8 @@ msgstr "Jednostki miar"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_replenish__product_uom_id
-msgid "Unit of measure"
-msgstr ""
+msgid "Unity of measure"
+msgstr "Jednostki miary"
 
 #. module: stock
 #. odoo-python

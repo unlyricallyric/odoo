@@ -6,7 +6,6 @@ import math
 from collections import defaultdict
 from datetime import timedelta
 from itertools import repeat
-from werkzeug.urls import url_parse
 
 import pytz
 import uuid
@@ -119,8 +118,9 @@ class Meeting(models.Model):
          ('busy', 'Busy')], 'Show as', default='busy', required=True,
         help="If the time is shown as 'busy', this event will be visible to other people with either the full \
         information or simply 'busy' written depending on its privacy. Use this option to let other people know \
-        that you are unavailable during that period of time. \n If the event is shown as 'free', other users know \
-        that you are available during that period of time.")
+        that you are unavailable during that period of time. \n If the time is shown as 'free', this event won't \
+        be visible to other people at all. Use this option to let other people know that you are available during \
+        that period of time.")
     is_highlighted = fields.Boolean(
         compute='_compute_is_highlighted', string='Is the Event Highlighted')
     is_organizer_alone = fields.Boolean(compute='_compute_is_organizer_alone', string="Is the Organizer Alone",
@@ -377,18 +377,6 @@ class Meeting(models.Model):
             if event.videocall_source == 'discuss':
                 event._set_discuss_videocall_location()
 
-    @api.model
-    def _set_videocall_location(self, vals_list):
-        for vals in vals_list:
-            if not vals.get('videocall_location'):
-                continue
-            url = url_parse(vals['videocall_location'])
-            if url.scheme in ('http', 'https'):
-                continue
-            # relative url to convert to absolute
-            base = url_parse(self.get_base_url())
-            vals['videocall_location'] = url.replace(scheme=base.scheme, netloc=base.netloc).to_url()
-
     @api.depends('videocall_location')
     def _compute_videocall_source(self):
         for event in self:
@@ -453,7 +441,6 @@ class Meeting(models.Model):
                 if user_id:
                     activity_vals['user_id'] = user_id
                 values['activity_ids'] = [(0, 0, activity_vals)]
-        self._set_videocall_location(vals_list)
 
         # Add commands to create attendees from partners (if present) if no attendee command
         # is already given (coming from Google event for example).
@@ -532,7 +519,6 @@ class Meeting(models.Model):
 
         update_alarms = False
         update_time = False
-        self._set_videocall_location([values])
         if 'partner_ids' in values:
             values['attendee_ids'] = self._attendees_values(values['partner_ids'])
             update_alarms = True
@@ -994,7 +980,7 @@ class Meeting(models.Model):
                 if not start_update:
                     # Apply the same shift for start
                     start = base_time_values['start'] + (stop_update - self.stop)
-                    start_date = base_time_values['start'].date() + (stop_update.date() - self.stop.date())
+                    start_date = base_time_values['start_date'] + (stop_update.date() - self.stop.date())
                     update_dict.update({'start': start, 'start_date': start_date})
                 stop = base_time_values['stop'] + (stop_update - self.stop)
                 stop_date = base_time_values['stop'].date() + (stop_update.date() - self.stop.date())

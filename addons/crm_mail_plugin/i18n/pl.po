@@ -13,7 +13,7 @@ msgstr ""
 "POT-Creation-Date: 2021-07-12 07:49+0000\n"
 "PO-Revision-Date: 2022-09-22 05:45+0000\n"
 "Last-Translator: Tadeusz Karpiński <tadeuszkarpinski@gmail.com>, 2023\n"
-"Language-Team: Polish (https://app.transifex.com/odoo/teams/41243/pl/)\n"
+"Language-Team: Polish (https://www.transifex.com/odoo/teams/41243/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -29,8 +29,6 @@ msgid ""
 "%(expected_revenue)s + %(recurring_revenue)s %(recurring_plan)s at "
 "%(probability)s%"
 msgstr ""
-"%(expected_revenue)s + %(recurring_revenue)s %(recurring_plan)s na "
-"%(probability)s %"
 
 #. module: crm_mail_plugin
 #. openerp-web
@@ -38,7 +36,7 @@ msgstr ""
 #: code:addons/crm_mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "%(expected_revenue)s at %(probability)s%"
-msgstr "%(expected_revenue)s na %(probability)s%"
+msgstr ""
 
 #. module: crm_mail_plugin
 #. openerp-web
@@ -52,7 +50,7 @@ msgstr "Nie udało się stworzyć sygnału"
 #: code:addons/crm_mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
 msgid "Email already logged on the lead"
-msgstr "Email jest już zapisany w leadzie"
+msgstr ""
 
 #. module: crm_mail_plugin
 #: model:ir.model,name:crm_mail_plugin.model_crm_lead
@@ -62,28 +60,28 @@ msgstr "Sygnał/Szansa"
 #. module: crm_mail_plugin
 #: model:ir.actions.act_window,name:crm_mail_plugin.crm_lead_action_form_edit
 msgid "Lead: redirect form in edit mode"
-msgstr "Lead: przekieruj formularz w trybie edycji"
+msgstr ""
 
 #. module: crm_mail_plugin
 #. openerp-web
 #: code:addons/crm_mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "Log Email Into Lead"
-msgstr "Zapisz email w leadzie"
+msgstr ""
 
 #. module: crm_mail_plugin
 #. openerp-web
 #: code:addons/crm_mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
 msgid "Log the email on the lead"
-msgstr "Zapisz email na leadzie"
+msgstr ""
 
 #. module: crm_mail_plugin
 #. openerp-web
 #: code:addons/crm_mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "No opportunities found for this contact."
-msgstr "Nie znaleziono szans dla tego kontaktu."
+msgstr ""
 
 #. module: crm_mail_plugin
 #. openerp-web
@@ -110,8 +108,6 @@ msgstr "Szanse (%s)"
 #: model:ir.actions.server,name:crm_mail_plugin.lead_creation_prefilled_action
 msgid "Redirection to the lead creation form with prefilled info"
 msgstr ""
-"Przekierowanie do formularza tworzenie leada z wypełnionymi wstępnie "
-"informacjami"
 
 #. module: crm_mail_plugin
 #. openerp-web
@@ -119,18 +115,18 @@ msgstr ""
 #: code:addons/crm_mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "Save Contact to create new Opportunities."
-msgstr "Zapisz kontakt aby utworzyć nowe szanse."
+msgstr ""
 
 #. module: crm_mail_plugin
 #. openerp-web
 #: code:addons/crm_mail_plugin/static/src/to_translate/translations_outlook.xml:0
 #, python-format
 msgid "The Contact needs to exist to create Opportunity."
-msgstr "Kontakt musi istnieć aby utworzyć szanse."
+msgstr ""
 
 #. module: crm_mail_plugin
 #. openerp-web
 #: code:addons/crm_mail_plugin/static/src/to_translate/translations_gmail.xml:0
 #, python-format
 msgid "You can only create opportunities for existing customers."
-msgstr "Możesz utworzyć szanse tylko dla istniejących klientów."
+msgstr ""

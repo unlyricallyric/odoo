@@ -298,9 +298,8 @@ export class FormController extends Component {
                     callback: () => {
                         const dialogProps = {
                             body: this.env._t(
-                                "Are you sure that you want to archive this record?"
+                                "Are you sure that you want to archive all this record?"
                             ),
-                            confirmLabel: this.env._t("Archive"),
                             confirm: () => this.model.root.archive(),
                             cancel: () => {},
                         };

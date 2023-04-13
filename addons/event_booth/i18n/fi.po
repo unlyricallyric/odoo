@@ -18,7 +18,6 @@
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2022
 # Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2022
 # Veikko Väätäjä <veikko.vaataja@gmail.com>, 2022
-# Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023
 # 
 msgid ""
 msgstr ""
@@ -26,7 +25,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-10 10:23+0000\n"
 "PO-Revision-Date: 2022-09-22 05:45+0000\n"
-"Last-Translator: Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023\n"
+"Last-Translator: Veikko Väätäjä <veikko.vaataja@gmail.com>, 2022\n"
 "Language-Team: Finnish (https://www.transifex.com/odoo/teams/41243/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,94 +36,94 @@ msgstr ""
 #. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_booked_template
 msgid "<b>Renter Email</b>:"
-msgstr "<b>Vuokraajan sähköposti</b>:"
+msgstr ""
 
 #. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_booked_template
 msgid "<b>Renter Mobile</b>:"
-msgstr "<b>Vuokraajan matkapuhelin</b>:"
+msgstr ""
 
 #. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_booked_template
 msgid "<b>Renter Name</b>:"
-msgstr "<b>Vuokraajan nimi</b>:"
+msgstr ""
 
 #. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_booked_template
 msgid "<b>Renter Phone</b>:"
-msgstr "<b>Vuokraajan puhelin</b>:"
+msgstr ""
 
 #. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_event_view_form
 msgid "<span class=\"o_stat_text\">Booths</span>"
-msgstr "<span class=\"o_stat_text\">Näytteilleasettajien alueet</span>"
+msgstr ""
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_premium
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_standard
 msgid "<span class=\"text-white\">4m²</span>"
-msgstr "<span class=\"text-white\">4m²</span>"
+msgstr ""
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_vip
 msgid "<span class=\"text-white\">8m²</span>"
-msgstr "<span class=\"text-white\">8m²</span>"
+msgstr ""
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_premium
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_standard
 msgid "<span>1 Branded Booth</span>"
-msgstr "<span>1 brändätty näyttelyalue</span>"
+msgstr ""
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_premium
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_standard
 msgid "<span>1 desk</span>"
-msgstr "<span>1 pöytä</span>"
+msgstr ""
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_premium
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_vip
 msgid "<span>10 + 1 passes</span>"
-msgstr "<span>10 + 1 lippua</span>"
+msgstr ""
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_vip
 msgid "<span>100 words description on website</span>"
-msgstr "<span>100 sanan kuvaus verkkosivustolla</span>"
+msgstr ""
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_vip
 msgid "<span>2 Branded Booth</span>"
-msgstr "<span>2 brändättyä näyttelyaluetta</span>"
+msgstr ""
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_vip
 msgid "<span>2 desks</span>"
-msgstr "<span>2 pöytää</span>"
+msgstr ""
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_vip
 msgid "<span>2 x 46\" display screens</span>"
-msgstr "<span>2 x 46\" näyttöä</span>"
+msgstr ""
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_premium
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_standard
 msgid "<span>46\" display screen</span>"
-msgstr "<span>46\" näyttö</span>"
+msgstr ""
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_premium
 msgid "<span>50 words description on website</span>"
-msgstr "<span>50 sanan kuvaus verkkosivustolla</span>"
+msgstr ""
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_premium
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_standard
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_vip
 msgid "<span>Logo &amp; link on website</span>"
-msgstr "<span>Logo ja linkki verkkosivulla</span>"
+msgstr ""
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__message_needaction
@@ -176,40 +175,40 @@ msgstr "Saatavilla"
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_event__event_booth_count_available
 msgid "Available Booths"
-msgstr "Saatavilla olevat näyttelyalueet"
+msgstr ""
 
 #. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_booked_template
 msgid "Booth"
-msgstr "Näyttelyalue"
+msgstr ""
 
 #. module: event_booth
 #: model:event.booth,name:event_booth.event_booth_00_event_7
 #: model:event.booth,name:event_booth.event_booth_0_event_0
 msgid "Booth A1"
-msgstr "Näyttelyalue A1"
+msgstr ""
 
 #. module: event_booth
 #: model:event.booth,name:event_booth.event_booth_01_event_7
 #: model:event.booth,name:event_booth.event_booth_1_event_0
 msgid "Booth A2"
-msgstr "Näyttelyalue A2"
+msgstr ""
 
 #. module: event_booth
 #: model:event.booth,name:event_booth.event_booth_02_event_7
 #: model:event.booth,name:event_booth.event_booth_2_event_0
 msgid "Booth A3"
-msgstr "Näyttelyalue A3"
+msgstr ""
 
 #. module: event_booth
 #: model:mail.message.subtype,name:event_booth.mt_event_booth_booked
 msgid "Booth Booked"
-msgstr "Näyttelyalue varattu"
+msgstr ""
 
 #. module: event_booth
 #: model:ir.ui.menu,name:event_booth.menu_event_booth_category
 msgid "Booth Categories"
-msgstr "Näyttelyalueiden kategoriat"
+msgstr ""
 
 #. module: event_booth
 #: model:ir.actions.act_window,name:event_booth.event_booth_category_action
@@ -217,20 +216,18 @@ msgstr "Näyttelyalueiden kategoriat"
 #: model:ir.model.fields,field_description:event_booth.field_event_type_booth__booth_category_id
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_category_view_form
 msgid "Booth Category"
-msgstr "Näyttelyalueen kategoria"
+msgstr ""
 
 #. module: event_booth
 #: model:ir.model.fields,help:event_booth.field_event_event__event_booth_category_available_ids
 msgid "Booth Category for which booths are still available. Used in frontend"
 msgstr ""
-"Näyttelyalueen kategoria, jotka ovat vielä saatavilla. Käytetään front-"
-"endissä"
 
 #. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_category_view_form
 #: model_terms:ir.ui.view,arch_db:event_booth.event_type_booth_view_search
 msgid "Booth Type"
-msgstr "Näyttelyalueen tyyppi"
+msgstr ""
 
 #. module: event_booth
 #: model_terms:ir.actions.act_window,help:event_booth.event_booth_category_action
@@ -238,8 +235,6 @@ msgid ""
 "Booth categories are used to represent the different types of booths you "
 "rent (Premium Booth, Table and Chairs, ...)"
 msgstr ""
-"Näyttelyalueiden kategorioita käytetään esittämään mitä alueita voidaan "
-"vuokrata (Premium-näyttelyalue, pöytä ja tuoli, ...)"
 
 #. module: event_booth
 #: model:ir.actions.act_window,name:event_booth.event_booth_action
@@ -252,7 +247,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_view_tree_from_event
 #: model_terms:ir.ui.view,arch_db:event_booth.event_type_view_form
 msgid "Booths"
-msgstr "Näyttelyalueet"
+msgstr ""
 
 #. module: event_booth
 #: model_terms:ir.actions.act_window,help:event_booth.event_booth_action
@@ -260,24 +255,22 @@ msgstr "Näyttelyalueet"
 #: model_terms:ir.actions.act_window,help:event_booth.event_type_booth_action
 msgid "Booths are the physical stands that you rent during your event."
 msgstr ""
-"Näyttelyalueet ovat fyysisiä alueita, joita vuokrataan näytteilleasettajille"
-" tilaisuuden ajaksi."
 
 #. module: event_booth
 #: model_terms:ir.actions.act_window,help:event_booth.event_booth_action
 #: model_terms:ir.actions.act_window,help:event_booth.event_booth_action_from_event
 msgid "Create a Booth"
-msgstr "Luo näyttelyalue"
+msgstr ""
 
 #. module: event_booth
 #: model_terms:ir.actions.act_window,help:event_booth.event_booth_category_action
 msgid "Create a Booth Category"
-msgstr "Luo näyttelyalueen kategoria"
+msgstr ""
 
 #. module: event_booth
 #: model_terms:ir.actions.act_window,help:event_booth.event_type_booth_action
 msgid "Create a Type Booth"
-msgstr "Luo näyttelyalueen tyyppi"
+msgstr ""
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__create_uid
@@ -317,23 +310,23 @@ msgstr "Tapahtuma"
 #: model:ir.model,name:event_booth.model_event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_view_search
 msgid "Event Booth"
-msgstr "Tapahtuman näyttelyalue"
+msgstr ""
 
 #. module: event_booth
 #: model:ir.model,name:event_booth.model_event_booth_category
 #: model:ir.model.fields,field_description:event_booth.field_event_event__event_booth_category_ids
 msgid "Event Booth Category"
-msgstr "Tapahtuman näyttelyalueen kategoria"
+msgstr ""
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_event__event_booth_category_available_ids
 msgid "Event Booth Category Available"
-msgstr "Tapahtuman näyttelyalueen kategoria on saatavilla"
+msgstr ""
 
 #. module: event_booth
 #: model:ir.model,name:event_booth.model_event_type_booth
 msgid "Event Booth Template"
-msgstr "Tapahtuman näyttelyalueen malli"
+msgstr ""
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__event_type_id
@@ -349,20 +342,20 @@ msgstr "Tapahtuman mallipohja"
 #. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_type_booth_view_form_from_type
 msgid "Event Type Booth"
-msgstr "Tapahtumatyypin näyttelyalue"
+msgstr ""
 
 #. module: event_booth
 #: model:ir.actions.act_window,name:event_booth.event_type_booth_action
 #: model_terms:ir.ui.view,arch_db:event_booth.event_type_booth_view_search
 #: model_terms:ir.ui.view,arch_db:event_booth.event_type_booth_view_tree_from_type
 msgid "Event Type Booths"
-msgstr "Tapahtumatyypin näyttelyalueet"
+msgstr ""
 
 #. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_view_graph
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_view_pivot
 msgid "Event booth"
-msgstr "Tapahtuman näyttelyalue"
+msgstr ""
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__message_follower_ids
@@ -382,17 +375,17 @@ msgstr "Font awesome -ikoni esim.. fa-tasks"
 #. module: event_booth
 #: model:event.booth,name:event_booth.event_booth_20_event_7
 msgid "Gold Booth 1"
-msgstr "Kulta-tason näyttelyalue 1"
+msgstr ""
 
 #. module: event_booth
 #: model:event.booth,name:event_booth.event_booth_21_event_7
 msgid "Gold Booth 2"
-msgstr "Kulta-tason näyttelyalue 2"
+msgstr ""
 
 #. module: event_booth
 #: model:event.booth,name:event_booth.event_booth_22_event_7
 msgid "Gold Booth 3"
-msgstr "Kulta-tason näyttelyalue 3"
+msgstr ""
 
 #. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_view_search
@@ -562,78 +555,78 @@ msgstr "Toimitusvirheellisten viestien määrä"
 #. module: event_booth
 #: model:event.booth,name:event_booth.event_booth_10_event_7
 msgid "OpenWood Demonstrator 1"
-msgstr "OpenWood-esittelijä 1"
+msgstr ""
 
 #. module: event_booth
 #: model:event.booth,name:event_booth.event_booth_11_event_7
 msgid "OpenWood Demonstrator 2"
-msgstr "OpenWood-esittelijä 2"
+msgstr ""
 
 #. module: event_booth
 #: model:event.booth,name:event_booth.event_booth_12_event_7
 msgid "OpenWood Demonstrator 3"
-msgstr "OpenWood-esittelijä 3"
+msgstr ""
 
 #. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_view_form_from_event
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_view_form_quick_create
 #: model_terms:ir.ui.view,arch_db:event_booth.event_type_booth_view_form_from_type
 msgid "Pick a Booth Category..."
-msgstr "Valitse näyttelyalueen kategoria..."
+msgstr ""
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_premium
 msgid "Premium"
-msgstr "Premium"
+msgstr ""
 
 #. module: event_booth
 #: model:event.booth.category,name:event_booth.event_booth_category_premium
 msgid "Premium Booth"
-msgstr "Premium-näyttelyalue"
+msgstr ""
 
 #. module: event_booth
 #: model:event.booth,name:event_booth.event_booth_3_event_0
 msgid "Premium Booth A4"
-msgstr "Premium-näyttelyalue A4"
+msgstr ""
 
 #. module: event_booth
 #: model:event.booth,name:event_booth.event_booth_2_event_2
 #: model:event.type.booth,name:event_booth.event_type_booth_demo_conference_2
 msgid "Premium Showbooth 1"
-msgstr "Premium-näyttelyalue Showbooth 1"
+msgstr ""
 
 #. module: event_booth
 #: model:event.booth,name:event_booth.event_booth_3_event_2
 #: model:event.type.booth,name:event_booth.event_type_booth_demo_conference_3
 msgid "Premium Showbooth 2"
-msgstr "Premium-näyttelyalue Showbooth 2"
+msgstr ""
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__partner_id
 msgid "Renter"
-msgstr "Vuokraaja"
+msgstr ""
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__contact_email
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_view_search
 msgid "Renter Email"
-msgstr "Vuokraajan sähköposti"
+msgstr ""
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__contact_mobile
 msgid "Renter Mobile"
-msgstr "Vuokraajan matkapuhelin"
+msgstr ""
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__contact_name
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_view_search
 msgid "Renter Name"
-msgstr "Vuokraajan nimi"
+msgstr ""
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__contact_phone
 msgid "Renter Phone"
-msgstr "Vuokraajan puhelin"
+msgstr ""
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__activity_user_id
@@ -654,13 +647,13 @@ msgstr "Järjestys"
 #: model:event.booth,name:event_booth.event_booth_0_event_2
 #: model:event.type.booth,name:event_booth.event_type_booth_demo_conference_0
 msgid "Showbooth 1"
-msgstr "Showbooth 1"
+msgstr ""
 
 #. module: event_booth
 #: model:event.booth,name:event_booth.event_booth_1_event_2
 #: model:event.type.booth,name:event_booth.event_type_booth_demo_conference_1
 msgid "Showbooth 2"
-msgstr "Showbooth 2"
+msgstr ""
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_standard
@@ -670,7 +663,7 @@ msgstr "Normaali"
 #. module: event_booth
 #: model:event.booth.category,name:event_booth.event_booth_category_standard
 msgid "Standard Booth"
-msgstr "Normaali näyttelyalue"
+msgstr ""
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__state
@@ -693,7 +686,7 @@ msgstr ""
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_event__event_booth_count
 msgid "Total Booths"
-msgstr "Näyttelyalueita yhteensä"
+msgstr ""
 
 #. module: event_booth
 #: model:ir.model.fields,help:event_booth.field_event_booth__activity_exception_decoration
@@ -704,7 +697,7 @@ msgstr "Poikkeusaktiviteetin tyyppi tietueella"
 #: model:ir.model.fields.selection,name:event_booth.selection__event_booth__state__unavailable
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_view_search
 msgid "Unavailable"
-msgstr "Ei saatavilla"
+msgstr ""
 
 #. module: event_booth
 #: model_terms:event.booth.category,description:event_booth.event_booth_category_vip
@@ -714,12 +707,12 @@ msgstr "VIP"
 #. module: event_booth
 #: model:event.booth.category,name:event_booth.event_booth_category_vip
 msgid "VIP Booth"
-msgstr "VIP-näyttelyalue"
+msgstr ""
 
 #. module: event_booth
 #: model:event.booth,name:event_booth.event_booth_4_event_0
 msgid "VIP Booth A5"
-msgstr "VIP-näyttelyalue A5"
+msgstr ""
 
 #. module: event_booth
 #: model:ir.model.fields,field_description:event_booth.field_event_booth__website_message_ids
@@ -734,16 +727,16 @@ msgstr "Verkkosivun viestihistoria"
 #. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_category_view_form
 msgid "e.g. \"Those stands will be place near the entrance and...\""
-msgstr "esim. \"Nämä näyttelyalueet sijaitsevat sisäänkäynnin lähellä...\""
+msgstr ""
 
 #. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_view_form_from_event
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_view_form_quick_create
 #: model_terms:ir.ui.view,arch_db:event_booth.event_type_booth_view_form_from_type
 msgid "e.g. First Booth Alley 1"
-msgstr "esim. ensimmäinen näyttelyalueiden kuja"
+msgstr ""
 
 #. module: event_booth
 #: model_terms:ir.ui.view,arch_db:event_booth.event_booth_category_view_form
 msgid "e.g. Premium Booth"
-msgstr "esim. premium-näyttelyalue"
+msgstr ""

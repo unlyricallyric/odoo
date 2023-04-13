@@ -9,7 +9,6 @@
 # Kari Lindgren <kari.lindgren@emsystems.fi>, 2022
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2022
 # Martin Trigaux, 2022
-# Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023
 # 
 msgid ""
 msgstr ""
@@ -17,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-20 09:01+0000\n"
 "PO-Revision-Date: 2022-09-22 05:45+0000\n"
-"Last-Translator: Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023\n"
-"Language-Team: Finnish (https://app.transifex.com/odoo/teams/41243/fi/)\n"
+"Last-Translator: Martin Trigaux, 2022\n"
+"Language-Team: Finnish (https://www.transifex.com/odoo/teams/41243/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -41,7 +40,7 @@ msgstr ""
 #. module: data_recycle
 #: model_terms:ir.ui.view,arch_db:data_recycle.view_data_merge_model_form
 msgid "<span class=\"me-1\">Every</span>"
-msgstr "<span class=\"me-1\">Joka</span>"
+msgstr ""
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__active
@@ -73,7 +72,7 @@ msgstr "Asetukset"
 #: model_terms:ir.actions.act_window,help:data_recycle.action_data_recycle_record
 #: model_terms:ir.actions.act_window,help:data_recycle.action_data_recycle_record_notification
 msgid "Configure rules to identify records to clean"
-msgstr "Määritä säännöt puhdistettavien tietueiden tunnistamiseksi"
+msgstr ""
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__create_uid
@@ -90,7 +89,7 @@ msgstr "Luotu"
 #. module: data_recycle
 #: model:ir.ui.menu,name:data_recycle.menu_data_cleaning_root
 msgid "Data Cleaning"
-msgstr "Tietojen puhdistus"
+msgstr ""
 
 #. module: data_recycle
 #: model:ir.actions.server,name:data_recycle.ir_cron_clean_records_ir_actions_server
@@ -128,7 +127,7 @@ msgstr "Hylkää"
 #. module: data_recycle
 #: model_terms:ir.ui.view,arch_db:data_recycle.view_data_recycle_record_search
 msgid "Discarded"
-msgstr "Käytöstä poistetut"
+msgstr ""
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__display_name
@@ -167,7 +166,7 @@ msgstr "Viimeksi muokattu"
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__last_notification
 msgid "Last Notification"
-msgstr "Viimeisin ilmoitus"
+msgstr ""
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__write_uid
@@ -218,22 +217,22 @@ msgstr "Nimi"
 #: model_terms:ir.actions.act_window,help:data_recycle.action_data_recycle_record
 #: model_terms:ir.actions.act_window,help:data_recycle.action_data_recycle_record_notification
 msgid "No cleaning suggestions"
-msgstr "Ei puhdistusehdotuksia"
+msgstr ""
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__notify_frequency
 msgid "Notify"
-msgstr "Ilmoita"
+msgstr ""
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__notify_frequency_period
 msgid "Notify Frequency Period"
-msgstr "Ilmoita taajuuden jakso"
+msgstr ""
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__notify_user_ids
 msgid "Notify Users"
-msgstr "Ilmoita käyttäjille"
+msgstr ""
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_record__res_id
@@ -243,13 +242,13 @@ msgstr "Tietue ID"
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_record__name
 msgid "Record Name"
-msgstr "Tiedon nimi"
+msgstr ""
 
 #. module: data_recycle
 #: model_terms:ir.ui.view,arch_db:data_recycle.view_data_merge_model_form
 #: model_terms:ir.ui.view,arch_db:data_recycle.view_data_recycle_record_search
 msgid "Records"
-msgstr "Tiedot"
+msgstr ""
 
 #. module: data_recycle
 #: model:ir.model.fields,field_description:data_recycle.field_data_recycle_model__records_to_recycle_count
@@ -325,7 +324,7 @@ msgstr ""
 #. module: data_recycle
 #: model:ir.model.constraint,message:data_recycle.constraint_data_recycle_model_check_notif_freq
 msgid "The notification frequency should be greater than 0"
-msgstr "Ilmeentymistiheyden on oltava suurempi kuin 0"
+msgstr ""
 
 #. module: data_recycle
 #: code:addons/data_recycle/models/data_recycle_model.py:0
@@ -349,7 +348,7 @@ msgstr ""
 #: code:addons/data_recycle/static/src/views/data_recycle_list_view.xml:0
 #, python-format
 msgid "Unselect"
-msgstr "Poista valinta"
+msgstr ""
 
 #. module: data_recycle
 #. openerp-web
@@ -383,4 +382,4 @@ msgstr "tänne"
 #. module: data_recycle
 #: model_terms:ir.ui.view,arch_db:data_recycle.notification
 msgid "records to clean with the '"
-msgstr "tietueet, jotka puhdistetaan '"
+msgstr ""

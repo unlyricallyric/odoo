@@ -22,17 +22,17 @@ msgstr ""
 #. module: product_matrix
 #: model:product.attribute.value,name:product_matrix.product_attribute_value_color_1
 msgid "Blue"
-msgstr "നീല"
+msgstr ""
 
 #. module: product_matrix
 #: model:product.attribute,name:product_matrix.product_attribute_gender
 msgid "Gender"
-msgstr "ലിംഗഭേദം"
+msgstr ""
 
 #. module: product_matrix
 #: model:product.attribute.value,name:product_matrix.product_attribute_value_m
 msgid "Men"
-msgstr "പുരുഷന്മാർ"
+msgstr ""
 
 #. module: product_matrix
 #: model:product.template,name:product_matrix.matrix_product_template_shirt
@@ -49,7 +49,7 @@ msgstr ""
 #. module: product_matrix
 #: model:product.attribute.value,name:product_matrix.product_attribute_value_color_2
 msgid "Pink"
-msgstr "പിങ്ക്"
+msgstr ""
 
 #. module: product_matrix
 #: model:ir.model,name:product_matrix.model_product_template
@@ -64,7 +64,7 @@ msgstr ""
 #. module: product_matrix
 #: model:product.attribute.value,name:product_matrix.product_attribute_value_color_4
 msgid "Rainbow"
-msgstr "മഴവില്ല്"
+msgstr ""
 
 #. module: product_matrix
 #: model:product.template,description_sale:product_matrix.matrix_product_template_shirt
@@ -74,7 +74,7 @@ msgstr ""
 #. module: product_matrix
 #: model:product.attribute,name:product_matrix.product_attribute_size
 msgid "Size"
-msgstr "വലിപ്പം"
+msgstr ""
 
 #. module: product_matrix
 #: model:product.template,uom_name:product_matrix.matrix_product_template_shirt
@@ -84,7 +84,7 @@ msgstr "യൂണിറ്സ്"
 #. module: product_matrix
 #: model:product.attribute.value,name:product_matrix.product_attribute_value_w
 msgid "Women"
-msgstr "സ്ത്രീകൾ"
+msgstr ""
 
 #. module: product_matrix
 #: model:product.attribute.value,name:product_matrix.product_attribute_value_size_xl
@@ -99,4 +99,4 @@ msgstr ""
 #. module: product_matrix
 #: model:product.attribute.value,name:product_matrix.product_attribute_value_color_3
 msgid "Yellow"
-msgstr "മഞ്ഞ"
+msgstr ""

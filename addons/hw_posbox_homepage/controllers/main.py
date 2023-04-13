@@ -76,8 +76,6 @@ class IoTboxHomepage(Home):
         else:
             network = 'Not Connected'
 
-        is_certificate_ok, certificate_details = helpers.get_certificate_status()
-
         iot_device = []
         for device in iot_devices:
             iot_device.append({
@@ -97,8 +95,6 @@ class IoTboxHomepage(Home):
             'network_status': network,
             'version': helpers.get_version(),
             'system': platform.system(),
-            'is_certificate_ok': is_certificate_ok,
-            'certificate_details': certificate_details,
             }
 
     @http.route('/', type='http', auth='none')

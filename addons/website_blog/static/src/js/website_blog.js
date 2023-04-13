@@ -71,16 +71,16 @@ publicWidget.registry.websiteBlog = publicWidget.Widget.extend({
         ev.preventDefault();
         var url = '';
         var $element = $(ev.currentTarget);
-        var blogPostTitle = $('#o_wblog_post_name').html() || '';
-        var articleURL = window.location.href;
+        var blogPostTitle = encodeURIComponent($('#o_wblog_post_name').html() || '');
+        var articleURL = encodeURIComponent(window.location.href);
         if ($element.hasClass('o_twitter')) {
             var twitterText = core._t("Amazing blog article: %s! Check it live: %s");
             var tweetText = _.string.sprintf(twitterText, blogPostTitle, articleURL);
-            url = 'https://twitter.com/intent/tweet?tw_p=tweetbutton&text=' + encodeURIComponent(tweetText);
+            url = 'https://twitter.com/intent/tweet?tw_p=tweetbutton&text=' + tweetText;
         } else if ($element.hasClass('o_facebook')) {
-            url = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(articleURL);
+            url = 'https://www.facebook.com/sharer/sharer.php?u=' + articleURL;
         } else if ($element.hasClass('o_linkedin')) {
-            url = 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(articleURL);
+            url = 'https://www.linkedin.com/sharing/share-offsite/?url=' + articleURL;
         }
         window.open(url, '', 'menubar=no, width=500, height=400');
     },

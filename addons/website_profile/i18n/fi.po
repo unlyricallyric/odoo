@@ -413,7 +413,7 @@ msgstr ""
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.users_page_content
 msgid "No user found for"
-msgstr "Käyttäjää ei löydy kohteelle"
+msgstr ""
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.user_profile_edit_content
@@ -498,7 +498,7 @@ msgstr "Käyttäjä"
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.top3_user_card
 msgid "User rank"
-msgstr "Käyttäjän paikka pistekisassa"
+msgstr ""
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.user_profile_sub_nav
@@ -570,7 +570,7 @@ msgstr "tai"
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.rank_badge_main
 msgid "point"
-msgstr "piste"
+msgstr ""
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.all_user_card

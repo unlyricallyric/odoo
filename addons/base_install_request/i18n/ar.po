@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Martin Trigaux, 2022
+# Mehjabin Farsana, 2022
 # Malaz Abuidris <msea@odoo.com>, 2023
 # 
 msgid ""
@@ -45,27 +46,6 @@ msgid ""
 "</div>\n"
 "            "
 msgstr ""
-"<div style=\"margin: 0px; padding: 0px;\">\n"
-"    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
-"        مرحباً،\n"
-"        <br/><br/>\n"
-"        <span style=\"font-weight: bold;\" t-out=\"object.user_id.name\"/> طلب تفعيل تطبيق <span style=\"font-weight: bold;\" t-out=\"object.module_id.shortdesc\"/>. هذا التطبيق مشمول في اشتراكك. لن يترتم على ذلك <span style=\"color: #875A7B; font-weight: bold;\">أي تكاليف إضافية</span>، ولكن يتطلب دور المدير لتفعيله.\n"
-"        <br/><br/>\n"
-"        <blockquote>\n"
-"            <t t-out=\"object.body_html\"/>\n"
-"        </blockquote>\n"
-"        <br/><br/>\n"
-"        <a style=\"background-color:#875A7B; padding:8px 16px 8px 16px; text-decoration:none; color:#fff; border-radius:5px\" t-attf-href=\"/web?#action=base_install_request.action_base_module_install_review&amp;active_id={{ object.module_id.id }}&amp;menu_id={{ ctx['menu_id'] }}\">مراجعة الطلب</a>\n"
-"        <br/><br/>\n"
-"        شكراً لك،\n"
-"        <t t-if=\"not is_html_empty(object.user_id.signature)\">\n"
-"            <br/><br/>\n"
-"            <t t-out=\"object.user_id.signature or ''\">--<br/>ميتشل آدمن</t>\n"
-"        </t>\n"
-"        <br/><br/>\n"
-"    </p>\n"
-"</div>\n"
-"            "
 
 #. module: base_install_request
 #: code:addons/base_install_request/models/ir_module_module.py:0
@@ -151,7 +131,7 @@ msgstr "التطبيق "
 #. module: base_install_request
 #: model:ir.model,name:base_install_request.model_base_module_install_request
 msgid "Module Activation Request"
-msgstr "طلب تفعيل التطبيق "
+msgstr "طلب تفعيل الوحدة"
 
 #. module: base_install_request
 #: model:mail.template,subject:base_install_request.mail_template_base_install_request
@@ -161,12 +141,12 @@ msgstr "طلب تفعيل التطبيق \"{{ object.module_id.shortdesc }}\"- "
 #. module: base_install_request
 #: model:ir.model,name:base_install_request.model_base_module_install_review
 msgid "Module Activation Review"
-msgstr "مراجعة تفعيل التطبيق "
+msgstr "مراجعة تنشيط الوحدة النمطية"
 
 #. module: base_install_request
 #: model:ir.model.fields,field_description:base_install_request.field_base_module_install_review__modules_description
 msgid "Modules Description"
-msgstr "وصف التطبيقات "
+msgstr "وصف الوحدات"
 
 #. module: base_install_request
 #: model_terms:ir.ui.view,arch_db:base_install_request.base_module_install_review_view_form
@@ -182,12 +162,12 @@ msgstr "لم يتم تحديد أي تطبيق. "
 #. module: base_install_request
 #: model_terms:ir.ui.view,arch_db:base_install_request.ir_module_module_view_kanban
 msgid "Request Access"
-msgstr "طلب الوصول "
+msgstr "طلب الدخول"
 
 #. module: base_install_request
 #: model_terms:ir.ui.view,arch_db:base_install_request.base_module_install_request_view_form
 msgid "Request Activation"
-msgstr "طلب التفعيل "
+msgstr "طلب التنشيط"
 
 #. module: base_install_request
 #: model:ir.model.fields,field_description:base_install_request.field_base_module_install_request__user_ids
@@ -204,7 +184,7 @@ msgstr "سيتم تثبيت التطبيقات التالية: "
 #: code:addons/base_install_request/wizard/base_module_install_request.py:0
 #, python-format
 msgid "The module is already installed."
-msgstr "التطبيق مثبت بالفعل. "
+msgstr "الوحدة مثبتة بالفعل."
 
 #. module: base_install_request
 #: model_terms:ir.ui.view,arch_db:base_install_request.base_module_install_request_view_form

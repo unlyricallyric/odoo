@@ -143,9 +143,6 @@ msgid ""
 "                        Wait a moment for it to be processed. If the refund is still pending in a\n"
 "                        few minutes, please check your payment provider configuration."
 msgstr ""
-"<strong>Uwaga!</strong>Trwa proces zwrotu pieniędzy za tę płatność.\n"
-"Poczekaj chwilę na jego przetworzenie. Jeśli po kilku minutach zwrot nadal jest w toku\n"
-"po kilku minutach, sprawdź konfigurację swojego dostawcy płatności."
 
 #. module: account_payment
 #. odoo-python
@@ -326,8 +323,6 @@ msgid ""
 "Note that tokens from providers set to only authorize transactions (instead "
 "of capturing the amount) are not available."
 msgstr ""
-"Należy pamiętać, że tokeny od dostawców ustawionych tak, aby tylko "
-"autoryzować transakcje (zamiast przechwytywać kwotę) nie są dostępne."
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_my_invoices_payment
@@ -385,7 +380,7 @@ msgstr "Dostawcy płatności"
 #. module: account_payment
 #: model:ir.model,name:account_payment.model_payment_refund_wizard
 msgid "Payment Refund Wizard"
-msgstr "Kreator zwrotu płatności"
+msgstr ""
 
 #. module: account_payment
 #: model:ir.ui.menu,name:account_payment.payment_token_menu
@@ -455,7 +450,7 @@ msgstr "Rejestruj płatność"
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.view_account_journal_form
 msgid "SETUP"
-msgstr "Ustawienia"
+msgstr ""
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_payment__payment_token_id
@@ -470,7 +465,7 @@ msgstr "Zapisany token płatności"
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_payment__source_payment_id
 msgid "Source Payment"
-msgstr "Źródło płatności"
+msgstr ""
 
 #. module: account_payment
 #: model:ir.model.fields,field_description:account_payment.field_account_payment_method_line__payment_provider_state
@@ -501,7 +496,7 @@ msgstr "Kwota do zwrotu musi być dodatnia i nie może być większa od %s ."
 #. module: account_payment
 #: model:ir.model.fields,help:account_payment.field_payment_provider__journal_id
 msgid "The journal in which the successful transactions are posted."
-msgstr "Dziennik w którym są zapisywane pomyślne płatności."
+msgstr ""
 
 #. module: account_payment
 #. odoo-python
@@ -525,7 +520,7 @@ msgstr "Podane parametry są nieprawidłowe."
 #. module: account_payment
 #: model:ir.model.fields,help:account_payment.field_account_payment__source_payment_id
 msgid "The source payment of related refund payments"
-msgstr "Źródło płatności powiązanych zwrotów."
+msgstr ""
 
 #. module: account_payment
 #: model_terms:ir.ui.view,arch_db:account_payment.portal_invoice_error
@@ -586,8 +581,6 @@ msgid ""
 "You can't delete a payment method that is linked to a provider in the enabled or test state.\n"
 "Linked provider(s): %s"
 msgstr ""
-"Nie można usunąć metody płatności, która jest powiązana z dostawcą w stanie włączonym lub testowym.\n"
-"Powiązany dostawca (dostawcy): %s"
 
 #. module: account_payment
 #. odoo-python
@@ -597,5 +590,3 @@ msgid ""
 "You must first deactivate a payment provider before deleting its journal.\n"
 "Linked providers: %s"
 msgstr ""
-"Musisz najpierw dezaktywować dostawcę płatności przed usunięciem jego dziennika.\n"
-"Połączeni dostawcy: %s"

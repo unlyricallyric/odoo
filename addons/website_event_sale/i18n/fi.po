@@ -32,8 +32,6 @@ msgid ""
 "<i class=\"fa fa-ban me-2\"/>\n"
 "                                            Unpublished"
 msgstr ""
-"<i class=\"fa fa-ban me-2\"/>\n"
-"                                            Ei julkaistu"
 
 #. module: website_event_sale
 #: model_terms:ir.ui.view,arch_db:website_event_sale.event_confirmation
@@ -55,8 +53,6 @@ msgid ""
 "A pricelist item with a positive min. quantity cannot be applied to this "
 "event tickets product."
 msgstr ""
-"Hinnaston kohde, jolle on asetettu vähimmäismäärä, ei sovellu käytettäväksi "
-"tapahtumalipputuotteessa."
 
 #. module: website_event_sale
 #: code:addons/website_event_sale/models/product_pricelist.py:0
@@ -65,8 +61,6 @@ msgid ""
 "A pricelist item with a positive min. quantity will not be applied to the "
 "event tickets products."
 msgstr ""
-"Hinnaston kohde, jolle on asetettu vähimmäismäärä, ei voida käyttää "
-"tapahtumalipputuotteessa."
 
 #. module: website_event_sale
 #: model:ir.model,name:website_event_sale.model_event_sale_report
@@ -91,7 +85,7 @@ msgstr "Alkaa"
 #. module: website_event_sale
 #: model_terms:ir.ui.view,arch_db:website_event_sale.event_confirmation
 msgid "Go to Event"
-msgstr "Mene tapahtumaan"
+msgstr ""
 
 #. module: website_event_sale
 #: model:ir.model,name:website_event_sale.model_product_pricelist_item
@@ -107,7 +101,7 @@ msgstr "Tuotevariaatio"
 #: model:ir.model.fields,field_description:website_event_sale.field_event_sale_report__is_published
 #: model_terms:ir.ui.view,arch_db:website_event_sale.event_sale_report_view_search
 msgid "Published Events"
-msgstr "Julkaistut tapahtumat"
+msgstr ""
 
 #. module: website_event_sale
 #: code:addons/website_event_sale/controllers/main.py:0
@@ -146,7 +140,7 @@ msgstr ""
 #: code:addons/website_event_sale/models/sale_order.py:0
 #, python-format
 msgid "The provided ticket doesn't exist"
-msgstr "Asetettua lippua ei ole olemassa."
+msgstr ""
 
 #. module: website_event_sale
 #: code:addons/website_event_sale/models/sale_order.py:0
@@ -163,7 +157,7 @@ msgstr "Varoitus"
 #. module: website_event_sale
 #: model_terms:ir.ui.view,arch_db:website_event_sale.event_confirmation
 msgid "We are looking forward to meeting you at the following"
-msgstr "Odotamme ilolla näkevämme teidät seuraavassa tapahtumassa"
+msgstr ""
 
 #. module: website_event_sale
 #: model:ir.model,name:website_event_sale.model_website
@@ -174,17 +168,17 @@ msgstr "Verkkosivu"
 #: code:addons/website_event_sale/models/sale_order.py:0
 #, python-format
 msgid "You cannot raise manually the event ticket quantity in your cart"
-msgstr "Et voi lisätä ostoskorissa olevien lippujen määrää käsin"
+msgstr ""
 
 #. module: website_event_sale
 #: model_terms:ir.ui.view,arch_db:website_event_sale.event_confirmation
 msgid "event"
-msgstr "tapahtuma"
+msgstr ""
 
 #. module: website_event_sale
 #: model_terms:ir.ui.view,arch_db:website_event_sale.event_confirmation
 msgid "events"
-msgstr "tapahtumat"
+msgstr ""
 
 #. module: website_event_sale
 #: model_terms:ir.ui.view,arch_db:website_event_sale.registration_template

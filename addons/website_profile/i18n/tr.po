@@ -14,8 +14,8 @@
 # Murat Kaplan <muratk@projetgrup.com>, 2022
 # Martin Trigaux, 2022
 # abc Def <hdogan1974@gmail.com>, 2022
+# Tugay Hatıl <tugayh@projetgrup.com>, 2022
 # Murat Durmuş <muratd@projetgrup.com>, 2022
-# Tugay Hatıl <tugayh@projetgrup.com>, 2023
 # 
 msgid ""
 msgstr ""
@@ -23,8 +23,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-04 09:26+0000\n"
 "PO-Revision-Date: 2022-09-22 05:57+0000\n"
-"Last-Translator: Tugay Hatıl <tugayh@projetgrup.com>, 2023\n"
-"Language-Team: Turkish (https://app.transifex.com/odoo/teams/41243/tr/)\n"
+"Last-Translator: Murat Durmuş <muratd@projetgrup.com>, 2022\n"
+"Language-Team: Turkish (https://www.transifex.com/odoo/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -37,8 +37,6 @@ msgid ""
 "!<br/>\n"
 "            Did not receive it?"
 msgstr ""
-"!<br/>\n"
-"            Almadınız mı?"
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.user_profile_header
@@ -62,7 +60,7 @@ msgstr ". Başka bir arama yapmayı deneyin."
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.user_badges
 msgid "<i class=\"fa fa-arrow-right me-1\"/>All Badges"
-msgstr "Tüm Rozetler"
+msgstr ""
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.user_badges
@@ -72,17 +70,17 @@ msgstr "<i class=\"fa fa-arrow-right\"/>Tüm Rozetler"
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.user_profile_edit_content
 msgid "<i class=\"fa fa-pencil fa-1g float-sm-none float-md-start\" title=\"Edit\"/>"
-msgstr "<i class=\"fa fa-pencil fa-1g float-sm-none float-md-start\" title=\"Edit\"/>"
+msgstr ""
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.user_profile_header
 msgid "<i class=\"fa fa-pencil me-1\"/>EDIT"
-msgstr "<i class=\"fa fa-pencil me-1\"/>DÜZENLE"
+msgstr ""
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.user_profile_header
 msgid "<i class=\"fa fa-pencil me-2\"/>EDIT PROFILE"
-msgstr "<i class=\"fa fa-pencil me-2\"/>PROFİLİ DÜZENLE"
+msgstr ""
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.badge_content
@@ -92,62 +90,62 @@ msgstr "<i class=\"text-muted\"> ödül kazanan kullanıcılar</i>"
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.user_profile_content
 msgid "<small class=\"fw-bold me-2\">Current rank:</small>"
-msgstr "<small class=\"fw-bold me-2\">Mevcut sıralama:</small>"
+msgstr ""
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.user_profile_content
 msgid "<small class=\"fw-bold\">Badges</small>"
-msgstr "<small class=\"fw-bold\">Rozetler</small>"
+msgstr ""
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.user_profile_content
 msgid "<small class=\"fw-bold\">Joined</small>"
-msgstr "<small class=\"fw-bold\">Katıldı</small>"
+msgstr ""
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.user_profile_edit_content
 msgid "<span class=\"fw-bold\">Biography</span>"
-msgstr "<span class=\"fw-bold\">Biyografi</span>"
+msgstr ""
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.user_profile_edit_content
 msgid "<span class=\"fw-bold\">City</span>"
-msgstr "<span class=\"fw-bold\">Şehir</span>"
+msgstr ""
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.user_profile_edit_content
 msgid "<span class=\"fw-bold\">Country</span>"
-msgstr "<span class=\"fw-bold\">Ülke</span>"
+msgstr ""
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.user_profile_edit_content
 msgid "<span class=\"fw-bold\">Email</span>"
-msgstr "<span class=\"fw-bold\">Eposta</span>"
+msgstr ""
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.user_profile_edit_content
 msgid "<span class=\"fw-bold\">Name</span>"
-msgstr "<span class=\"fw-bold\">Adı</span>"
+msgstr ""
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.user_profile_edit_content
 msgid "<span class=\"fw-bold\">Public profile</span>"
-msgstr "<span class=\"fw-bold\">Halka açık profil</span>"
+msgstr ""
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.user_profile_edit_content
 msgid "<span class=\"fw-bold\">Website</span>"
-msgstr "<span class=\"fw-bold\">Website</span>"
+msgstr ""
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.all_user_card
 msgid "<span class=\"text-muted small fw-bold\">Badges</span>"
-msgstr "<span class=\"text-muted small fw-bold\">Rozetler</span>"
+msgstr ""
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.all_user_card
 msgid "<span class=\"text-muted small fw-bold\">XP</span>"
-msgstr "<span class=\"text-muted small fw-bold\">XP</span>"
+msgstr ""
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.top3_user_card
@@ -171,7 +169,7 @@ msgstr ""
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.users_page_header
 msgid "<strong class=\"mb-3 text-white me-2\">Rank by :</strong>"
-msgstr "<strong class=\"mb-3 text-white me-2\">Sıralama:</strong>"
+msgstr ""
 
 #. module: website_profile
 #: model:mail.template,body_html:website_profile.validation_email
@@ -353,17 +351,17 @@ msgstr ""
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.email_validation_banner
 msgid "<u>Correct your email address</u>"
-msgstr "<u>E-posta adresinizi düzeltin</u>"
+msgstr ""
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.email_validation_banner
 msgid "<u>Send Again</u>"
-msgstr "<u>Tekrar Gönder</u>"
+msgstr ""
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.email_validation_banner
 msgid "<u>here</u>"
-msgstr "<u>Burada</u>"
+msgstr ""
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.user_profile_content
@@ -437,7 +435,7 @@ msgstr "Profili Düzenle"
 #. module: website_profile
 #: model:mail.template,name:website_profile.validation_email
 msgid "Forum: Email Verification"
-msgstr "Forum: E-posta Doğrulaması"
+msgstr ""
 
 #. module: website_profile
 #: model:ir.model,name:website_profile.model_gamification_badge
@@ -497,7 +495,7 @@ msgstr "Sonraki sıralama:"
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.users_page_main
 msgid "No Leaderboard Yet :("
-msgstr "Henüz Skor Tahtası Yok :("
+msgstr ""
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.user_badges
@@ -551,7 +549,7 @@ msgstr "Kullanıcı ara"
 #. module: website_profile
 #: model:mail.template,description:website_profile.validation_email
 msgid "Sent to forum visitors to confirm their mail address"
-msgstr "Posta adreslerini doğrulamak için forum ziyaretçilerine gönderildi"
+msgstr ""
 
 #. module: website_profile
 #: model:ir.model.fields,help:website_profile.field_gamification_badge__website_url
@@ -602,7 +600,7 @@ msgstr "Kullanıcılar"
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.email_validation_banner
 msgid "Verification Email sent to"
-msgstr "Doğrulama E-postası şuraya gönderildi:"
+msgstr ""
 
 #. module: website_profile
 #: model:ir.model.fields,field_description:website_profile.field_gamification_badge__website_published
@@ -649,13 +647,11 @@ msgid ""
 "Your Account has not yet been verified.<br/>\n"
 "            Click"
 msgstr ""
-"Hesabınız henüz doğrulanmadı.<br/>\n"
-"            Tıkla"
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.email_validation_banner
 msgid "Your account does not have an email set up. Please set it up on"
-msgstr "Hesabınızda bir e-posta kurulumu yok. Lütfen şuraya kurun:"
+msgstr ""
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.rank_badge_main
@@ -686,7 +682,7 @@ msgstr "bu hafta"
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.email_validation_banner
 msgid "to receive a verification email"
-msgstr "doğrulama e-postası almak için"
+msgstr ""
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.profile_next_rank_card
@@ -696,7 +692,7 @@ msgstr "xp"
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.email_validation_banner
 msgid "your account settings"
-msgstr "hesap ayarlarınız"
+msgstr ""
 
 #. module: website_profile
 #: model:mail.template,subject:website_profile.validation_email

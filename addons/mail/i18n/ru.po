@@ -786,7 +786,7 @@ msgstr ""
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_template_preview_view_form
 msgid "<span class=\"col-md-5 col-lg-4 col-sm-12 ps-0\">Force a language: </span>"
-msgstr "Установить язык"
+msgstr ""
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
@@ -1139,7 +1139,7 @@ msgstr "Расширение с действиями"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_type_view_form
 msgid "Activity Settings"
-msgstr "Параметры действия"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_mixin__activity_state
@@ -1771,7 +1771,7 @@ msgstr ""
 #: code:addons/mail/static/src/models_data/emoji_data.js:0
 #, python-format
 msgid "BACK"
-msgstr "НАЗАД"
+msgstr ""
 
 #. module: mail
 #. odoo-javascript
@@ -2075,7 +2075,7 @@ msgstr "Получатели скрытой копии сообщения"
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_template_preview__email_cc
 msgid "Carbon copy recipients"
-msgstr "Получатели копий"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_template__email_cc
@@ -2103,7 +2103,7 @@ msgstr "Копия"
 #: model:ir.model.fields,field_description:mail.field_mail_activity__chaining_type
 #: model:ir.model.fields,field_description:mail.field_mail_activity_type__chaining_type
 msgid "Chaining Type"
-msgstr "Метод последовательности"
+msgstr ""
 
 #. module: mail
 #. odoo-javascript
@@ -2823,7 +2823,7 @@ msgstr "Крайний срок:"
 #: code:addons/mail/models/mail_activity.py:0
 #, python-format
 msgid "Deadline: %s"
-msgstr "Срок сдачи: %s"
+msgstr ""
 
 #. module: mail
 #. odoo-javascript
@@ -2862,17 +2862,17 @@ msgstr "Режим дисплея по умолчанию"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_type__default_note
 msgid "Default Note"
-msgstr "Примечание по умолчанию"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_type__summary
 msgid "Default Summary"
-msgstr "Сводка по умолчанию"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_type__default_user_id
 msgid "Default User"
-msgstr "Пользователь по умолчанию"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_alias__alias_defaults
@@ -3373,7 +3373,7 @@ msgstr "Черный список электронной почты"
 #. module: mail
 #: model:ir.model,name:mail.model_mail_thread_cc
 msgid "Email CC management"
-msgstr "Управление СС электронной почты"
+msgstr ""
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
@@ -3445,8 +3445,6 @@ msgid ""
 "Email address to which replies will be redirected when sending emails in "
 "mass"
 msgstr ""
-"Адрес электронной почты, на который будут перенаправляться ответы при "
-"массовой отправке писем"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_template__reply_to
@@ -3455,9 +3453,6 @@ msgid ""
 "mass; only used when the reply is not logged in the original discussion "
 "thread."
 msgstr ""
-"Адрес электронной почты, на который будут перенаправляться ответы при "
-"массовой отправке писем; используется только в том случае, если ответ не "
-"относится к исходной беседе."
 
 #. module: mail
 #: model_terms:ir.actions.act_window,help:mail.mail_blacklist_action
@@ -4459,8 +4454,6 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_mail__to_delete
 msgid "If set, the mail will be deleted during the next Email Queue CRON run."
 msgstr ""
-"Если установлено, письмо будет удалено во время следующего запуска Email "
-"Queue CRON."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_mail__scheduled_date
@@ -4469,9 +4462,6 @@ msgid ""
 "the email will be send as soon as possible. Unless a timezone is specified, "
 "it is considered as being in UTC timezone."
 msgstr ""
-"Если установлено, письмо будет отправлено после указанной даты. Если не "
-"установлено, письмо будет отправлено как можно скорее. Если не указан "
-"часовой пояс, то время будет рассчитано в часовом поясе UTC."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_template__scheduled_date
@@ -4479,9 +4469,6 @@ msgid ""
 "If set, the queue manager will send the email after the date. If not set, "
 "the email will be send as soon as possible. You can use dynamic expression."
 msgstr ""
-"Если установлено, письмо будет отправлено после указанной даты. Если не "
-"установлено, письмо будет отправлено как можно скорее. Вы можете "
-"использовать динамическое выражение."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_bounced_content
@@ -6361,7 +6348,7 @@ msgstr "Нет ошибки"
 #: code:addons/mail/static/src/components/follower_list_menu/follower_list_menu.xml:0
 #, python-format
 msgid "No Followers"
-msgstr "Нет подписчиков"
+msgstr ""
 
 #. module: mail
 #. odoo-javascript
@@ -7184,7 +7171,7 @@ msgstr "Телефон"
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_activity_type__category__phonecall
 msgid "Phonecall"
-msgstr "Телефонный звонок"
+msgstr "телефонный звонок"
 
 #. module: mail
 #. odoo-javascript
@@ -7216,7 +7203,7 @@ msgstr "Запланированные действия"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_type_view_tree
 msgid "Planned in"
-msgstr "Запланировано"
+msgstr "запланировано в"
 
 #. module: mail
 #. odoo-javascript
@@ -7856,7 +7843,7 @@ msgstr ""
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
 msgid "Reset Template"
-msgstr "Переустановить шаблон"
+msgstr ""
 
 #. module: mail
 #. odoo-javascript
@@ -8213,7 +8200,7 @@ msgstr "Просмотрено всеми"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_template_preview_view_form
 msgid "Select a language"
-msgstr "Выбрать язык"
+msgstr ""
 
 #. module: mail
 #. odoo-javascript
@@ -8767,12 +8754,12 @@ msgstr "Подтипы"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_type__suggested_next_type_ids
 msgid "Suggest"
-msgstr "Предлагать"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_activity_type__chaining_type__suggest
 msgid "Suggest Next Activity"
-msgstr "Предлагать следующее действие"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_activity_type__suggested_next_type_ids
@@ -8937,7 +8924,7 @@ msgstr "Просмотр шаблона"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_template_preview__lang
 msgid "Template Preview Language"
-msgstr "Язык шаблона"
+msgstr ""
 
 #. module: mail
 #: model:ir.model,name:mail.model_template_reset_mixin
@@ -9267,9 +9254,6 @@ msgid ""
 "including from the Technical menu in the Settings, in order to preserve "
 "storage space of your Odoo database."
 msgstr ""
-"Эта опция навсегда удаляет любые следы электронной почты после ее отправки, "
-"в том числе из Технического меню в Настройках, чтобы сохранить место для "
-"хранения вашей базы данных."
 
 #. module: mail
 #. odoo-javascript
@@ -9497,12 +9481,12 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_type__triggered_next_type_id
 msgid "Trigger"
-msgstr "Запускать"
+msgstr "Триггер"
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_activity_type__chaining_type__trigger
 msgid "Trigger Next Activity"
-msgstr "Запускать следующее действие"
+msgstr ""
 
 #. module: mail
 #. odoo-javascript
@@ -10651,7 +10635,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_activity_type__delay_from__current_date
 msgid "after completion date"
-msgstr "после даты выполнения действия"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_activity_type__delay_from__previous_activity
@@ -16688,12 +16672,12 @@ msgstr ""
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_type_view_form
 msgid "e.g. \"Discuss proposal\""
-msgstr "Например, \"Обсудить предложение\""
+msgstr ""
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_type_view_form
 msgid "e.g. \"Go over the offer and discuss details\""
-msgstr "Например, \" Изучите предложение и обсудите детали\""
+msgstr ""
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
@@ -16729,7 +16713,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_view_form_popup
 #: model_terms:ir.ui.view,arch_db:mail.view_server_action_form_template
 msgid "e.g. Discuss proposal"
-msgstr "Например, Обсудить предложение"
+msgstr "напр., Предложить обсудить"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_type_view_form

@@ -1477,7 +1477,7 @@ msgstr "Website-berichten"
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__website_message_ids
 #: model:ir.model.fields,help:maintenance.field_maintenance_request__website_message_ids
 msgid "Website communication history"
-msgstr "Website communicatiegeschiedenis"
+msgstr "Geschiedenis van websitecommunicatie"
 
 #. module: maintenance
 #: code:addons/maintenance/models/maintenance.py:0

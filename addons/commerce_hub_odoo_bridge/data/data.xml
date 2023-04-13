@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="commerceHub_channel" forcecreate='True' model="multi.channel.sale">
+			<field name="name">CommerceHub</field>
+			<field name="channel">commerceHub</field>
+			<field name="environment">sandbox</field>
+			<field name="debug">enable</field>
+			<field name="color">#67C894</field>
+            <field name="image" type="base64" file="odoo_multi_channel_sale/static/description/instance_images/Shopify-connector-thumbnail.png"/>
+		</record>
+	</data>
+</odoo>
